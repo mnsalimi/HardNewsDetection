@@ -1,0 +1,5 @@
+2024/03/28-12:06:22.862 172f62 Reusing MANIFEST /home/ms/Downloads/ChatGPT_Sentiment/remote-profile/Profile 1/shared_proto_db/MANIFEST-000001
+2024/03/28-12:06:22.862 172f62 Recovering log #3
+2024/03/28-12:06:22.863 172f62 (ignoring error) /home/ms/Downloads/ChatGPT_Sentiment/remote-profile/Profile 1/shared_proto_db/000003.log: dropping 15801 bytes; Corruption: checksum mismatch
+2024/03/28-12:06:22.863 172f62 (ignoring error) /home/ms/Downloads/ChatGPT_Sentiment/remote-profile/Profile 1/shared_proto_db/000003.log: dropping 182 bytes; Corruption: missing start of fragmented record(2)
+2024/03/28-12:06:22.863 172f62 Reusing old log /home/ms/Downloads/ChatGPT_Sentiment/remote-profile/Profile 1/shared_proto_db/000003.log 
