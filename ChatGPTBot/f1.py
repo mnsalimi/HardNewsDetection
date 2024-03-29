@@ -33,9 +33,9 @@ df = pd.read_csv("test.csv", on_bad_lines='skip', delimiter="\t")
 df = df.drop('text', axis=1)
 df = df.assign(random_tag=None)
 num_experiments_for_random_classifier = 1000
-num_of_data = 270
+num_of_data = 27
 num_of_data = num_of_data if num_of_data < len(df) else len(df) 
-labels = ['chatgpt_prompt1_tag', 'chatgpt_prompt2_tag', 'chatgpt_prompt3_tag', 'random_tag']
+labels = ['chatgpt_prompt1_tag', 'chatgpt_prompt2_tag', 'chatgpt_prompt3_tag', 'chatgpt_prompt4_tag', 'random_tag']
 print("num_of_data", num_of_data)
 
 df = df[:num_of_data]

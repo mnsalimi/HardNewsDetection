@@ -15266,3 +15266,2287 @@ Stacktrace:
 2024-03-28 12:22:50,600:INFO:No error detected.
 2024-03-28 12:23:16,688:INFO:No error detected.
 2024-03-28 12:23:21,768:INFO:No error detected.
+2024-03-28 12:50:19,878:INFO:====== WebDriver manager ======
+2024-03-28 12:50:19,921:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 12:50:20,243:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 12:50:20,482:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 12:50:20,483:INFO:Available port found: 32923
+2024-03-28 12:50:28,546:ERROR:An unexpected error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=123.0.6312.58)
+Stacktrace:
+#0 0x5a4d319fe8a3 <unknown>
+#1 0x5a4d316f48c6 <unknown>
+#2 0x5a4d316cb98d <unknown>
+#3 0x5a4d31769a2d <unknown>
+#4 0x5a4d3177f5a6 <unknown>
+#5 0x5a4d31761343 <unknown>
+#6 0x5a4d31732593 <unknown>
+#7 0x5a4d31732f5e <unknown>
+#8 0x5a4d319c288b <unknown>
+#9 0x5a4d319c67e5 <unknown>
+#10 0x5a4d319b05b1 <unknown>
+#11 0x5a4d319c7372 <unknown>
+#12 0x5a4d319958bf <unknown>
+#13 0x5a4d319ed768 <unknown>
+#14 0x5a4d319ed93b <unknown>
+#15 0x5a4d319fd9f4 <unknown>
+#16 0x74b316294ac3 <unknown>
+
+2024-03-28 12:50:30,544:INFO:====== WebDriver manager ======
+2024-03-28 12:50:30,586:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 12:50:30,885:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 12:50:31,142:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 12:50:31,142:INFO:Available port found: 34945
+2024-03-28 12:50:39,116:INFO:No error detected.
+2024-03-28 12:51:03,249:INFO:No error detected.
+2024-03-28 13:22:33,378:INFO:====== WebDriver manager ======
+2024-03-28 13:22:33,418:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 13:22:33,741:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 13:22:33,975:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 13:22:33,975:INFO:Available port found: 36519
+2024-03-28 13:22:43,640:INFO:No error detected.
+2024-03-28 13:23:10,841:INFO:No error detected.
+2024-03-28 13:23:14,933:INFO:No error detected.
+2024-03-28 13:23:39,057:INFO:No error detected.
+2024-03-28 13:23:43,139:INFO:No error detected.
+2024-03-28 13:24:10,237:INFO:No error detected.
+2024-03-28 13:24:16,352:INFO:No error detected.
+2024-03-28 13:24:40,453:INFO:No error detected.
+2024-03-28 13:24:45,537:INFO:No error detected.
+2024-03-28 13:25:10,645:INFO:No error detected.
+2024-03-28 13:25:14,732:INFO:No error detected.
+2024-03-28 13:25:41,819:INFO:No error detected.
+2024-03-28 13:25:47,906:INFO:No error detected.
+2024-03-28 13:26:14,008:INFO:No error detected.
+2024-03-28 13:26:20,090:INFO:No error detected.
+2024-03-28 13:26:45,180:INFO:No error detected.
+2024-03-28 13:26:49,272:INFO:No error detected.
+2024-03-28 13:27:14,362:INFO:No error detected.
+2024-03-28 13:27:21,440:INFO:No error detected.
+2024-03-28 13:27:46,534:INFO:No error detected.
+2024-03-28 13:27:51,613:INFO:No error detected.
+2024-03-28 13:28:15,711:INFO:No error detected.
+2024-03-28 13:28:20,791:INFO:No error detected.
+2024-03-28 13:28:47,886:INFO:No error detected.
+2024-03-28 13:28:54,970:INFO:No error detected.
+2024-03-28 13:29:19,062:INFO:No error detected.
+2024-03-28 13:29:26,140:INFO:No error detected.
+2024-03-28 13:29:52,243:INFO:No error detected.
+2024-03-28 13:29:56,334:INFO:No error detected.
+2024-03-28 13:30:23,436:INFO:No error detected.
+2024-03-28 13:30:27,520:INFO:No error detected.
+2024-03-28 13:30:52,618:INFO:No error detected.
+2024-03-28 13:30:58,708:INFO:No error detected.
+2024-03-28 13:31:22,798:INFO:No error detected.
+2024-03-28 13:31:28,890:INFO:No error detected.
+2024-03-28 13:31:52,978:INFO:No error detected.
+2024-03-28 13:31:57,068:INFO:No error detected.
+2024-03-28 13:32:23,180:INFO:No error detected.
+2024-03-28 13:32:30,268:INFO:No error detected.
+2024-03-28 13:32:56,359:INFO:No error detected.
+2024-03-28 13:33:03,443:INFO:No error detected.
+2024-03-28 13:33:28,535:INFO:No error detected.
+2024-03-28 13:33:32,652:INFO:No error detected.
+2024-03-28 13:34:01,753:INFO:No error detected.
+2024-03-28 13:34:06,843:INFO:No error detected.
+2024-03-28 13:34:34,941:INFO:No error detected.
+2024-03-28 13:34:42,024:INFO:No error detected.
+2024-03-28 13:35:07,120:INFO:No error detected.
+2024-03-28 13:35:12,204:INFO:No error detected.
+2024-03-28 13:35:36,320:INFO:No error detected.
+2024-03-28 13:35:43,413:INFO:No error detected.
+2024-03-28 13:36:07,512:INFO:No error detected.
+2024-03-28 13:36:11,599:INFO:No error detected.
+2024-03-28 13:36:35,697:INFO:No error detected.
+2024-03-28 13:36:42,782:INFO:No error detected.
+2024-03-28 13:37:07,876:INFO:No error detected.
+2024-03-28 13:37:14,966:INFO:No error detected.
+2024-03-28 13:37:44,075:INFO:No error detected.
+2024-03-28 13:37:48,186:INFO:No error detected.
+2024-03-28 13:38:16,280:INFO:No error detected.
+2024-03-28 13:38:23,395:INFO:No error detected.
+2024-03-28 13:38:51,489:INFO:No error detected.
+2024-03-28 13:38:57,608:INFO:No error detected.
+2024-03-28 13:39:26,704:INFO:No error detected.
+2024-03-28 13:39:32,821:INFO:No error detected.
+2024-03-28 13:40:00,908:INFO:No error detected.
+2024-03-28 13:40:08,013:INFO:No error detected.
+2024-03-28 13:40:36,127:INFO:No error detected.
+2024-03-28 13:40:43,215:INFO:No error detected.
+2024-03-28 13:41:10,309:INFO:No error detected.
+2024-03-28 13:41:17,400:INFO:No error detected.
+2024-03-28 13:41:43,496:INFO:No error detected.
+2024-03-28 13:41:50,592:INFO:No error detected.
+2024-03-28 13:42:19,688:INFO:No error detected.
+2024-03-28 13:42:26,776:INFO:No error detected.
+2024-03-28 13:42:54,865:INFO:No error detected.
+2024-03-28 13:42:59,962:INFO:No error detected.
+2024-03-28 13:43:26,050:INFO:No error detected.
+2024-03-28 13:43:30,142:INFO:No error detected.
+2024-03-28 13:43:56,233:INFO:No error detected.
+2024-03-28 13:44:00,320:INFO:No error detected.
+2024-03-28 13:44:28,421:INFO:No error detected.
+2024-03-28 13:44:32,510:INFO:No error detected.
+2024-03-28 13:44:57,600:INFO:No error detected.
+2024-03-28 13:45:04,686:INFO:No error detected.
+2024-03-28 13:45:32,789:INFO:No error detected.
+2024-03-28 13:45:37,878:INFO:No error detected.
+2024-03-28 13:46:06,987:INFO:No error detected.
+2024-03-28 13:46:13,070:INFO:No error detected.
+2024-03-28 13:46:37,155:INFO:No error detected.
+2024-03-28 13:46:41,240:INFO:No error detected.
+2024-03-28 13:47:08,334:INFO:No error detected.
+2024-03-28 13:47:13,419:INFO:No error detected.
+2024-03-28 13:47:41,516:INFO:No error detected.
+2024-03-28 13:47:46,610:INFO:No error detected.
+2024-03-28 13:48:10,700:INFO:No error detected.
+2024-03-28 13:48:15,784:INFO:No error detected.
+2024-03-28 13:48:44,882:INFO:No error detected.
+2024-03-28 13:48:50,977:INFO:No error detected.
+2024-03-28 13:49:19,067:INFO:No error detected.
+2024-03-28 13:49:26,160:INFO:No error detected.
+2024-03-28 13:49:52,253:INFO:No error detected.
+2024-03-28 13:49:59,333:INFO:No error detected.
+2024-03-28 13:50:28,431:INFO:No error detected.
+2024-03-28 13:50:32,520:INFO:No error detected.
+2024-03-28 13:50:56,626:INFO:No error detected.
+2024-03-28 13:51:01,727:INFO:No error detected.
+2024-03-28 13:51:28,818:INFO:No error detected.
+2024-03-28 13:51:32,919:INFO:No error detected.
+2024-03-28 13:51:58,020:INFO:No error detected.
+2024-03-28 13:52:02,107:INFO:No error detected.
+2024-03-28 13:52:30,209:INFO:No error detected.
+2024-03-28 13:52:35,294:INFO:No error detected.
+2024-03-28 13:53:03,392:INFO:No error detected.
+2024-03-28 13:53:07,490:INFO:No error detected.
+2024-03-28 13:53:34,584:INFO:No error detected.
+2024-03-28 13:53:40,674:INFO:No error detected.
+2024-03-28 13:54:08,770:INFO:No error detected.
+2024-03-28 13:54:13,889:INFO:No error detected.
+2024-03-28 13:54:39,993:INFO:No error detected.
+2024-03-28 13:54:46,082:INFO:No error detected.
+2024-03-28 13:55:15,185:INFO:No error detected.
+2024-03-28 13:55:19,305:INFO:No error detected.
+2024-03-28 13:55:47,402:INFO:No error detected.
+2024-03-28 13:55:51,493:INFO:No error detected.
+2024-03-28 13:56:18,587:INFO:No error detected.
+2024-03-28 13:56:24,707:INFO:No error detected.
+2024-03-28 13:56:51,806:INFO:No error detected.
+2024-03-28 13:56:57,892:INFO:No error detected.
+2024-03-28 13:57:21,987:INFO:No error detected.
+2024-03-28 13:57:28,078:INFO:No error detected.
+2024-03-28 13:57:57,181:INFO:No error detected.
+2024-03-28 13:58:04,283:INFO:No error detected.
+2024-03-28 13:58:31,379:INFO:No error detected.
+2024-03-28 13:58:38,470:INFO:No error detected.
+2024-03-28 13:59:06,575:INFO:No error detected.
+2024-03-28 13:59:12,673:INFO:No error detected.
+2024-03-28 13:59:36,791:INFO:No error detected.
+2024-03-28 13:59:42,883:INFO:No error detected.
+2024-03-28 14:19:10,061:ERROR:An unexpected error occurred: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=123.0.6312.58)
+Stacktrace:
+#0 0x59ae5530b8a3 <unknown>
+#1 0x59ae550018c6 <unknown>
+#2 0x59ae54fe8090 <unknown>
+#3 0x59ae54fe7f73 <unknown>
+#4 0x59ae55003c42 <unknown>
+#5 0x59ae5508c5cc <unknown>
+#6 0x59ae5506e343 <unknown>
+#7 0x59ae5503f593 <unknown>
+#8 0x59ae5503ff5e <unknown>
+#9 0x59ae552cf88b <unknown>
+#10 0x59ae552d37e5 <unknown>
+#11 0x59ae552bd5b1 <unknown>
+#12 0x59ae552d4372 <unknown>
+#13 0x59ae552a28bf <unknown>
+#14 0x59ae552fa768 <unknown>
+#15 0x59ae552fa93b <unknown>
+#16 0x59ae5530a9f4 <unknown>
+#17 0x7f99c5094ac3 <unknown>
+
+2024-03-28 14:19:14,066:ERROR:Unexpected error in return_last_response: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=123.0.6312.58)
+Stacktrace:
+#0 0x59ae5530b8a3 <unknown>
+#1 0x59ae550018c6 <unknown>
+#2 0x59ae54fe8090 <unknown>
+#3 0x59ae54fe7f73 <unknown>
+#4 0x59ae55003c42 <unknown>
+#5 0x59ae5508c5cc <unknown>
+#6 0x59ae5506e343 <unknown>
+#7 0x59ae5503f593 <unknown>
+#8 0x59ae5503ff5e <unknown>
+#9 0x59ae552cf88b <unknown>
+#10 0x59ae552d37e5 <unknown>
+#11 0x59ae552bd5b1 <unknown>
+#12 0x59ae552d4372 <unknown>
+#13 0x59ae552a28bf <unknown>
+#14 0x59ae552fa768 <unknown>
+#15 0x59ae552fa93b <unknown>
+#16 0x59ae5530a9f4 <unknown>
+#17 0x7f99c5094ac3 <unknown>
+
+2024-03-28 14:19:19,375:INFO:====== WebDriver manager ======
+2024-03-28 14:19:19,419:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 14:19:19,780:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 14:19:20,020:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 14:19:20,020:INFO:Available port found: 60839
+2024-03-28 14:19:33,848:INFO:No error detected.
+2024-03-28 14:19:59,038:INFO:No error detected.
+2024-03-28 14:20:04,134:INFO:No error detected.
+2024-03-28 14:20:32,255:INFO:No error detected.
+2024-03-28 14:20:39,336:INFO:No error detected.
+2024-03-28 14:21:06,425:INFO:No error detected.
+2024-03-28 14:21:10,503:INFO:No error detected.
+2024-03-28 14:21:37,595:INFO:No error detected.
+2024-03-28 14:21:42,674:INFO:No error detected.
+2024-03-28 14:22:06,772:INFO:No error detected.
+2024-03-28 14:22:13,861:INFO:No error detected.
+2024-03-28 14:22:41,951:INFO:No error detected.
+2024-03-28 14:22:47,031:INFO:No error detected.
+2024-03-28 14:23:15,136:INFO:No error detected.
+2024-03-28 14:23:20,223:INFO:No error detected.
+2024-03-28 14:23:45,331:INFO:No error detected.
+2024-03-28 14:23:51,409:INFO:No error detected.
+2024-03-28 14:24:19,512:INFO:No error detected.
+2024-03-28 14:24:23,595:INFO:No error detected.
+2024-03-28 14:24:49,694:INFO:No error detected.
+2024-03-28 14:24:56,784:INFO:No error detected.
+2024-03-28 14:25:23,883:INFO:No error detected.
+2024-03-28 14:25:27,967:INFO:No error detected.
+2024-03-28 14:25:52,065:INFO:No error detected.
+2024-03-28 14:25:56,158:INFO:No error detected.
+2024-03-28 14:26:21,247:INFO:No error detected.
+2024-03-28 14:26:27,343:INFO:No error detected.
+2024-03-28 14:26:51,429:INFO:No error detected.
+2024-03-28 14:26:58,521:INFO:No error detected.
+2024-03-28 14:27:25,604:INFO:No error detected.
+2024-03-28 14:27:31,692:INFO:No error detected.
+2024-03-28 14:27:58,784:INFO:No error detected.
+2024-03-28 14:28:04,877:INFO:No error detected.
+2024-03-28 14:28:28,988:INFO:No error detected.
+2024-03-28 14:28:36,066:INFO:No error detected.
+2024-03-28 14:29:03,166:INFO:No error detected.
+2024-03-28 14:29:07,252:INFO:No error detected.
+2024-03-28 14:29:33,358:INFO:No error detected.
+2024-03-28 14:29:37,447:INFO:No error detected.
+2024-03-28 14:30:02,551:INFO:No error detected.
+2024-03-28 14:30:08,633:INFO:No error detected.
+2024-03-28 14:30:36,754:INFO:No error detected.
+2024-03-28 14:30:42,870:INFO:No error detected.
+2024-03-28 14:31:06,972:INFO:No error detected.
+2024-03-28 14:31:11,056:INFO:No error detected.
+2024-03-28 14:31:38,157:INFO:No error detected.
+2024-03-28 14:31:43,240:INFO:No error detected.
+2024-03-28 14:32:09,342:INFO:No error detected.
+2024-03-28 14:32:15,427:INFO:No error detected.
+2024-03-28 14:32:41,533:INFO:No error detected.
+2024-03-28 14:32:48,612:INFO:No error detected.
+2024-03-28 14:33:17,717:INFO:No error detected.
+2024-03-28 14:33:21,831:INFO:No error detected.
+2024-03-28 14:33:46,931:INFO:No error detected.
+2024-03-28 14:33:53,029:INFO:No error detected.
+2024-03-28 14:34:17,130:INFO:No error detected.
+2024-03-28 14:34:22,244:INFO:No error detected.
+2024-03-28 14:34:48,334:INFO:No error detected.
+2024-03-28 14:34:55,423:INFO:No error detected.
+2024-03-28 14:35:19,507:INFO:No error detected.
+2024-03-28 14:35:26,603:INFO:No error detected.
+2024-03-28 14:35:52,698:INFO:No error detected.
+2024-03-28 14:35:59,782:INFO:No error detected.
+2024-03-28 14:36:29,508:INFO:No error detected.
+2024-03-28 14:36:34,592:INFO:No error detected.
+2024-03-28 14:37:02,688:INFO:No error detected.
+2024-03-28 14:37:06,784:INFO:No error detected.
+2024-03-28 14:37:32,877:INFO:No error detected.
+2024-03-28 14:37:38,972:INFO:No error detected.
+2024-03-28 14:38:06,074:INFO:No error detected.
+2024-03-28 14:38:10,158:INFO:No error detected.
+2024-03-28 14:38:34,269:INFO:No error detected.
+2024-03-28 14:38:39,362:INFO:No error detected.
+2024-03-28 14:39:03,473:INFO:No error detected.
+2024-03-28 14:39:10,571:INFO:No error detected.
+2024-03-28 14:39:36,663:INFO:No error detected.
+2024-03-28 14:39:40,772:INFO:No error detected.
+2024-03-28 14:40:09,871:INFO:No error detected.
+2024-03-28 14:40:16,972:INFO:No error detected.
+2024-03-28 14:40:44,087:INFO:No error detected.
+2024-03-28 14:40:50,200:INFO:No error detected.
+2024-03-28 14:41:19,313:INFO:No error detected.
+2024-03-28 14:41:24,439:INFO:No error detected.
+2024-03-28 14:41:50,549:INFO:No error detected.
+2024-03-28 14:41:56,642:INFO:No error detected.
+2024-03-28 14:42:25,749:INFO:No error detected.
+2024-03-28 14:42:31,846:INFO:No error detected.
+2024-03-28 14:42:55,957:INFO:No error detected.
+2024-03-28 14:43:03,054:INFO:No error detected.
+2024-03-28 14:43:28,162:INFO:No error detected.
+2024-03-28 14:43:35,255:INFO:No error detected.
+2024-03-28 14:43:59,368:INFO:No error detected.
+2024-03-28 14:44:04,460:INFO:No error detected.
+2024-03-28 14:44:32,599:INFO:No error detected.
+2024-03-28 14:44:36,691:INFO:No error detected.
+2024-03-28 14:45:03,820:INFO:No error detected.
+2024-03-28 14:45:10,921:INFO:No error detected.
+2024-03-28 14:45:35,034:INFO:No error detected.
+2024-03-28 14:45:40,128:INFO:No error detected.
+2024-03-28 14:46:08,237:INFO:No error detected.
+2024-03-28 14:46:13,366:INFO:No error detected.
+2024-03-28 14:46:42,488:INFO:No error detected.
+2024-03-28 14:46:47,591:INFO:No error detected.
+2024-03-28 14:47:15,713:INFO:No error detected.
+2024-03-28 14:47:19,814:INFO:No error detected.
+2024-03-28 14:47:44,934:INFO:No error detected.
+2024-03-28 14:47:50,030:INFO:No error detected.
+2024-03-28 14:48:18,155:INFO:No error detected.
+2024-03-28 14:48:24,272:INFO:No error detected.
+2024-03-28 14:48:52,396:INFO:No error detected.
+2024-03-28 14:48:56,500:INFO:No error detected.
+2024-03-28 14:49:20,615:INFO:No error detected.
+2024-03-28 14:49:25,713:INFO:No error detected.
+2024-03-28 14:49:50,842:INFO:No error detected.
+2024-03-28 14:49:54,940:INFO:No error detected.
+2024-03-28 14:50:21,051:INFO:No error detected.
+2024-03-28 14:50:25,153:INFO:No error detected.
+2024-03-28 14:50:53,262:INFO:No error detected.
+2024-03-28 14:50:57,358:INFO:No error detected.
+2024-03-28 14:51:22,479:INFO:No error detected.
+2024-03-28 14:51:29,573:INFO:No error detected.
+2024-03-28 14:51:53,688:INFO:No error detected.
+2024-03-28 14:51:58,788:INFO:No error detected.
+2024-03-28 14:52:27,899:INFO:No error detected.
+2024-03-28 14:52:34,999:INFO:No error detected.
+2024-03-28 14:53:04,102:INFO:No error detected.
+2024-03-28 14:53:10,199:INFO:No error detected.
+2024-03-28 14:53:38,315:INFO:No error detected.
+2024-03-28 14:53:43,412:INFO:No error detected.
+2024-03-28 14:54:08,522:INFO:No error detected.
+2024-03-28 14:54:12,650:INFO:No error detected.
+2024-03-28 14:54:40,763:INFO:No error detected.
+2024-03-28 14:54:44,889:INFO:No error detected.
+2024-03-28 14:55:13,988:INFO:No error detected.
+2024-03-28 14:55:20,090:INFO:No error detected.
+2024-03-28 14:55:49,201:INFO:No error detected.
+2024-03-28 14:55:53,337:INFO:No error detected.
+2024-03-28 14:56:17,438:INFO:No error detected.
+2024-03-28 14:56:24,545:INFO:No error detected.
+2024-03-28 14:56:50,652:INFO:No error detected.
+2024-03-28 14:56:56,742:INFO:No error detected.
+2024-03-28 14:57:21,849:INFO:No error detected.
+2024-03-28 14:57:25,950:INFO:No error detected.
+2024-03-28 14:57:53,062:INFO:No error detected.
+2024-03-28 14:57:59,157:INFO:No error detected.
+2024-03-28 14:58:27,270:INFO:No error detected.
+2024-03-28 16:05:39,247:INFO:====== WebDriver manager ======
+2024-03-28 16:05:39,287:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 16:05:39,604:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 16:05:39,841:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 16:05:39,841:INFO:Available port found: 45545
+2024-03-28 16:05:56,502:INFO:No error detected.
+2024-03-28 16:06:20,691:INFO:No error detected.
+2024-03-28 16:06:27,788:INFO:No error detected.
+2024-03-28 16:06:51,917:INFO:No error detected.
+2024-03-28 16:06:56,023:INFO:No error detected.
+2024-03-28 16:07:21,119:INFO:No error detected.
+2024-03-28 16:07:27,221:INFO:No error detected.
+2024-03-28 16:07:56,322:INFO:No error detected.
+2024-03-28 16:08:01,401:INFO:No error detected.
+2024-03-28 16:08:28,497:INFO:No error detected.
+2024-03-28 16:08:32,592:INFO:No error detected.
+2024-03-28 16:08:57,701:INFO:No error detected.
+2024-03-28 16:09:04,780:INFO:No error detected.
+2024-03-28 16:09:31,869:INFO:No error detected.
+2024-03-28 16:09:36,944:INFO:No error detected.
+2024-03-28 16:10:02,041:INFO:No error detected.
+2024-03-28 16:10:08,122:INFO:No error detected.
+2024-03-28 16:10:37,220:INFO:No error detected.
+2024-03-28 16:10:41,293:INFO:No error detected.
+2024-03-28 16:11:10,390:INFO:No error detected.
+2024-03-28 16:11:14,472:INFO:No error detected.
+2024-03-28 16:11:40,566:INFO:No error detected.
+2024-03-28 16:11:47,657:INFO:No error detected.
+2024-03-28 16:12:12,750:INFO:No error detected.
+2024-03-28 16:12:16,853:INFO:No error detected.
+2024-03-28 16:12:45,950:INFO:No error detected.
+2024-03-28 16:12:50,025:INFO:No error detected.
+2024-03-28 16:13:19,124:INFO:No error detected.
+2024-03-28 16:13:25,202:INFO:No error detected.
+2024-03-28 16:13:49,303:INFO:No error detected.
+2024-03-28 16:13:56,384:INFO:No error detected.
+2024-03-28 16:14:23,488:INFO:No error detected.
+2024-03-28 16:14:28,576:INFO:No error detected.
+2024-03-28 16:14:56,672:INFO:No error detected.
+2024-03-28 16:15:03,761:INFO:No error detected.
+2024-03-28 16:15:32,868:INFO:No error detected.
+2024-03-28 16:15:36,948:INFO:No error detected.
+2024-03-28 16:16:04,041:INFO:No error detected.
+2024-03-28 16:16:10,148:INFO:No error detected.
+2024-03-28 16:16:39,254:INFO:No error detected.
+2024-03-28 16:16:46,337:INFO:No error detected.
+2024-03-28 16:17:12,438:INFO:No error detected.
+2024-03-28 16:17:19,520:INFO:No error detected.
+2024-03-28 16:17:47,624:INFO:No error detected.
+2024-03-28 16:17:52,708:INFO:No error detected.
+2024-03-28 16:18:17,810:INFO:No error detected.
+2024-03-28 16:18:22,906:INFO:No error detected.
+2024-03-28 16:18:48,996:INFO:No error detected.
+2024-03-28 16:18:53,081:INFO:No error detected.
+2024-03-28 16:19:21,175:INFO:No error detected.
+2024-03-28 16:19:28,284:INFO:No error detected.
+2024-03-28 16:19:52,371:INFO:No error detected.
+2024-03-28 16:19:59,468:INFO:No error detected.
+2024-03-28 16:20:26,559:INFO:No error detected.
+2024-03-28 16:20:32,642:INFO:No error detected.
+2024-03-28 16:20:59,728:INFO:No error detected.
+2024-03-28 16:21:05,826:INFO:No error detected.
+2024-03-28 16:21:32,909:INFO:No error detected.
+2024-03-28 16:21:37,001:INFO:No error detected.
+2024-03-28 16:22:02,088:INFO:No error detected.
+2024-03-28 16:22:06,172:INFO:No error detected.
+2024-03-28 16:22:35,268:INFO:No error detected.
+2024-03-28 16:22:41,372:INFO:No error detected.
+2024-03-28 16:23:06,457:INFO:No error detected.
+2024-03-28 16:23:11,542:INFO:No error detected.
+2024-03-28 16:23:39,619:INFO:No error detected.
+2024-03-28 17:21:59,831:INFO:====== WebDriver manager ======
+2024-03-28 17:21:59,874:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 17:22:00,293:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 17:22:00,533:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 17:22:00,533:INFO:Available port found: 33719
+2024-03-28 17:22:10,139:INFO:No error detected.
+2024-03-28 17:22:38,311:INFO:No error detected.
+2024-03-28 17:22:44,413:INFO:No error detected.
+2024-03-28 17:23:09,536:INFO:No error detected.
+2024-03-28 17:23:15,616:INFO:No error detected.
+2024-03-28 17:23:39,716:INFO:No error detected.
+2024-03-28 17:23:46,809:INFO:No error detected.
+2024-03-28 17:24:12,906:INFO:No error detected.
+2024-03-28 17:24:17,986:INFO:No error detected.
+2024-03-28 17:24:43,089:INFO:No error detected.
+2024-03-28 17:24:50,179:INFO:No error detected.
+2024-03-28 17:25:16,281:INFO:No error detected.
+2024-03-28 17:25:21,373:INFO:No error detected.
+2024-03-28 17:25:46,474:INFO:No error detected.
+2024-03-28 17:25:52,558:INFO:No error detected.
+2024-03-28 17:26:16,661:INFO:No error detected.
+2024-03-28 17:26:20,751:INFO:No error detected.
+2024-03-28 17:26:45,866:INFO:No error detected.
+2024-03-28 17:26:51,942:INFO:No error detected.
+2024-03-28 17:27:18,044:INFO:No error detected.
+2024-03-28 17:27:23,147:INFO:No error detected.
+2024-03-28 17:27:52,242:INFO:No error detected.
+2024-03-28 17:27:57,319:INFO:No error detected.
+2024-03-28 17:28:24,412:INFO:No error detected.
+2024-03-28 17:28:31,504:INFO:No error detected.
+2024-03-28 17:28:57,589:INFO:No error detected.
+2024-03-28 17:29:04,701:INFO:No error detected.
+2024-03-28 17:29:31,792:INFO:No error detected.
+2024-03-28 17:29:37,878:INFO:No error detected.
+2024-03-28 17:30:05,979:INFO:No error detected.
+2024-03-28 17:30:10,063:INFO:No error detected.
+2024-03-28 17:30:38,145:INFO:No error detected.
+2024-03-28 17:30:42,229:INFO:No error detected.
+2024-03-28 17:31:09,318:INFO:No error detected.
+2024-03-28 17:31:16,432:INFO:No error detected.
+2024-03-28 17:31:42,519:INFO:No error detected.
+2024-03-28 17:31:48,608:INFO:No error detected.
+2024-03-28 17:32:13,711:INFO:No error detected.
+2024-03-28 17:32:17,836:INFO:No error detected.
+2024-03-28 17:32:41,921:INFO:No error detected.
+2024-03-28 17:32:49,007:INFO:No error detected.
+2024-03-28 17:33:17,085:INFO:No error detected.
+2024-03-28 17:33:23,169:INFO:No error detected.
+2024-03-28 17:33:48,280:INFO:No error detected.
+2024-03-28 17:33:55,361:INFO:No error detected.
+2024-03-28 17:34:22,472:INFO:No error detected.
+2024-03-28 17:34:26,551:INFO:No error detected.
+2024-03-28 17:34:50,653:INFO:No error detected.
+2024-03-28 17:34:54,765:INFO:No error detected.
+2024-03-28 17:35:19,872:INFO:No error detected.
+2024-03-28 17:35:25,955:INFO:No error detected.
+2024-03-28 17:35:55,064:INFO:No error detected.
+2024-03-28 17:36:00,148:INFO:No error detected.
+2024-03-28 17:36:29,259:INFO:No error detected.
+2024-03-28 17:36:34,351:INFO:No error detected.
+2024-03-28 17:37:01,451:INFO:No error detected.
+2024-03-28 17:37:06,545:INFO:No error detected.
+2024-03-28 17:37:35,645:INFO:No error detected.
+2024-03-28 17:37:40,729:INFO:No error detected.
+2024-03-28 17:38:06,840:INFO:No error detected.
+2024-03-28 17:38:11,925:INFO:No error detected.
+2024-03-28 17:38:37,029:INFO:No error detected.
+2024-03-28 17:38:41,111:INFO:No error detected.
+2024-03-28 17:39:05,210:INFO:No error detected.
+2024-03-28 17:39:12,298:INFO:No error detected.
+2024-03-28 17:39:36,397:INFO:No error detected.
+2024-03-28 17:39:40,482:INFO:No error detected.
+2024-03-28 17:40:07,583:INFO:No error detected.
+2024-03-28 17:40:12,671:INFO:No error detected.
+2024-03-28 17:40:36,786:INFO:No error detected.
+2024-03-28 17:40:42,874:INFO:No error detected.
+2024-03-28 17:41:06,976:INFO:No error detected.
+2024-03-28 17:41:11,058:INFO:No error detected.
+2024-03-28 17:41:40,164:INFO:No error detected.
+2024-03-28 17:41:47,257:INFO:No error detected.
+2024-03-28 17:42:15,379:INFO:No error detected.
+2024-03-28 17:42:19,472:INFO:No error detected.
+2024-03-28 17:42:47,574:INFO:No error detected.
+2024-03-28 17:42:51,673:INFO:No error detected.
+2024-03-28 17:43:15,784:INFO:No error detected.
+2024-03-28 17:43:19,871:INFO:No error detected.
+2024-03-28 17:43:45,988:INFO:No error detected.
+2024-03-28 17:43:53,085:INFO:No error detected.
+2024-03-28 17:44:20,195:INFO:No error detected.
+2024-03-28 17:44:24,289:INFO:No error detected.
+2024-03-28 17:44:50,401:INFO:No error detected.
+2024-03-28 17:44:56,493:INFO:No error detected.
+2024-03-28 17:45:22,603:INFO:No error detected.
+2024-03-28 17:45:27,697:INFO:No error detected.
+2024-03-28 17:45:56,831:INFO:No error detected.
+2024-03-28 17:46:01,929:INFO:No error detected.
+2024-03-28 17:46:26,043:INFO:No error detected.
+2024-03-28 17:46:31,144:INFO:No error detected.
+2024-03-28 17:46:55,248:INFO:No error detected.
+2024-03-28 17:47:00,368:INFO:No error detected.
+2024-03-28 17:47:24,480:INFO:No error detected.
+2024-03-28 17:47:30,603:INFO:No error detected.
+2024-03-28 17:47:54,709:INFO:No error detected.
+2024-03-28 17:48:01,807:INFO:No error detected.
+2024-03-28 17:48:25,918:INFO:No error detected.
+2024-03-28 17:48:33,022:INFO:No error detected.
+2024-03-28 17:49:02,139:INFO:No error detected.
+2024-03-28 17:49:06,235:INFO:No error detected.
+2024-03-28 17:49:30,349:INFO:No error detected.
+2024-03-28 17:49:34,447:INFO:No error detected.
+2024-03-28 17:49:59,558:INFO:No error detected.
+2024-03-28 17:50:06,654:INFO:No error detected.
+2024-03-28 17:50:35,763:INFO:No error detected.
+2024-03-28 17:50:42,865:INFO:No error detected.
+2024-03-28 17:51:09,986:INFO:No error detected.
+2024-03-28 17:51:16,082:INFO:No error detected.
+2024-03-28 17:51:41,192:INFO:No error detected.
+2024-03-28 17:51:47,298:INFO:No error detected.
+2024-03-28 17:52:11,404:INFO:No error detected.
+2024-03-28 17:52:16,499:INFO:No error detected.
+2024-03-28 17:52:44,622:INFO:No error detected.
+2024-03-28 17:52:48,717:INFO:No error detected.
+2024-03-28 17:53:16,835:INFO:No error detected.
+2024-03-28 17:53:23,938:INFO:No error detected.
+2024-03-28 17:53:50,044:INFO:No error detected.
+2024-03-28 17:53:57,143:INFO:No error detected.
+2024-03-28 17:54:22,260:INFO:No error detected.
+2024-03-28 17:54:26,357:INFO:No error detected.
+2024-03-28 17:54:53,461:INFO:No error detected.
+2024-03-28 17:54:59,553:INFO:No error detected.
+2024-03-28 17:55:26,664:INFO:No error detected.
+2024-03-28 17:55:33,759:INFO:No error detected.
+2024-03-28 17:56:02,884:INFO:No error detected.
+2024-03-28 17:56:08,973:INFO:No error detected.
+2024-03-28 17:56:35,094:INFO:No error detected.
+2024-03-28 17:56:42,192:INFO:No error detected.
+2024-03-28 17:57:09,304:INFO:No error detected.
+2024-03-28 17:57:15,427:INFO:No error detected.
+2024-03-28 17:57:41,548:INFO:No error detected.
+2024-03-28 17:57:45,644:INFO:No error detected.
+2024-03-28 17:58:12,767:INFO:No error detected.
+2024-03-28 17:58:19,896:INFO:No error detected.
+2024-03-28 17:58:44,013:INFO:No error detected.
+2024-03-28 17:58:49,111:INFO:No error detected.
+2024-03-28 17:59:13,221:INFO:No error detected.
+2024-03-28 17:59:18,343:INFO:No error detected.
+2024-03-28 17:59:45,463:INFO:No error detected.
+2024-03-28 17:59:50,555:INFO:No error detected.
+2024-03-28 18:00:15,681:INFO:No error detected.
+2024-03-28 18:00:21,787:INFO:No error detected.
+2024-03-28 18:00:50,921:INFO:No error detected.
+2024-03-28 18:00:57,021:INFO:No error detected.
+2024-03-28 18:01:22,143:INFO:No error detected.
+2024-03-28 18:22:13,664:INFO:====== WebDriver manager ======
+2024-03-28 18:22:13,704:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 18:22:14,197:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 18:22:14,425:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 18:22:14,426:INFO:Available port found: 45179
+2024-03-28 18:22:25,303:INFO:No error detected.
+2024-03-28 18:22:51,516:INFO:No error detected.
+2024-03-28 18:22:56,594:INFO:No error detected.
+2024-03-28 18:23:22,745:INFO:No error detected.
+2024-03-28 18:23:27,831:INFO:No error detected.
+2024-03-28 18:23:53,924:INFO:No error detected.
+2024-03-28 18:23:57,998:INFO:No error detected.
+2024-03-28 18:24:26,090:INFO:No error detected.
+2024-03-28 18:24:30,167:INFO:No error detected.
+2024-03-28 18:24:57,253:INFO:No error detected.
+2024-03-28 18:25:04,355:INFO:No error detected.
+2024-03-28 18:25:29,447:INFO:No error detected.
+2024-03-28 18:25:34,555:INFO:No error detected.
+2024-03-28 18:25:58,646:INFO:No error detected.
+2024-03-28 18:26:02,718:INFO:No error detected.
+2024-03-28 18:26:27,801:INFO:No error detected.
+2024-03-28 18:26:31,881:INFO:No error detected.
+2024-03-28 18:27:00,978:INFO:No error detected.
+2024-03-28 18:27:06,089:INFO:No error detected.
+2024-03-28 18:27:30,179:INFO:No error detected.
+2024-03-28 18:27:36,264:INFO:No error detected.
+2024-03-28 18:28:02,347:INFO:No error detected.
+2024-03-28 18:28:09,436:INFO:No error detected.
+2024-03-28 18:28:35,515:INFO:No error detected.
+2024-03-28 18:28:40,590:INFO:No error detected.
+2024-03-28 18:29:08,680:INFO:No error detected.
+2024-03-28 18:29:13,787:INFO:No error detected.
+2024-03-28 18:29:37,866:INFO:No error detected.
+2024-03-28 18:29:41,965:INFO:No error detected.
+2024-03-28 18:30:09,049:INFO:No error detected.
+2024-03-28 18:30:14,126:INFO:No error detected.
+2024-03-28 18:30:42,212:INFO:No error detected.
+2024-03-28 18:30:49,293:INFO:No error detected.
+2024-03-28 18:31:14,391:INFO:No error detected.
+2024-03-28 18:31:18,474:INFO:No error detected.
+2024-03-28 18:31:45,561:INFO:No error detected.
+2024-03-28 18:31:52,642:INFO:No error detected.
+2024-03-28 18:32:16,730:INFO:No error detected.
+2024-03-28 18:32:22,816:INFO:No error detected.
+2024-03-28 18:32:50,904:INFO:No error detected.
+2024-03-28 18:32:55,999:INFO:No error detected.
+2024-03-28 18:33:22,093:INFO:No error detected.
+2024-03-28 18:33:27,176:INFO:No error detected.
+2024-03-28 18:33:54,259:INFO:No error detected.
+2024-03-28 18:33:58,341:INFO:No error detected.
+2024-03-28 18:34:22,432:INFO:No error detected.
+2024-03-28 18:34:27,516:INFO:No error detected.
+2024-03-28 18:34:55,609:INFO:No error detected.
+2024-03-28 18:34:59,690:INFO:No error detected.
+2024-03-28 18:35:27,780:INFO:No error detected.
+2024-03-28 18:35:34,894:INFO:No error detected.
+2024-03-28 18:36:02,989:INFO:No error detected.
+2024-03-28 18:36:10,083:INFO:No error detected.
+2024-03-28 18:36:39,178:INFO:No error detected.
+2024-03-28 18:36:46,274:INFO:No error detected.
+2024-03-28 18:37:12,368:INFO:No error detected.
+2024-03-28 18:37:17,452:INFO:No error detected.
+2024-03-28 18:37:44,542:INFO:No error detected.
+2024-03-28 18:37:51,653:INFO:No error detected.
+2024-03-28 18:38:15,744:INFO:No error detected.
+2024-03-28 18:38:20,823:INFO:No error detected.
+2024-03-28 18:38:47,923:INFO:No error detected.
+2024-03-28 18:38:52,004:INFO:No error detected.
+2024-03-28 18:39:17,113:INFO:No error detected.
+2024-03-28 18:39:23,199:INFO:No error detected.
+2024-03-28 18:39:47,321:INFO:No error detected.
+2024-03-28 18:39:53,421:INFO:No error detected.
+2024-03-28 18:40:17,524:INFO:No error detected.
+2024-03-28 18:40:24,610:INFO:No error detected.
+2024-03-28 18:40:50,722:INFO:No error detected.
+2024-03-28 18:40:54,826:INFO:No error detected.
+2024-03-28 18:41:19,933:INFO:No error detected.
+2024-03-28 18:41:26,020:INFO:No error detected.
+2024-03-28 18:41:50,130:INFO:No error detected.
+2024-03-28 18:41:54,217:INFO:No error detected.
+2024-03-28 18:42:20,323:INFO:No error detected.
+2024-03-28 18:42:25,411:INFO:No error detected.
+2024-03-28 18:42:52,520:INFO:No error detected.
+2024-03-28 18:42:58,611:INFO:No error detected.
+2024-03-28 18:43:24,712:INFO:No error detected.
+2024-03-28 18:43:29,795:INFO:No error detected.
+2024-03-28 18:43:49,875:INFO:====== WebDriver manager ======
+2024-03-28 18:43:49,919:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 18:43:50,530:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 18:43:50,760:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 18:43:50,760:INFO:Available port found: 50835
+2024-03-28 18:43:59,930:INFO:No error detected.
+2024-03-28 18:44:25,111:INFO:No error detected.
+2024-03-28 18:44:31,199:INFO:No error detected.
+2024-03-28 18:44:58,317:INFO:No error detected.
+2024-03-28 18:45:02,389:INFO:No error detected.
+2024-03-28 18:45:29,498:INFO:No error detected.
+2024-03-28 18:45:34,574:INFO:No error detected.
+2024-03-28 18:46:00,679:INFO:No error detected.
+2024-03-28 18:46:05,769:INFO:No error detected.
+2024-03-28 18:46:32,878:INFO:No error detected.
+2024-03-28 18:46:38,974:INFO:No error detected.
+2024-03-28 18:47:04,077:INFO:No error detected.
+2024-03-28 18:47:11,159:INFO:No error detected.
+2024-03-28 18:47:37,261:INFO:No error detected.
+2024-03-28 18:47:42,341:INFO:No error detected.
+2024-03-28 18:48:08,454:INFO:No error detected.
+2024-03-28 18:48:12,537:INFO:No error detected.
+2024-03-28 18:48:37,624:INFO:No error detected.
+2024-03-28 18:48:44,707:INFO:No error detected.
+2024-03-28 18:49:13,807:INFO:No error detected.
+2024-03-28 18:49:18,897:INFO:No error detected.
+2024-03-28 18:49:46,001:INFO:No error detected.
+2024-03-28 18:49:52,080:INFO:No error detected.
+2024-03-28 18:50:17,180:INFO:No error detected.
+2024-03-28 18:50:24,265:INFO:No error detected.
+2024-03-28 18:50:51,367:INFO:No error detected.
+2024-03-28 18:50:58,442:INFO:No error detected.
+2024-03-28 18:51:24,545:INFO:No error detected.
+2024-03-28 18:51:28,632:INFO:No error detected.
+2024-03-28 18:51:54,719:INFO:No error detected.
+2024-03-28 18:52:00,791:INFO:No error detected.
+2024-03-28 18:52:28,887:INFO:No error detected.
+2024-03-28 18:52:34,974:INFO:No error detected.
+2024-03-28 18:53:03,070:INFO:No error detected.
+2024-03-28 18:53:09,159:INFO:No error detected.
+2024-03-28 18:53:37,258:INFO:No error detected.
+2024-03-28 18:53:42,370:INFO:No error detected.
+2024-03-28 18:54:11,469:INFO:No error detected.
+2024-03-28 18:54:16,558:INFO:No error detected.
+2024-03-28 18:54:44,663:INFO:No error detected.
+2024-03-28 18:54:48,748:INFO:No error detected.
+2024-03-28 18:55:14,845:INFO:No error detected.
+2024-03-28 18:55:19,935:INFO:No error detected.
+2024-03-28 18:55:44,024:INFO:No error detected.
+2024-03-28 18:55:48,107:INFO:No error detected.
+2024-03-28 18:56:14,194:INFO:No error detected.
+2024-03-28 18:56:18,275:INFO:No error detected.
+2024-03-28 18:56:46,365:INFO:No error detected.
+2024-03-28 18:56:52,445:INFO:No error detected.
+2024-03-28 18:57:20,539:INFO:No error detected.
+2024-03-28 18:57:25,652:INFO:No error detected.
+2024-03-28 18:57:50,739:INFO:No error detected.
+2024-03-28 18:57:54,817:INFO:No error detected.
+2024-03-28 18:58:23,909:INFO:No error detected.
+2024-03-28 18:58:29,004:INFO:No error detected.
+2024-03-28 18:58:58,101:INFO:No error detected.
+2024-03-28 18:59:03,181:INFO:No error detected.
+2024-03-28 18:59:32,278:INFO:No error detected.
+2024-03-28 18:59:36,363:INFO:No error detected.
+2024-03-28 19:00:03,464:INFO:No error detected.
+2024-03-28 19:00:07,548:INFO:No error detected.
+2024-03-28 19:00:34,642:INFO:No error detected.
+2024-03-28 19:00:40,731:INFO:No error detected.
+2024-03-28 19:01:05,843:INFO:No error detected.
+2024-03-28 19:01:11,936:INFO:No error detected.
+2024-03-28 19:01:38,026:INFO:No error detected.
+2024-03-28 19:03:23,139:INFO:Error detected: Responding error!
+2024-03-28 19:03:23,184:INFO:Responding...
+2024-03-28 19:03:30,199:INFO:Error detected: Responding error!
+2024-03-28 19:03:30,230:INFO:Responding...
+2024-03-28 19:03:37,242:INFO:Error detected: Responding error!
+2024-03-28 19:03:37,273:INFO:Responding...
+2024-03-28 19:03:44,292:INFO:Error detected: Responding error!
+2024-03-28 19:03:44,327:INFO:Responding...
+2024-03-28 19:03:51,338:INFO:Error detected: Responding error!
+2024-03-28 19:03:51,373:INFO:Responding...
+2024-03-28 19:03:58,388:INFO:Error detected: Responding error!
+2024-03-28 19:03:58,418:INFO:Responding...
+2024-03-28 19:04:05,429:INFO:Error detected: Responding error!
+2024-03-28 19:04:05,459:INFO:Responding...
+2024-03-28 19:04:12,474:INFO:Error detected: Responding error!
+2024-03-28 19:04:12,506:INFO:Responding...
+2024-03-28 19:04:19,517:INFO:Error detected: Responding error!
+2024-03-28 19:04:19,545:INFO:Responding...
+2024-03-28 19:04:26,562:INFO:Error detected: Responding error!
+2024-03-28 19:04:26,594:INFO:Responding...
+2024-03-28 19:04:33,606:INFO:Error detected: Responding error!
+2024-03-28 19:04:33,640:INFO:Responding...
+2024-03-28 19:04:40,656:INFO:Error detected: Responding error!
+2024-03-28 19:04:40,684:INFO:Responding...
+2024-03-28 19:04:47,700:INFO:Error detected: Responding error!
+2024-03-28 19:04:47,733:INFO:Responding...
+2024-03-28 19:04:54,746:INFO:Error detected: Responding error!
+2024-03-28 19:04:54,782:INFO:Responding...
+2024-03-28 19:05:01,795:INFO:Error detected: Responding error!
+2024-03-28 19:05:01,828:INFO:Responding...
+2024-03-28 19:05:08,845:INFO:Error detected: Responding error!
+2024-03-28 19:05:08,880:INFO:Responding...
+2024-03-28 19:05:15,896:INFO:Error detected: Responding error!
+2024-03-28 19:05:15,927:INFO:Responding...
+2024-03-28 19:05:22,941:INFO:Error detected: Responding error!
+2024-03-28 19:05:22,971:INFO:Responding...
+2024-03-28 19:05:29,986:INFO:Error detected: Responding error!
+2024-03-28 19:05:30,019:INFO:Responding...
+2024-03-28 19:05:37,032:INFO:Error detected: Responding error!
+2024-03-28 19:05:37,066:INFO:Responding...
+2024-03-28 19:05:44,082:INFO:Error detected: Responding error!
+2024-03-28 19:05:44,113:INFO:Responding...
+2024-03-28 19:05:51,126:INFO:Error detected: Responding error!
+2024-03-28 19:05:51,156:INFO:Responding...
+2024-03-28 19:05:58,173:INFO:Error detected: Responding error!
+2024-03-28 19:05:58,204:INFO:Responding...
+2024-03-28 19:06:05,221:INFO:Error detected: Responding error!
+2024-03-28 19:06:05,266:INFO:Responding...
+2024-03-28 19:06:12,281:INFO:Error detected: Responding error!
+2024-03-28 19:06:12,311:INFO:Responding...
+2024-03-28 19:06:19,329:INFO:Error detected: Responding error!
+2024-03-28 19:06:19,361:INFO:Responding...
+2024-03-28 19:06:26,374:INFO:Error detected: Responding error!
+2024-03-28 19:06:26,417:INFO:Responding...
+2024-03-28 19:06:33,431:INFO:Error detected: Responding error!
+2024-03-28 19:06:33,461:INFO:Responding...
+2024-03-28 19:06:40,477:INFO:Error detected: Responding error!
+2024-03-28 19:06:40,509:INFO:Responding...
+2024-03-28 19:06:47,526:INFO:Error detected: Responding error!
+2024-03-28 19:06:47,559:INFO:Responding...
+2024-03-28 19:06:54,573:INFO:Error detected: Responding error!
+2024-03-28 19:06:54,607:INFO:Responding...
+2024-03-28 19:07:01,618:INFO:Error detected: Responding error!
+2024-03-28 19:07:01,650:INFO:Responding...
+2024-03-28 19:07:08,667:INFO:Error detected: Responding error!
+2024-03-28 19:07:08,698:INFO:Responding...
+2024-03-28 19:07:15,713:INFO:Error detected: Responding error!
+2024-03-28 19:07:15,748:INFO:Responding...
+2024-03-28 19:07:22,762:INFO:Error detected: Responding error!
+2024-03-28 19:07:22,798:INFO:Responding...
+2024-03-28 19:07:29,812:INFO:Error detected: Responding error!
+2024-03-28 19:07:29,843:INFO:Responding...
+2024-03-28 19:07:36,860:INFO:Error detected: Responding error!
+2024-03-28 19:07:36,890:INFO:Responding...
+2024-03-28 19:07:43,908:INFO:Error detected: Responding error!
+2024-03-28 19:07:43,940:INFO:Responding...
+2024-03-28 19:07:50,957:INFO:Error detected: Responding error!
+2024-03-28 19:07:50,987:INFO:Responding...
+2024-03-28 19:07:58,005:INFO:Error detected: Responding error!
+2024-03-28 19:07:58,042:INFO:Responding...
+2024-03-28 19:08:05,056:INFO:Error detected: Responding error!
+2024-03-28 19:08:05,090:INFO:Responding...
+2024-03-28 19:08:12,103:INFO:Error detected: Responding error!
+2024-03-28 19:08:12,136:INFO:Responding...
+2024-03-28 19:08:19,152:INFO:Error detected: Responding error!
+2024-03-28 19:08:19,183:INFO:Responding...
+2024-03-28 19:08:26,200:INFO:Error detected: Responding error!
+2024-03-28 19:08:26,231:INFO:Responding...
+2024-03-28 19:08:33,248:INFO:Error detected: Responding error!
+2024-03-28 19:08:33,286:INFO:Responding...
+2024-03-28 19:08:40,301:INFO:Error detected: Responding error!
+2024-03-28 19:08:40,335:INFO:Responding...
+2024-03-28 19:08:47,347:INFO:Error detected: Responding error!
+2024-03-28 19:08:47,379:INFO:Responding...
+2024-03-28 19:08:54,396:INFO:Error detected: Responding error!
+2024-03-28 19:08:54,424:INFO:Responding...
+2024-03-28 19:09:01,441:INFO:Error detected: Responding error!
+2024-03-28 19:09:01,470:INFO:Responding...
+2024-03-28 19:09:08,484:INFO:Error detected: Responding error!
+2024-03-28 19:09:08,519:INFO:Responding...
+2024-03-28 19:09:15,532:INFO:Error detected: Responding error!
+2024-03-28 19:09:15,567:INFO:Responding...
+2024-03-28 19:09:22,580:INFO:Error detected: Responding error!
+2024-03-28 19:09:22,615:INFO:Responding...
+2024-03-28 19:09:29,629:INFO:Error detected: Responding error!
+2024-03-28 19:09:29,660:INFO:Responding...
+2024-03-28 19:09:36,677:INFO:Error detected: Responding error!
+2024-03-28 19:09:36,707:INFO:Responding...
+2024-03-28 19:09:43,720:INFO:Error detected: Responding error!
+2024-03-28 19:09:43,761:INFO:Responding...
+2024-03-28 19:09:50,775:INFO:Error detected: Responding error!
+2024-03-28 19:09:50,812:INFO:Responding...
+2024-03-28 19:09:57,830:INFO:Error detected: Responding error!
+2024-03-28 19:09:57,862:INFO:Responding...
+2024-03-28 19:10:04,876:INFO:Error detected: Responding error!
+2024-03-28 19:10:04,909:INFO:Responding...
+2024-03-28 19:10:11,923:INFO:Error detected: Responding error!
+2024-03-28 19:10:11,954:INFO:Responding...
+2024-03-28 19:10:18,970:INFO:Error detected: Responding error!
+2024-03-28 19:10:19,009:INFO:Responding...
+2024-03-28 19:10:26,023:INFO:Error detected: Responding error!
+2024-03-28 19:10:26,058:INFO:Responding...
+2024-03-28 19:10:33,072:INFO:Error detected: Responding error!
+2024-03-28 19:10:33,103:INFO:Responding...
+2024-03-28 19:10:40,119:INFO:Error detected: Responding error!
+2024-03-28 19:10:40,152:INFO:Responding...
+2024-03-28 19:10:47,167:INFO:Error detected: Responding error!
+2024-03-28 19:10:47,197:INFO:Responding...
+2024-03-28 19:10:54,210:INFO:Error detected: Responding error!
+2024-03-28 19:10:54,242:INFO:Responding...
+2024-03-28 19:11:01,258:INFO:Error detected: Responding error!
+2024-03-28 19:11:01,290:INFO:Responding...
+2024-03-28 19:11:08,303:INFO:Error detected: Responding error!
+2024-03-28 19:11:08,334:INFO:Responding...
+2024-03-28 19:11:15,347:INFO:Error detected: Responding error!
+2024-03-28 19:11:15,380:INFO:Responding...
+2024-03-28 19:11:22,398:INFO:Error detected: Responding error!
+2024-03-28 19:11:22,432:INFO:Responding...
+2024-03-28 19:11:29,449:INFO:Error detected: Responding error!
+2024-03-28 19:11:29,481:INFO:Responding...
+2024-03-28 19:11:36,498:INFO:Error detected: Responding error!
+2024-03-28 19:11:36,533:INFO:Responding...
+2024-03-28 19:11:43,552:INFO:Error detected: Responding error!
+2024-03-28 19:11:43,590:INFO:Responding...
+2024-03-28 19:11:50,608:INFO:Error detected: Responding error!
+2024-03-28 19:11:50,641:INFO:Responding...
+2024-03-28 19:11:57,656:INFO:Error detected: Responding error!
+2024-03-28 19:11:57,683:INFO:Responding...
+2024-03-28 19:12:04,696:INFO:Error detected: Responding error!
+2024-03-28 19:12:04,724:INFO:Responding...
+2024-03-28 19:12:11,738:INFO:Error detected: Responding error!
+2024-03-28 19:12:11,766:INFO:Responding...
+2024-03-28 19:12:18,781:INFO:Error detected: Responding error!
+2024-03-28 19:12:18,820:INFO:Responding...
+2024-03-28 19:12:25,835:INFO:Error detected: Responding error!
+2024-03-28 19:12:25,864:INFO:Responding...
+2024-03-28 19:12:32,881:INFO:Error detected: Responding error!
+2024-03-28 19:12:32,912:INFO:Responding...
+2024-03-28 19:12:39,925:INFO:Error detected: Responding error!
+2024-03-28 19:12:39,952:INFO:Responding...
+2024-03-28 19:12:46,966:INFO:Error detected: Responding error!
+2024-03-28 19:12:46,995:INFO:Responding...
+2024-03-28 19:12:54,007:INFO:Error detected: Responding error!
+2024-03-28 19:12:54,037:INFO:Responding...
+2024-03-28 19:13:01,051:INFO:Error detected: Responding error!
+2024-03-28 19:13:01,083:INFO:Responding...
+2024-03-28 19:13:08,096:INFO:Error detected: Responding error!
+2024-03-28 19:13:08,130:INFO:Responding...
+2024-03-28 19:13:15,148:INFO:Error detected: Responding error!
+2024-03-28 19:13:15,179:INFO:Responding...
+2024-03-28 19:13:22,192:INFO:Error detected: Responding error!
+2024-03-28 19:13:22,226:INFO:Responding...
+2024-03-28 19:13:29,239:INFO:Error detected: Responding error!
+2024-03-28 19:13:29,272:INFO:Responding...
+2024-03-28 19:13:36,286:INFO:Error detected: Responding error!
+2024-03-28 19:13:36,316:INFO:Responding...
+2024-03-28 19:13:43,329:INFO:Error detected: Responding error!
+2024-03-28 19:13:43,360:INFO:Responding...
+2024-03-28 19:13:50,374:INFO:Error detected: Responding error!
+2024-03-28 19:13:50,401:INFO:Responding...
+2024-03-28 19:13:57,417:INFO:Error detected: Responding error!
+2024-03-28 19:13:57,447:INFO:Responding...
+2024-03-28 19:14:04,462:INFO:Error detected: Responding error!
+2024-03-28 19:14:04,496:INFO:Responding...
+2024-03-28 19:14:11,514:INFO:Error detected: Responding error!
+2024-03-28 19:14:11,547:INFO:Responding...
+2024-03-28 19:14:18,559:INFO:Error detected: Responding error!
+2024-03-28 19:14:18,592:INFO:Responding...
+2024-03-28 19:14:25,608:INFO:Error detected: Responding error!
+2024-03-28 19:14:25,640:INFO:Responding...
+2024-03-28 19:14:32,656:INFO:Error detected: Responding error!
+2024-03-28 19:14:32,690:INFO:Responding...
+2024-03-28 19:14:39,705:INFO:Error detected: Responding error!
+2024-03-28 19:14:39,738:INFO:Responding...
+2024-03-28 19:14:46,752:INFO:Error detected: Responding error!
+2024-03-28 19:14:46,784:INFO:Responding...
+2024-03-28 19:14:53,799:INFO:Error detected: Responding error!
+2024-03-28 19:14:53,834:INFO:Responding...
+2024-03-28 19:15:00,846:INFO:Error detected: Responding error!
+2024-03-28 19:15:00,879:INFO:Responding...
+2024-03-28 19:15:07,893:INFO:Error detected: Responding error!
+2024-03-28 19:15:07,929:INFO:Responding...
+2024-03-28 19:15:14,945:INFO:Error detected: Responding error!
+2024-03-28 19:15:14,974:INFO:Responding...
+2024-03-28 19:15:21,990:INFO:Error detected: Responding error!
+2024-03-28 19:15:22,023:INFO:Responding...
+2024-03-28 19:15:29,040:INFO:Error detected: Responding error!
+2024-03-28 19:15:29,075:INFO:Responding...
+2024-03-28 19:15:36,092:INFO:Error detected: Responding error!
+2024-03-28 19:15:36,125:INFO:Responding...
+2024-03-28 19:15:43,140:INFO:Error detected: Responding error!
+2024-03-28 19:15:43,183:INFO:Responding...
+2024-03-28 19:15:50,197:INFO:Error detected: Responding error!
+2024-03-28 19:15:50,232:INFO:Responding...
+2024-03-28 19:15:57,249:INFO:Error detected: Responding error!
+2024-03-28 19:15:57,282:INFO:Responding...
+2024-03-28 19:16:04,297:INFO:Error detected: Responding error!
+2024-03-28 19:16:04,329:INFO:Responding...
+2024-03-28 19:16:11,347:INFO:Error detected: Responding error!
+2024-03-28 19:16:11,381:INFO:Responding...
+2024-03-28 19:16:18,399:INFO:Error detected: Responding error!
+2024-03-28 19:16:18,432:INFO:Responding...
+2024-03-28 19:16:25,446:INFO:Error detected: Responding error!
+2024-03-28 19:16:25,479:INFO:Responding...
+2024-03-28 19:16:32,493:INFO:Error detected: Responding error!
+2024-03-28 19:16:32,528:INFO:Responding...
+2024-03-28 19:16:39,543:INFO:Error detected: Responding error!
+2024-03-28 19:16:39,572:INFO:Responding...
+2024-03-28 19:16:46,585:INFO:Error detected: Responding error!
+2024-03-28 19:16:46,617:INFO:Responding...
+2024-03-28 19:16:53,636:INFO:Error detected: Responding error!
+2024-03-28 19:16:53,668:INFO:Responding...
+2024-03-28 19:17:00,685:INFO:Error detected: Responding error!
+2024-03-28 19:17:00,723:INFO:Responding...
+2024-03-28 19:17:07,739:INFO:Error detected: Responding error!
+2024-03-28 19:17:07,776:INFO:Responding...
+2024-03-28 19:17:14,790:INFO:Error detected: Responding error!
+2024-03-28 19:17:14,823:INFO:Responding...
+2024-03-28 19:17:21,838:INFO:Error detected: Responding error!
+2024-03-28 19:17:21,871:INFO:Responding...
+2024-03-28 19:17:28,885:INFO:Error detected: Responding error!
+2024-03-28 19:17:28,915:INFO:Responding...
+2024-03-28 19:17:35,929:INFO:Error detected: Responding error!
+2024-03-28 19:17:35,967:INFO:Responding...
+2024-03-28 19:17:42,983:INFO:Error detected: Responding error!
+2024-03-28 19:17:43,014:INFO:Responding...
+2024-03-28 19:17:50,030:INFO:Error detected: Responding error!
+2024-03-28 19:17:50,063:INFO:Responding...
+2024-03-28 19:17:57,081:INFO:Error detected: Responding error!
+2024-03-28 19:17:57,109:INFO:Responding...
+2024-03-28 19:18:04,127:INFO:Error detected: Responding error!
+2024-03-28 19:18:04,157:INFO:Responding...
+2024-03-28 19:18:11,172:INFO:Error detected: Responding error!
+2024-03-28 19:18:11,203:INFO:Responding...
+2024-03-28 19:18:18,221:INFO:Error detected: Responding error!
+2024-03-28 19:18:18,252:INFO:Responding...
+2024-03-28 19:18:25,270:INFO:Error detected: Responding error!
+2024-03-28 19:18:25,302:INFO:Responding...
+2024-03-28 19:18:32,315:INFO:Error detected: Responding error!
+2024-03-28 19:18:32,348:INFO:Responding...
+2024-03-28 19:18:39,365:INFO:Error detected: Responding error!
+2024-03-28 19:18:39,396:INFO:Responding...
+2024-03-28 19:18:46,411:INFO:Error detected: Responding error!
+2024-03-28 19:18:46,448:INFO:Responding...
+2024-03-28 19:18:53,463:INFO:Error detected: Responding error!
+2024-03-28 19:18:53,495:INFO:Responding...
+2024-03-28 19:19:00,513:INFO:Error detected: Responding error!
+2024-03-28 19:19:00,547:INFO:Responding...
+2024-03-28 19:19:07,564:INFO:Error detected: Responding error!
+2024-03-28 19:19:07,599:INFO:Responding...
+2024-03-28 19:19:14,610:INFO:Error detected: Responding error!
+2024-03-28 19:19:14,643:INFO:Responding...
+2024-03-28 19:19:21,654:INFO:Error detected: Responding error!
+2024-03-28 19:19:21,685:INFO:Responding...
+2024-03-28 19:19:28,701:INFO:Error detected: Responding error!
+2024-03-28 19:19:28,731:INFO:Responding...
+2024-03-28 19:19:35,748:INFO:Error detected: Responding error!
+2024-03-28 19:19:35,786:INFO:Responding...
+2024-03-28 19:19:42,800:INFO:Error detected: Responding error!
+2024-03-28 19:19:42,833:INFO:Responding...
+2024-03-28 19:19:49,847:INFO:Error detected: Responding error!
+2024-03-28 19:19:49,879:INFO:Responding...
+2024-03-28 19:19:56,890:INFO:Error detected: Responding error!
+2024-03-28 19:19:56,922:INFO:Responding...
+2024-03-28 19:20:03,939:INFO:Error detected: Responding error!
+2024-03-28 19:20:03,969:INFO:Responding...
+2024-03-28 19:20:10,982:INFO:Error detected: Responding error!
+2024-03-28 19:20:11,015:INFO:Responding...
+2024-03-28 19:20:18,029:INFO:Error detected: Responding error!
+2024-03-28 19:20:18,062:INFO:Responding...
+2024-03-28 19:20:25,075:INFO:Error detected: Responding error!
+2024-03-28 19:20:25,108:INFO:Responding...
+2024-03-28 19:20:32,126:INFO:Error detected: Responding error!
+2024-03-28 19:20:32,159:INFO:Responding...
+2024-03-28 19:20:39,171:INFO:Error detected: Responding error!
+2024-03-28 19:20:39,202:INFO:Responding...
+2024-03-28 19:20:46,214:INFO:Error detected: Responding error!
+2024-03-28 19:20:46,246:INFO:Responding...
+2024-03-28 19:20:53,263:INFO:Error detected: Responding error!
+2024-03-28 19:20:53,297:INFO:Responding...
+2024-03-28 19:21:00,311:INFO:Error detected: Responding error!
+2024-03-28 19:21:00,342:INFO:Responding...
+2024-03-28 19:21:07,356:INFO:Error detected: Responding error!
+2024-03-28 19:21:07,389:INFO:Responding...
+2024-03-28 19:21:14,406:INFO:Error detected: Responding error!
+2024-03-28 19:21:14,442:INFO:Responding...
+2024-03-28 19:21:21,457:INFO:Error detected: Responding error!
+2024-03-28 19:21:21,490:INFO:Responding...
+2024-03-28 19:21:28,508:INFO:Error detected: Responding error!
+2024-03-28 19:21:28,538:INFO:Responding...
+2024-03-28 19:21:35,555:INFO:Error detected: Responding error!
+2024-03-28 19:21:35,588:INFO:Responding...
+2024-03-28 19:21:42,602:INFO:Error detected: Responding error!
+2024-03-28 19:21:42,636:INFO:Responding...
+2024-03-28 19:21:49,653:INFO:Error detected: Responding error!
+2024-03-28 19:21:49,684:INFO:Responding...
+2024-03-28 19:21:56,700:INFO:Error detected: Responding error!
+2024-03-28 19:21:56,734:INFO:Responding...
+2024-03-28 19:22:03,748:INFO:Error detected: Responding error!
+2024-03-28 19:22:03,783:INFO:Responding...
+2024-03-28 19:22:10,797:INFO:Error detected: Responding error!
+2024-03-28 19:22:10,832:INFO:Responding...
+2024-03-28 19:22:17,848:INFO:Error detected: Responding error!
+2024-03-28 19:22:17,880:INFO:Responding...
+2024-03-28 19:22:24,899:INFO:No error detected.
+2024-03-28 19:22:51,019:INFO:No error detected.
+2024-03-28 19:22:56,122:INFO:No error detected.
+2024-03-28 19:23:21,223:INFO:No error detected.
+2024-03-28 19:23:25,334:INFO:No error detected.
+2024-03-28 19:23:54,429:INFO:No error detected.
+2024-03-28 19:23:59,513:INFO:No error detected.
+2024-03-28 19:24:26,610:INFO:No error detected.
+2024-03-28 19:24:33,691:INFO:No error detected.
+2024-03-28 19:24:59,778:INFO:No error detected.
+2024-03-28 19:25:05,866:INFO:No error detected.
+2024-03-28 19:25:34,970:INFO:No error detected.
+2024-03-28 19:25:42,084:INFO:No error detected.
+2024-03-28 19:26:06,183:INFO:No error detected.
+2024-03-28 19:26:12,301:INFO:No error detected.
+2024-03-28 19:26:41,408:INFO:No error detected.
+2024-03-28 19:26:45,502:INFO:No error detected.
+2024-03-28 19:27:11,595:INFO:No error detected.
+2024-03-28 19:27:18,696:INFO:No error detected.
+2024-03-28 19:27:47,794:INFO:No error detected.
+2024-03-28 19:27:53,882:INFO:No error detected.
+2024-03-28 19:28:21,981:INFO:No error detected.
+2024-03-28 19:28:29,082:INFO:No error detected.
+2024-03-28 19:28:53,167:INFO:No error detected.
+2024-03-28 19:28:59,263:INFO:No error detected.
+2024-03-28 19:29:28,358:INFO:No error detected.
+2024-03-28 19:29:32,455:INFO:No error detected.
+2024-03-28 19:29:56,550:INFO:No error detected.
+2024-03-28 19:30:01,644:INFO:No error detected.
+2024-03-28 19:30:26,736:INFO:No error detected.
+2024-03-28 19:30:31,823:INFO:No error detected.
+2024-03-28 19:30:59,926:INFO:No error detected.
+2024-03-28 19:31:06,024:INFO:No error detected.
+2024-03-28 19:31:35,134:INFO:No error detected.
+2024-03-28 19:31:39,215:INFO:No error detected.
+2024-03-28 19:32:08,315:INFO:No error detected.
+2024-03-28 19:32:13,432:INFO:No error detected.
+2024-03-28 19:32:40,529:INFO:No error detected.
+2024-03-28 19:32:47,616:INFO:No error detected.
+2024-03-28 19:33:13,707:INFO:No error detected.
+2024-03-28 19:33:20,801:INFO:No error detected.
+2024-03-28 19:33:47,887:INFO:No error detected.
+2024-03-28 19:33:55,001:INFO:No error detected.
+2024-03-28 19:34:21,094:INFO:No error detected.
+2024-03-28 19:34:27,190:INFO:No error detected.
+2024-03-28 19:34:56,285:INFO:No error detected.
+2024-03-28 19:35:00,371:INFO:No error detected.
+2024-03-28 19:35:26,473:INFO:No error detected.
+2024-03-28 19:35:30,567:INFO:No error detected.
+2024-03-28 19:35:30,600:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.58)
+Stacktrace:
+#0 0x611e91a518a3 <unknown>
+#1 0x611e91747717 <unknown>
+#2 0x611e9178c70f <unknown>
+#3 0x611e9178ab60 <unknown>
+#4 0x611e917b45a2 <unknown>
+#5 0x611e91786e98 <unknown>
+#6 0x611e917b476e <unknown>
+#7 0x611e917d2c19 <unknown>
+#8 0x611e917b4343 <unknown>
+#9 0x611e91785593 <unknown>
+#10 0x611e91785f5e <unknown>
+#11 0x611e91a1588b <unknown>
+#12 0x611e91a197e5 <unknown>
+#13 0x611e91a035b1 <unknown>
+#14 0x611e91a1a372 <unknown>
+#15 0x611e919e88bf <unknown>
+#16 0x611e91a40768 <unknown>
+#17 0x611e91a4093b <unknown>
+#18 0x611e91a509f4 <unknown>
+#19 0x7df2efe94ac3 <unknown>
+
+2024-03-28 19:46:02,481:INFO:====== WebDriver manager ======
+2024-03-28 19:46:02,521:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 19:46:02,964:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 19:46:03,303:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 19:46:03,303:INFO:Available port found: 51667
+2024-03-28 19:46:15,765:INFO:No error detected.
+2024-03-28 19:46:44,961:INFO:No error detected.
+2024-03-28 19:46:50,051:INFO:No error detected.
+2024-03-28 19:47:15,171:INFO:No error detected.
+2024-03-28 19:47:22,250:INFO:No error detected.
+2024-03-28 19:47:47,329:INFO:No error detected.
+2024-03-28 19:47:51,414:INFO:No error detected.
+2024-03-28 19:48:20,513:INFO:No error detected.
+2024-03-28 19:48:24,595:INFO:No error detected.
+2024-03-28 19:48:48,696:INFO:No error detected.
+2024-03-28 19:48:55,781:INFO:No error detected.
+2024-03-28 19:49:22,885:INFO:No error detected.
+2024-03-28 19:49:29,973:INFO:No error detected.
+2024-03-28 19:49:58,078:INFO:No error detected.
+2024-03-28 19:50:02,168:INFO:No error detected.
+2024-03-28 19:50:27,263:INFO:No error detected.
+2024-03-28 19:50:33,349:INFO:No error detected.
+2024-03-28 19:50:59,446:INFO:No error detected.
+2024-03-28 19:51:06,531:INFO:No error detected.
+2024-03-28 19:51:34,622:INFO:No error detected.
+2024-03-28 19:51:40,710:INFO:No error detected.
+2024-03-28 19:52:08,819:INFO:No error detected.
+2024-03-28 19:52:15,898:INFO:No error detected.
+2024-03-28 19:52:45,009:INFO:No error detected.
+2024-03-28 19:52:52,120:INFO:No error detected.
+2024-03-28 19:53:20,199:INFO:No error detected.
+2024-03-28 19:53:27,287:INFO:No error detected.
+2024-03-28 19:53:56,382:INFO:No error detected.
+2024-03-28 19:54:01,467:INFO:No error detected.
+2024-03-28 19:54:25,554:INFO:No error detected.
+2024-03-28 19:54:32,645:INFO:No error detected.
+2024-03-28 19:54:58,740:INFO:No error detected.
+2024-03-28 19:55:02,820:INFO:No error detected.
+2024-03-28 19:55:27,915:INFO:No error detected.
+2024-03-28 19:55:35,006:INFO:No error detected.
+2024-03-28 19:56:02,094:INFO:No error detected.
+2024-03-28 19:56:06,173:INFO:No error detected.
+2024-03-28 19:56:33,261:INFO:No error detected.
+2024-03-28 23:39:37,157:INFO:====== WebDriver manager ======
+2024-03-28 23:39:37,204:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:39:37,687:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:39:37,988:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 23:39:37,988:INFO:Available port found: 46073
+2024-03-28 23:39:52,595:INFO:No error detected.
+2024-03-28 23:40:19,769:INFO:No error detected.
+2024-03-28 23:40:25,857:INFO:No error detected.
+2024-03-28 23:40:51,974:INFO:No error detected.
+2024-03-28 23:40:56,049:INFO:No error detected.
+2024-03-28 23:41:22,143:INFO:No error detected.
+2024-03-28 23:41:26,219:INFO:No error detected.
+2024-03-28 23:41:55,306:INFO:No error detected.
+2024-03-28 23:42:02,388:INFO:No error detected.
+2024-03-28 23:42:27,749:INFO:====== WebDriver manager ======
+2024-03-28 23:42:27,795:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:42:28,956:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:42:29,812:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 23:42:29,813:INFO:Available port found: 53435
+2024-03-28 23:43:10,930:INFO:====== WebDriver manager ======
+2024-03-28 23:43:10,970:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:43:12,091:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:43:12,595:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 23:43:12,595:INFO:Available port found: 42483
+2024-03-28 23:43:21,605:INFO:No error detected.
+2024-03-28 23:43:45,906:INFO:====== WebDriver manager ======
+2024-03-28 23:43:45,949:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:43:47,728:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:43:49,366:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 23:43:49,367:INFO:Available port found: 49009
+2024-03-28 23:43:53,189:INFO:====== WebDriver manager ======
+2024-03-28 23:43:53,230:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:43:54,588:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:43:56,239:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 23:43:56,239:INFO:Available port found: 47159
+2024-03-28 23:45:46,865:INFO:====== WebDriver manager ======
+2024-03-28 23:45:46,904:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:45:47,273:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:45:47,638:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 23:45:47,638:INFO:Available port found: 52941
+2024-03-28 23:47:56,604:INFO:====== WebDriver manager ======
+2024-03-28 23:47:56,647:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:47:57,118:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:48:01,168:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 23:48:01,168:INFO:Available port found: 58931
+2024-03-28 23:49:38,881:INFO:====== WebDriver manager ======
+2024-03-28 23:49:38,924:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:49:39,260:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:49:39,559:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 23:49:39,559:INFO:Available port found: 41003
+2024-03-28 23:50:28,990:INFO:====== WebDriver manager ======
+2024-03-28 23:50:29,031:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:50:29,439:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:50:29,944:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 23:50:29,944:INFO:Available port found: 57581
+2024-03-28 23:51:16,217:INFO:====== WebDriver manager ======
+2024-03-28 23:51:16,256:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:51:16,549:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:51:16,901:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 23:51:16,901:INFO:Available port found: 42379
+2024-03-28 23:51:29,007:INFO:No error detected.
+2024-03-28 23:51:57,205:INFO:No error detected.
+2024-03-28 23:52:36,348:INFO:====== WebDriver manager ======
+2024-03-28 23:52:36,388:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:52:36,685:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:52:37,127:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 23:52:37,127:INFO:Available port found: 57865
+2024-03-28 23:52:57,614:INFO:No error detected.
+2024-03-28 23:53:09,392:INFO:====== WebDriver manager ======
+2024-03-28 23:53:09,433:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:53:09,723:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:53:10,018:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 23:53:10,018:INFO:Available port found: 51107
+2024-03-28 23:54:03,190:INFO:====== WebDriver manager ======
+2024-03-28 23:54:03,230:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:54:03,531:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-28 23:54:03,824:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver] found in cache
+2024-03-28 23:54:03,824:INFO:Available port found: 45955
+2024-03-28 23:54:40,427:INFO:No error detected.
+2024-03-28 23:55:04,608:INFO:No error detected.
+2024-03-28 23:55:11,696:INFO:No error detected.
+2024-03-28 23:55:35,809:INFO:No error detected.
+2024-03-28 23:55:39,891:INFO:No error detected.
+2024-03-28 23:56:05,992:INFO:No error detected.
+2024-03-28 23:56:12,073:INFO:No error detected.
+2024-03-28 23:56:41,182:INFO:No error detected.
+2024-03-28 23:56:48,275:INFO:No error detected.
+2024-03-28 23:57:17,389:INFO:No error detected.
+2024-03-28 23:57:22,476:INFO:No error detected.
+2024-03-28 23:57:48,586:INFO:No error detected.
+2024-03-28 23:57:54,672:INFO:No error detected.
+2024-03-28 23:58:18,799:INFO:No error detected.
+2024-03-28 23:58:24,889:INFO:No error detected.
+2024-03-28 23:58:50,982:INFO:No error detected.
+2024-03-28 23:58:58,073:INFO:No error detected.
+2024-03-28 23:59:25,184:INFO:No error detected.
+2024-03-28 23:59:30,260:INFO:No error detected.
+2024-03-29 00:00:10,272:INFO:====== WebDriver manager ======
+2024-03-29 00:00:10,312:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:00:12,130:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:00:12,657:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:00:14,819:INFO:WebDriver version 123.0.6312.86 selected
+2024-03-29 00:00:14,820:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-03-29 00:00:14,820:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-03-29 00:00:18,875:INFO:Driver downloading response is 200
+2024-03-29 00:00:26,008:INFO:====== WebDriver manager ======
+2024-03-29 00:00:26,048:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:00:27,213:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:00:28,230:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:00:30,527:INFO:WebDriver version 123.0.6312.86 selected
+2024-03-29 00:00:30,528:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-03-29 00:00:30,528:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-03-29 00:00:31,739:INFO:Driver downloading response is 200
+2024-03-29 00:00:42,732:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:00:43,351:INFO:Driver has been saved in cache [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86]
+2024-03-29 00:00:43,352:INFO:Available port found: 36253
+2024-03-29 00:01:23,897:INFO:No error detected.
+2024-03-29 00:01:42,927:INFO:====== WebDriver manager ======
+2024-03-29 00:01:42,968:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:01:51,290:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:01:52,250:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 00:01:52,250:INFO:Available port found: 46619
+2024-03-29 00:02:02,954:INFO:No error detected.
+2024-03-29 00:02:28,125:INFO:No error detected.
+2024-03-29 00:02:32,222:INFO:No error detected.
+2024-03-29 00:02:58,352:INFO:No error detected.
+2024-03-29 00:03:05,431:INFO:No error detected.
+2024-03-29 00:03:29,534:INFO:No error detected.
+2024-03-29 00:03:35,608:INFO:No error detected.
+2024-03-29 00:04:04,715:INFO:No error detected.
+2024-03-29 00:04:10,802:INFO:No error detected.
+2024-03-29 00:04:36,901:INFO:No error detected.
+2024-03-29 00:04:41,987:INFO:No error detected.
+2024-03-29 00:04:48,479:INFO:====== WebDriver manager ======
+2024-03-29 00:04:48,522:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:04:49,818:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:04:50,397:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 00:04:50,397:INFO:Available port found: 54787
+2024-03-29 00:05:15,251:INFO:====== WebDriver manager ======
+2024-03-29 00:05:15,291:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:05:15,949:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:05:19,270:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 00:05:19,270:INFO:Available port found: 46447
+2024-03-29 00:05:29,982:INFO:No error detected.
+2024-03-29 00:05:54,161:INFO:No error detected.
+2024-03-29 00:05:58,262:INFO:No error detected.
+2024-03-29 00:06:24,378:INFO:No error detected.
+2024-03-29 00:06:31,461:INFO:No error detected.
+2024-03-29 00:06:56,558:INFO:No error detected.
+2024-03-29 00:07:02,637:INFO:No error detected.
+2024-03-29 00:07:26,733:INFO:No error detected.
+2024-03-29 00:07:30,815:INFO:No error detected.
+2024-03-29 00:07:56,913:INFO:No error detected.
+2024-03-29 00:08:00,995:INFO:No error detected.
+2024-03-29 00:08:26,093:INFO:No error detected.
+2024-03-29 00:08:32,174:INFO:No error detected.
+2024-03-29 00:08:58,273:INFO:No error detected.
+2024-03-29 00:09:03,355:INFO:No error detected.
+2024-03-29 00:09:31,457:INFO:No error detected.
+2024-03-29 00:09:35,532:INFO:No error detected.
+2024-03-29 00:10:04,635:INFO:No error detected.
+2024-03-29 00:10:10,717:INFO:No error detected.
+2024-03-29 00:10:34,817:INFO:No error detected.
+2024-03-29 00:10:38,902:INFO:No error detected.
+2024-03-29 00:11:02,990:INFO:No error detected.
+2024-03-29 00:11:07,079:INFO:No error detected.
+2024-03-29 00:11:33,173:INFO:No error detected.
+2024-03-29 00:11:38,263:INFO:No error detected.
+2024-03-29 00:12:03,354:INFO:No error detected.
+2024-03-29 00:12:09,436:INFO:No error detected.
+2024-03-29 00:12:42,171:INFO:====== WebDriver manager ======
+2024-03-29 00:12:42,211:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:12:43,836:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:12:44,678:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 00:12:44,678:INFO:Available port found: 56967
+2024-03-29 00:12:53,497:INFO:No error detected.
+2024-03-29 00:13:20,719:INFO:No error detected.
+2024-03-29 00:13:25,813:INFO:No error detected.
+2024-03-29 00:13:53,946:INFO:No error detected.
+2024-03-29 00:14:01,033:INFO:No error detected.
+2024-03-29 00:14:27,158:INFO:No error detected.
+2024-03-29 00:14:31,239:INFO:No error detected.
+2024-03-29 00:14:58,339:INFO:No error detected.
+2024-03-29 00:15:03,413:INFO:No error detected.
+2024-03-29 00:15:27,528:INFO:No error detected.
+2024-03-29 00:15:34,612:INFO:No error detected.
+2024-03-29 00:15:58,722:INFO:No error detected.
+2024-03-29 00:16:03,804:INFO:No error detected.
+2024-03-29 00:16:27,887:INFO:No error detected.
+2024-03-29 00:16:34,976:INFO:No error detected.
+2024-03-29 00:17:01,066:INFO:No error detected.
+2024-03-29 00:17:07,145:INFO:No error detected.
+2024-03-29 00:17:32,245:INFO:No error detected.
+2024-03-29 00:17:38,332:INFO:No error detected.
+2024-03-29 00:18:06,433:INFO:No error detected.
+2024-03-29 00:18:11,522:INFO:No error detected.
+2024-03-29 00:18:38,616:INFO:No error detected.
+2024-03-29 00:18:44,694:INFO:No error detected.
+2024-03-29 00:19:11,785:INFO:No error detected.
+2024-03-29 00:19:18,878:INFO:No error detected.
+2024-03-29 00:19:42,971:INFO:No error detected.
+2024-03-29 00:19:48,056:INFO:No error detected.
+2024-03-29 00:20:17,153:INFO:No error detected.
+2024-03-29 00:20:23,241:INFO:No error detected.
+2024-03-29 00:20:48,345:INFO:No error detected.
+2024-03-29 00:20:53,425:INFO:No error detected.
+2024-03-29 00:21:21,533:INFO:No error detected.
+2024-03-29 00:21:26,610:INFO:No error detected.
+2024-03-29 00:21:55,717:INFO:No error detected.
+2024-03-29 00:22:02,797:INFO:No error detected.
+2024-03-29 00:22:29,910:INFO:No error detected.
+2024-03-29 00:22:34,987:INFO:No error detected.
+2024-03-29 00:23:00,090:INFO:No error detected.
+2024-03-29 00:23:04,186:INFO:No error detected.
+2024-03-29 00:23:30,302:INFO:No error detected.
+2024-03-29 00:23:34,374:INFO:No error detected.
+2024-03-29 00:23:58,476:INFO:No error detected.
+2024-03-29 00:24:02,558:INFO:No error detected.
+2024-03-29 00:24:29,659:INFO:No error detected.
+2024-03-29 00:24:36,743:INFO:No error detected.
+2024-03-29 00:25:05,846:INFO:No error detected.
+2024-03-29 00:25:12,953:INFO:No error detected.
+2024-03-29 00:25:39,050:INFO:No error detected.
+2024-03-29 00:25:43,138:INFO:No error detected.
+2024-03-29 00:26:11,238:INFO:No error detected.
+2024-03-29 00:26:17,340:INFO:No error detected.
+2024-03-29 00:26:45,450:INFO:No error detected.
+2024-03-29 00:26:49,530:INFO:No error detected.
+2024-03-29 00:27:18,627:INFO:No error detected.
+2024-03-29 00:27:24,712:INFO:No error detected.
+2024-03-29 00:27:50,818:INFO:No error detected.
+2024-03-29 00:29:34,948:INFO:Error detected: Responding error!
+2024-03-29 00:29:34,985:INFO:Responding...
+2024-03-29 00:29:41,998:INFO:Error detected: Responding error!
+2024-03-29 00:29:42,026:INFO:Responding...
+2024-03-29 00:29:49,039:INFO:Error detected: Responding error!
+2024-03-29 00:29:49,067:INFO:Responding...
+2024-03-29 00:29:56,082:INFO:Error detected: Responding error!
+2024-03-29 00:29:56,111:INFO:Responding...
+2024-03-29 00:30:03,122:INFO:Error detected: Responding error!
+2024-03-29 00:30:03,151:INFO:Responding...
+2024-03-29 00:30:10,165:INFO:Error detected: Responding error!
+2024-03-29 00:30:10,192:INFO:Responding...
+2024-03-29 00:30:17,208:INFO:Error detected: Responding error!
+2024-03-29 00:30:17,239:INFO:Responding...
+2024-03-29 00:30:24,251:INFO:Error detected: Responding error!
+2024-03-29 00:30:24,280:INFO:Responding...
+2024-03-29 00:30:31,297:INFO:Error detected: Responding error!
+2024-03-29 00:30:31,325:INFO:Responding...
+2024-03-29 00:30:38,341:INFO:Error detected: Responding error!
+2024-03-29 00:30:38,367:INFO:Responding...
+2024-03-29 00:30:45,384:INFO:Error detected: Responding error!
+2024-03-29 00:30:45,418:INFO:Responding...
+2024-03-29 00:30:52,432:INFO:Error detected: Responding error!
+2024-03-29 00:30:52,460:INFO:Responding...
+2024-03-29 00:30:59,473:INFO:Error detected: Responding error!
+2024-03-29 00:30:59,503:INFO:Responding...
+2024-03-29 00:31:06,516:INFO:Error detected: Responding error!
+2024-03-29 00:31:06,547:INFO:Responding...
+2024-03-29 00:31:13,564:INFO:Error detected: Responding error!
+2024-03-29 00:31:13,595:INFO:Responding...
+2024-03-29 00:31:20,607:INFO:Error detected: Responding error!
+2024-03-29 00:31:20,650:INFO:Responding...
+2024-03-29 00:31:27,662:INFO:Error detected: Responding error!
+2024-03-29 00:31:27,693:INFO:Responding...
+2024-03-29 00:31:34,707:INFO:Error detected: Responding error!
+2024-03-29 00:31:34,738:INFO:Responding...
+2024-03-29 00:31:41,751:INFO:Error detected: Responding error!
+2024-03-29 00:31:41,785:INFO:Responding...
+2024-03-29 00:31:48,477:INFO:====== WebDriver manager ======
+2024-03-29 00:31:48,517:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:31:49,152:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:31:49,431:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 00:31:49,431:INFO:Available port found: 36007
+2024-03-29 00:32:01,254:INFO:No error detected.
+2024-03-29 00:50:35,014:INFO:====== WebDriver manager ======
+2024-03-29 00:50:35,055:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:50:35,560:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:50:35,794:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 00:50:35,794:INFO:Available port found: 48207
+2024-03-29 00:50:43,959:INFO:No error detected.
+2024-03-29 00:51:16,640:INFO:====== WebDriver manager ======
+2024-03-29 00:51:16,680:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:51:16,942:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:51:17,236:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 00:51:17,236:INFO:Available port found: 46043
+2024-03-29 00:51:28,531:INFO:No error detected.
+2024-03-29 00:51:52,706:INFO:No error detected.
+2024-03-29 00:51:56,739:INFO:No error detected.
+2024-03-29 00:52:20,863:INFO:No error detected.
+2024-03-29 00:52:24,958:INFO:No error detected.
+2024-03-29 00:53:46,188:INFO:====== WebDriver manager ======
+2024-03-29 00:53:46,229:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:53:46,543:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:53:55,537:INFO:====== WebDriver manager ======
+2024-03-29 00:53:55,576:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:53:57,594:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:53:57,869:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 00:53:57,870:INFO:Available port found: 45205
+2024-03-29 00:54:05,749:INFO:No error detected.
+2024-03-29 00:54:30,962:INFO:No error detected.
+2024-03-29 00:54:35,007:INFO:No error detected.
+2024-03-29 00:55:00,117:INFO:No error detected.
+2024-03-29 00:55:04,203:INFO:No error detected.
+2024-03-29 00:55:33,313:INFO:No error detected.
+2024-03-29 00:55:38,351:INFO:No error detected.
+2024-03-29 00:56:46,007:INFO:====== WebDriver manager ======
+2024-03-29 00:56:46,046:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:56:48,085:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 00:56:48,825:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 00:56:48,826:INFO:Available port found: 60035
+2024-03-29 00:56:56,566:INFO:No error detected.
+2024-03-29 00:57:25,735:INFO:No error detected.
+2024-03-29 00:57:31,772:INFO:No error detected.
+2024-03-29 00:58:00,892:INFO:No error detected.
+2024-03-29 00:58:06,977:INFO:No error detected.
+2024-03-29 00:58:31,076:INFO:No error detected.
+2024-03-29 00:58:38,122:INFO:No error detected.
+2024-03-29 00:59:02,244:INFO:No error detected.
+2024-03-29 00:59:09,348:INFO:No error detected.
+2024-03-29 00:59:37,496:INFO:No error detected.
+2024-03-29 00:59:41,532:INFO:No error detected.
+2024-03-29 01:00:09,633:INFO:No error detected.
+2024-03-29 01:00:13,711:INFO:No error detected.
+2024-03-29 01:00:39,831:INFO:No error detected.
+2024-03-29 01:00:43,866:INFO:No error detected.
+2024-03-29 01:01:09,971:INFO:No error detected.
+2024-03-29 01:01:14,052:INFO:No error detected.
+2024-03-29 01:01:38,152:INFO:No error detected.
+2024-03-29 01:01:45,189:INFO:No error detected.
+2024-03-29 01:02:09,297:INFO:No error detected.
+2024-03-29 01:02:16,415:INFO:No error detected.
+2024-03-29 01:02:40,517:INFO:No error detected.
+2024-03-29 01:02:47,556:INFO:No error detected.
+2024-03-29 01:02:47,565:INFO:Responding...
+2024-03-29 01:02:54,583:INFO:No error detected.
+2024-03-29 01:03:18,695:INFO:No error detected.
+2024-03-29 01:03:25,791:INFO:No error detected.
+2024-03-29 01:03:52,905:INFO:No error detected.
+2024-03-29 01:03:57,950:INFO:No error detected.
+2024-03-29 01:04:25,062:INFO:No error detected.
+2024-03-29 01:04:30,162:INFO:No error detected.
+2024-03-29 01:04:59,295:INFO:No error detected.
+2024-03-29 01:05:05,335:INFO:No error detected.
+2024-03-29 01:05:34,446:INFO:No error detected.
+2024-03-29 01:05:40,547:INFO:No error detected.
+2024-03-29 01:06:07,652:INFO:No error detected.
+2024-03-29 01:06:11,699:INFO:No error detected.
+2024-03-29 01:06:38,799:INFO:No error detected.
+2024-03-29 01:06:42,892:INFO:No error detected.
+2024-03-29 01:07:07,020:INFO:No error detected.
+2024-03-29 01:41:18,312:INFO:====== WebDriver manager ======
+2024-03-29 01:41:18,353:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 01:41:19,008:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 01:41:19,515:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 01:41:19,516:INFO:Available port found: 47717
+2024-03-29 01:41:27,675:INFO:No error detected.
+2024-03-29 01:41:55,846:INFO:No error detected.
+2024-03-29 01:41:59,884:INFO:No error detected.
+2024-03-29 01:42:27,997:INFO:No error detected.
+2024-03-29 01:42:32,080:INFO:No error detected.
+2024-03-29 01:44:33,232:INFO:====== WebDriver manager ======
+2024-03-29 01:44:33,271:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 01:44:33,569:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 01:44:33,873:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 01:44:33,873:INFO:Available port found: 58005
+2024-03-29 01:45:59,316:INFO:====== WebDriver manager ======
+2024-03-29 01:45:59,358:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 01:45:59,813:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 01:46:00,182:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 01:46:00,182:INFO:Available port found: 39773
+2024-03-29 01:46:11,391:INFO:No error detected.
+2024-03-29 01:46:40,567:INFO:No error detected.
+2024-03-29 01:46:46,606:INFO:No error detected.
+2024-03-29 01:47:15,738:INFO:No error detected.
+2024-03-29 01:47:21,817:INFO:No error detected.
+2024-03-29 01:47:46,930:INFO:No error detected.
+2024-03-29 01:47:51,967:INFO:No error detected.
+2024-03-29 01:48:17,080:INFO:No error detected.
+2024-03-29 01:48:22,162:INFO:No error detected.
+2024-03-29 01:48:49,259:INFO:No error detected.
+2024-03-29 01:48:56,302:INFO:No error detected.
+2024-03-29 01:49:23,422:INFO:No error detected.
+2024-03-29 01:49:30,508:INFO:No error detected.
+2024-03-29 01:49:54,633:INFO:No error detected.
+2024-03-29 01:49:59,676:INFO:No error detected.
+2024-03-29 01:50:23,780:INFO:No error detected.
+2024-03-29 01:50:28,866:INFO:No error detected.
+2024-03-29 01:50:56,984:INFO:No error detected.
+2024-03-29 01:51:02,028:INFO:No error detected.
+2024-03-29 01:51:30,145:INFO:No error detected.
+2024-03-29 01:51:35,229:INFO:No error detected.
+2024-03-29 01:52:04,331:INFO:No error detected.
+2024-03-29 02:07:32,343:INFO:====== WebDriver manager ======
+2024-03-29 02:07:32,383:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 02:07:32,853:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 02:07:33,260:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 02:07:33,260:INFO:Available port found: 48671
+2024-03-29 02:07:50,199:INFO:No error detected.
+2024-03-29 02:08:17,359:INFO:No error detected.
+2024-03-29 02:08:23,410:INFO:No error detected.
+2024-03-29 02:08:50,532:INFO:No error detected.
+2024-03-29 02:08:56,623:INFO:No error detected.
+2024-03-29 02:09:25,725:INFO:No error detected.
+2024-03-29 02:09:32,767:INFO:No error detected.
+2024-03-29 02:10:01,876:INFO:No error detected.
+2024-03-29 02:10:08,957:INFO:No error detected.
+2024-03-29 02:10:34,048:INFO:No error detected.
+2024-03-29 02:10:41,078:INFO:No error detected.
+2024-03-29 02:11:06,173:INFO:No error detected.
+2024-03-29 02:11:13,248:INFO:No error detected.
+2024-03-29 02:11:40,358:INFO:No error detected.
+2024-03-29 02:11:45,400:INFO:No error detected.
+2024-03-29 02:12:12,507:INFO:No error detected.
+2024-03-29 02:12:17,609:INFO:No error detected.
+2024-03-29 02:12:41,707:INFO:No error detected.
+2024-03-29 02:12:48,740:INFO:No error detected.
+2024-03-29 02:13:12,832:INFO:No error detected.
+2024-03-29 02:13:19,922:INFO:No error detected.
+2024-03-29 02:13:49,022:INFO:No error detected.
+2024-03-29 02:13:53,066:INFO:No error detected.
+2024-03-29 02:14:22,172:INFO:No error detected.
+2024-03-29 02:14:26,269:INFO:No error detected.
+2024-03-29 02:14:58,462:INFO:====== WebDriver manager ======
+2024-03-29 02:14:58,503:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 02:14:58,943:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 02:14:59,235:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 02:14:59,235:INFO:Available port found: 42843
+2024-03-29 02:15:08,822:INFO:No error detected.
+2024-03-29 02:15:45,013:INFO:No error detected.
+2024-03-29 02:16:06,071:INFO:No error detected.
+2024-03-29 02:16:42,207:INFO:No error detected.
+2024-03-29 02:17:03,315:INFO:No error detected.
+2024-03-29 02:17:28,414:INFO:No error detected.
+2024-03-29 02:17:38,458:INFO:No error detected.
+2024-03-29 02:18:03,560:INFO:No error detected.
+2024-03-29 02:18:13,645:INFO:No error detected.
+2024-03-29 02:18:42,786:INFO:No error detected.
+2024-03-29 02:18:57,836:INFO:No error detected.
+2024-03-29 02:19:26,942:INFO:No error detected.
+2024-03-29 02:19:42,037:INFO:No error detected.
+2024-03-29 02:20:16,145:INFO:No error detected.
+2024-03-29 02:20:37,195:INFO:No error detected.
+2024-03-29 02:21:11,313:INFO:No error detected.
+2024-03-29 02:21:32,416:INFO:No error detected.
+2024-03-29 02:22:08,519:INFO:No error detected.
+2024-03-29 02:22:14,570:INFO:No error detected.
+2024-03-29 02:22:50,676:INFO:No error detected.
+2024-03-29 02:22:56,761:INFO:No error detected.
+2024-03-29 02:23:36,874:INFO:No error detected.
+2024-03-29 02:23:57,929:INFO:No error detected.
+2024-03-29 02:24:38,044:INFO:No error detected.
+2024-03-29 02:24:59,160:INFO:No error detected.
+2024-03-29 02:25:24,262:INFO:No error detected.
+2024-03-29 02:25:29,309:INFO:No error detected.
+2024-03-29 02:25:54,427:INFO:No error detected.
+2024-03-29 02:25:59,519:INFO:No error detected.
+2024-03-29 02:26:35,647:INFO:No error detected.
+2024-03-29 02:26:39,686:INFO:No error detected.
+2024-03-29 02:27:15,807:INFO:No error detected.
+2024-03-29 02:27:19,909:INFO:No error detected.
+2024-03-29 02:27:45,005:INFO:No error detected.
+2024-03-29 02:27:49,039:INFO:No error detected.
+2024-03-29 02:28:14,128:INFO:No error detected.
+2024-03-29 02:28:18,251:INFO:No error detected.
+2024-03-29 02:28:50,356:INFO:No error detected.
+2024-03-29 02:29:06,413:INFO:No error detected.
+2024-03-29 02:29:38,516:INFO:No error detected.
+2024-03-29 02:29:54,613:INFO:No error detected.
+2024-03-29 02:30:31,723:INFO:No error detected.
+2024-03-29 02:30:47,781:INFO:No error detected.
+2024-03-29 02:31:24,902:INFO:No error detected.
+2024-03-29 02:31:41,008:INFO:No error detected.
+2024-03-29 02:32:17,119:INFO:No error detected.
+2024-03-29 02:32:35,169:INFO:No error detected.
+2024-03-29 02:33:11,273:INFO:No error detected.
+2024-03-29 02:33:29,379:INFO:No error detected.
+2024-03-29 02:33:59,474:INFO:No error detected.
+2024-03-29 02:34:20,527:INFO:No error detected.
+2024-03-29 02:34:50,625:INFO:No error detected.
+2024-03-29 02:35:11,728:INFO:No error detected.
+2024-03-29 11:11:46,449:ERROR:An unexpected error occurred: Message: disconnected: not connected to DevTools
+  (failed to check if window was closed: disconnected: not connected to DevTools)
+  (Session info: chrome=123.0.6312.58)
+Stacktrace:
+#0 0x5686db1868a3 <unknown>
+#1 0x5686dae7c8c6 <unknown>
+#2 0x5686dae63090 <unknown>
+#3 0x5686dae62f73 <unknown>
+#4 0x5686dae7ec42 <unknown>
+#5 0x5686daf075cc <unknown>
+#6 0x5686daee9343 <unknown>
+#7 0x5686daeba593 <unknown>
+#8 0x5686daebaf5e <unknown>
+#9 0x5686db14a88b <unknown>
+#10 0x5686db14e7e5 <unknown>
+#11 0x5686db1385b1 <unknown>
+#12 0x5686db14f372 <unknown>
+#13 0x5686db11d8bf <unknown>
+#14 0x5686db175768 <unknown>
+#15 0x5686db17593b <unknown>
+#16 0x5686db1859f4 <unknown>
+#17 0x7de1f6a94ac3 <unknown>
+
+2024-03-29 11:12:02,732:INFO:====== WebDriver manager ======
+2024-03-29 11:12:02,774:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 11:12:03,325:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 11:12:03,631:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 11:12:03,631:INFO:Available port found: 60025
+2024-03-29 11:12:15,842:INFO:No error detected.
+2024-03-29 11:12:47,850:INFO:No error detected.
+2024-03-29 11:12:55,852:ERROR:Unexpected error in return_last_response: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=123.0.6312.58)
+Stacktrace:
+#0 0x61eb5e87e8a3 <unknown>
+#1 0x61eb5e5748c6 <unknown>
+#2 0x61eb5e54b98d <unknown>
+#3 0x61eb5e5e9a2d <unknown>
+#4 0x61eb5e5ff5a6 <unknown>
+#5 0x61eb5e5e1343 <unknown>
+#6 0x61eb5e5b2593 <unknown>
+#7 0x61eb5e5b2f5e <unknown>
+#8 0x61eb5e84288b <unknown>
+#9 0x61eb5e8467e5 <unknown>
+#10 0x61eb5e8305b1 <unknown>
+#11 0x61eb5e847372 <unknown>
+#12 0x61eb5e8158bf <unknown>
+#13 0x61eb5e86d768 <unknown>
+#14 0x61eb5e86d93b <unknown>
+#15 0x61eb5e87d9f4 <unknown>
+#16 0x6ffd40294ac3 <unknown>
+
+2024-03-29 11:13:00,700:INFO:====== WebDriver manager ======
+2024-03-29 11:13:00,742:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 11:13:01,481:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 11:13:02,951:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 11:13:02,952:INFO:Available port found: 47271
+2024-03-29 11:13:12,974:INFO:No error detected.
+2024-03-29 11:13:39,179:INFO:No error detected.
+2024-03-29 11:48:07,474:INFO:====== WebDriver manager ======
+2024-03-29 11:48:07,669:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 11:48:28,455:INFO:====== WebDriver manager ======
+2024-03-29 11:48:28,500:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 11:48:29,219:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 11:48:29,543:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 11:48:29,543:INFO:Available port found: 56143
+2024-03-29 11:48:44,174:INFO:No error detected.
+2024-03-29 11:49:23,501:INFO:No error detected.
+2024-03-29 11:49:35,590:INFO:No error detected.
+2024-03-29 11:50:14,758:INFO:No error detected.
+2024-03-29 11:50:26,892:INFO:No error detected.
+2024-03-29 11:50:55,029:INFO:No error detected.
+2024-03-29 11:51:03,106:INFO:No error detected.
+2024-03-29 11:52:12,571:INFO:====== WebDriver manager ======
+2024-03-29 11:52:12,633:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 11:52:13,495:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 11:52:13,806:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 11:52:13,806:INFO:Available port found: 51487
+2024-03-29 11:52:22,481:INFO:No error detected.
+2024-03-29 11:53:02,814:INFO:No error detected.
+2024-03-29 11:53:14,895:INFO:No error detected.
+2024-03-29 11:53:34,549:INFO:====== WebDriver manager ======
+2024-03-29 11:53:34,597:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 11:53:34,928:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 11:53:35,235:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 11:53:35,235:INFO:Available port found: 44329
+2024-03-29 11:53:44,785:INFO:No error detected.
+2024-03-29 11:54:14,010:INFO:No error detected.
+2024-03-29 11:54:20,088:INFO:No error detected.
+2024-03-29 11:54:49,238:INFO:No error detected.
+2024-03-29 11:54:55,391:INFO:No error detected.
+2024-03-29 11:54:55,399:INFO:Responding...
+2024-03-29 11:55:02,418:INFO:No error detected.
+2024-03-29 11:55:02,428:INFO:Responding...
+2024-03-29 11:55:09,455:INFO:No error detected.
+2024-03-29 11:55:09,466:INFO:Responding...
+2024-03-29 11:55:16,495:INFO:No error detected.
+2024-03-29 11:55:16,511:INFO:Responding...
+2024-03-29 11:55:23,539:INFO:No error detected.
+2024-03-29 11:55:23,554:INFO:Responding...
+2024-03-29 11:55:30,582:INFO:No error detected.
+2024-03-29 11:55:30,596:INFO:Responding...
+2024-03-29 11:55:37,624:INFO:No error detected.
+2024-03-29 11:55:37,635:INFO:Responding...
+2024-03-29 11:55:44,663:INFO:No error detected.
+2024-03-29 11:55:44,676:INFO:Responding...
+2024-03-29 11:55:51,707:INFO:No error detected.
+2024-03-29 11:55:51,722:INFO:Responding...
+2024-03-29 11:55:58,752:INFO:No error detected.
+2024-03-29 11:55:58,769:INFO:Responding...
+2024-03-29 11:56:05,794:INFO:No error detected.
+2024-03-29 11:56:05,804:INFO:Responding...
+2024-03-29 11:56:12,845:INFO:No error detected.
+2024-03-29 11:56:12,856:INFO:Responding...
+2024-03-29 11:56:19,881:INFO:No error detected.
+2024-03-29 11:56:19,889:INFO:Responding...
+2024-03-29 11:56:26,919:INFO:No error detected.
+2024-03-29 11:56:26,931:INFO:Responding...
+2024-03-29 11:56:33,956:INFO:No error detected.
+2024-03-29 11:56:33,967:INFO:Responding...
+2024-03-29 11:56:40,983:INFO:No error detected.
+2024-03-29 11:56:40,992:INFO:Responding...
+2024-03-29 11:56:48,018:INFO:No error detected.
+2024-03-29 11:56:48,030:INFO:Responding...
+2024-03-29 11:56:55,058:INFO:No error detected.
+2024-03-29 11:56:55,068:INFO:Responding...
+2024-03-29 11:57:02,093:INFO:No error detected.
+2024-03-29 11:57:02,102:INFO:Responding...
+2024-03-29 11:57:09,127:INFO:No error detected.
+2024-03-29 11:57:09,139:INFO:Responding...
+2024-03-29 11:57:16,165:INFO:No error detected.
+2024-03-29 11:57:16,180:INFO:Responding...
+2024-03-29 11:57:23,208:INFO:No error detected.
+2024-03-29 11:57:23,221:INFO:Responding...
+2024-03-29 11:57:30,248:INFO:No error detected.
+2024-03-29 11:57:30,261:INFO:Responding...
+2024-03-29 11:57:37,286:INFO:No error detected.
+2024-03-29 11:57:37,304:INFO:Responding...
+2024-03-29 11:57:44,339:INFO:No error detected.
+2024-03-29 11:57:44,353:INFO:Responding...
+2024-03-29 11:57:51,374:INFO:No error detected.
+2024-03-29 11:57:51,388:INFO:Responding...
+2024-03-29 11:57:58,417:INFO:No error detected.
+2024-03-29 11:57:58,430:INFO:Responding...
+2024-03-29 11:58:05,453:INFO:No error detected.
+2024-03-29 11:58:05,464:INFO:Responding...
+2024-03-29 11:58:12,506:INFO:No error detected.
+2024-03-29 11:58:12,519:INFO:Responding...
+2024-03-29 11:58:19,538:INFO:No error detected.
+2024-03-29 11:58:19,546:INFO:Responding...
+2024-03-29 11:58:26,561:INFO:No error detected.
+2024-03-29 11:58:26,568:INFO:Responding...
+2024-03-29 11:58:33,603:INFO:No error detected.
+2024-03-29 11:58:33,624:INFO:Responding...
+2024-03-29 11:58:40,655:INFO:No error detected.
+2024-03-29 11:58:40,673:INFO:Responding...
+2024-03-29 11:58:47,703:INFO:No error detected.
+2024-03-29 11:58:47,721:INFO:Responding...
+2024-03-29 11:58:54,749:INFO:No error detected.
+2024-03-29 11:58:54,764:INFO:Responding...
+2024-03-29 11:59:01,792:INFO:No error detected.
+2024-03-29 11:59:01,807:INFO:Responding...
+2024-03-29 11:59:08,838:INFO:No error detected.
+2024-03-29 11:59:08,851:INFO:Responding...
+2024-03-29 11:59:15,877:INFO:No error detected.
+2024-03-29 11:59:15,891:INFO:Responding...
+2024-03-29 11:59:22,920:INFO:No error detected.
+2024-03-29 11:59:22,935:INFO:Responding...
+2024-03-29 11:59:29,964:INFO:No error detected.
+2024-03-29 11:59:29,976:INFO:Responding...
+2024-03-29 11:59:37,010:INFO:No error detected.
+2024-03-29 11:59:37,031:INFO:Responding...
+2024-03-29 11:59:44,057:INFO:No error detected.
+2024-03-29 11:59:44,073:INFO:Responding...
+2024-03-29 11:59:51,098:INFO:No error detected.
+2024-03-29 11:59:51,116:INFO:Responding...
+2024-03-29 11:59:58,143:INFO:No error detected.
+2024-03-29 11:59:58,156:INFO:Responding...
+2024-03-29 12:00:05,183:INFO:No error detected.
+2024-03-29 12:00:05,196:INFO:Responding...
+2024-03-29 12:00:12,226:INFO:No error detected.
+2024-03-29 12:00:12,240:INFO:Responding...
+2024-03-29 12:00:19,270:INFO:No error detected.
+2024-03-29 12:00:19,283:INFO:Responding...
+2024-03-29 12:00:26,311:INFO:No error detected.
+2024-03-29 12:00:26,335:INFO:Responding...
+2024-03-29 12:00:33,362:INFO:No error detected.
+2024-03-29 12:00:33,378:INFO:Responding...
+2024-03-29 12:00:40,406:INFO:No error detected.
+2024-03-29 12:00:40,419:INFO:Responding...
+2024-03-29 12:00:47,448:INFO:No error detected.
+2024-03-29 12:00:47,461:INFO:Responding...
+2024-03-29 12:00:54,491:INFO:No error detected.
+2024-03-29 12:00:54,504:INFO:Responding...
+2024-03-29 12:01:01,534:INFO:No error detected.
+2024-03-29 12:01:01,549:INFO:Responding...
+2024-03-29 12:01:08,578:INFO:No error detected.
+2024-03-29 12:01:08,592:INFO:Responding...
+2024-03-29 12:01:15,614:INFO:No error detected.
+2024-03-29 12:01:15,627:INFO:Responding...
+2024-03-29 12:01:22,657:INFO:No error detected.
+2024-03-29 12:01:22,670:INFO:Responding...
+2024-03-29 12:01:29,694:INFO:No error detected.
+2024-03-29 12:01:29,703:INFO:Responding...
+2024-03-29 12:01:36,725:INFO:No error detected.
+2024-03-29 12:01:36,735:INFO:Responding...
+2024-03-29 12:01:43,760:INFO:No error detected.
+2024-03-29 12:01:43,770:INFO:Responding...
+2024-03-29 12:01:50,796:INFO:No error detected.
+2024-03-29 12:01:50,811:INFO:Responding...
+2024-03-29 12:01:57,837:INFO:No error detected.
+2024-03-29 12:01:57,851:INFO:Responding...
+2024-03-29 12:02:04,878:INFO:No error detected.
+2024-03-29 12:02:04,892:INFO:Responding...
+2024-03-29 12:02:11,920:INFO:No error detected.
+2024-03-29 12:02:11,934:INFO:Responding...
+2024-03-29 12:02:18,964:INFO:No error detected.
+2024-03-29 12:02:18,975:INFO:Responding...
+2024-03-29 12:02:26,003:INFO:No error detected.
+2024-03-29 12:02:26,013:INFO:Responding...
+2024-03-29 12:02:33,039:INFO:No error detected.
+2024-03-29 12:02:33,049:INFO:Responding...
+2024-03-29 12:02:40,076:INFO:No error detected.
+2024-03-29 12:02:40,086:INFO:Responding...
+2024-03-29 12:02:47,107:INFO:No error detected.
+2024-03-29 12:02:47,119:INFO:Responding...
+2024-03-29 12:02:54,147:INFO:No error detected.
+2024-03-29 12:02:54,161:INFO:Responding...
+2024-03-29 12:03:01,191:INFO:No error detected.
+2024-03-29 12:03:01,207:INFO:Responding...
+2024-03-29 12:03:08,236:INFO:No error detected.
+2024-03-29 12:03:08,249:INFO:Responding...
+2024-03-29 12:03:15,278:INFO:No error detected.
+2024-03-29 12:03:15,289:INFO:Responding...
+2024-03-29 12:03:22,315:INFO:No error detected.
+2024-03-29 12:03:22,325:INFO:Responding...
+2024-03-29 12:03:29,355:INFO:No error detected.
+2024-03-29 12:03:29,368:INFO:Responding...
+2024-03-29 12:03:36,386:INFO:No error detected.
+2024-03-29 12:03:36,394:INFO:Responding...
+2024-03-29 12:03:43,424:INFO:No error detected.
+2024-03-29 12:03:43,440:INFO:Responding...
+2024-03-29 12:03:50,468:INFO:No error detected.
+2024-03-29 12:03:50,482:INFO:Responding...
+2024-03-29 12:03:57,512:INFO:No error detected.
+2024-03-29 12:03:57,529:INFO:Responding...
+2024-03-29 12:04:04,557:INFO:No error detected.
+2024-03-29 12:04:04,574:INFO:Responding...
+2024-03-29 12:04:10,520:INFO:====== WebDriver manager ======
+2024-03-29 12:04:10,568:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 12:04:10,961:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 12:04:11,466:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 12:04:11,467:INFO:Available port found: 45169
+2024-03-29 12:04:23,700:INFO:No error detected.
+2024-03-29 12:04:52,993:INFO:No error detected.
+2024-03-29 12:05:13,083:INFO:No error detected.
+2024-03-29 12:05:42,230:INFO:No error detected.
+2024-03-29 12:06:02,348:INFO:No error detected.
+2024-03-29 12:06:41,521:INFO:No error detected.
+2024-03-29 12:06:53,564:INFO:No error detected.
+2024-03-29 12:07:32,717:INFO:No error detected.
+2024-03-29 12:07:44,045:INFO:====== WebDriver manager ======
+2024-03-29 12:07:44,103:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 12:07:44,352:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 12:07:44,613:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 12:07:44,613:INFO:Available port found: 38453
+2024-03-29 12:07:56,892:INFO:No error detected.
+2024-03-29 12:08:26,153:INFO:No error detected.
+2024-03-29 12:08:43,230:INFO:No error detected.
+2024-03-29 12:09:12,410:INFO:No error detected.
+2024-03-29 12:09:29,576:INFO:No error detected.
+2024-03-29 12:09:54,745:INFO:No error detected.
+2024-03-29 12:10:03,823:INFO:No error detected.
+2024-03-29 12:10:28,998:INFO:No error detected.
+2024-03-29 12:10:38,117:INFO:No error detected.
+2024-03-29 12:11:04,252:INFO:No error detected.
+2024-03-29 12:11:16,339:INFO:No error detected.
+2024-03-29 12:11:42,502:INFO:No error detected.
+2024-03-29 12:11:54,653:INFO:No error detected.
+2024-03-29 12:12:34,833:INFO:No error detected.
+2024-03-29 12:12:41,901:INFO:No error detected.
+2024-03-29 12:13:22,073:INFO:No error detected.
+2024-03-29 12:13:29,197:INFO:No error detected.
+2024-03-29 12:13:53,335:INFO:No error detected.
+2024-03-29 12:14:07,424:INFO:No error detected.
+2024-03-29 12:14:31,575:INFO:No error detected.
+2024-03-29 12:14:45,700:INFO:No error detected.
+2024-03-29 12:15:14,873:INFO:No error detected.
+2024-03-29 12:15:30,947:INFO:No error detected.
+2024-03-29 12:16:00,088:INFO:No error detected.
+2024-03-29 12:16:16,220:INFO:No error detected.
+2024-03-29 12:16:47,372:INFO:No error detected.
+2024-03-29 12:23:37,799:INFO:====== WebDriver manager ======
+2024-03-29 12:23:37,845:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 12:23:38,584:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 12:23:38,926:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 12:23:38,927:INFO:Available port found: 36087
+2024-03-29 12:23:48,562:INFO:No error detected.
+2024-03-29 12:24:27,811:INFO:No error detected.
+2024-03-29 12:24:45,891:INFO:No error detected.
+2024-03-29 12:25:25,045:INFO:No error detected.
+2024-03-29 12:25:43,200:INFO:No error detected.
+2024-03-29 12:26:17,343:INFO:No error detected.
+2024-03-29 12:26:23,408:INFO:No error detected.
+2024-03-29 12:26:57,590:INFO:No error detected.
+2024-03-29 12:27:03,699:INFO:No error detected.
+2024-03-29 12:27:41,845:INFO:No error detected.
+2024-03-29 12:28:00,940:INFO:No error detected.
+2024-03-29 12:28:39,098:INFO:No error detected.
+2024-03-29 12:28:58,234:INFO:No error detected.
+2024-03-29 12:29:32,394:INFO:No error detected.
+2024-03-29 12:29:51,463:INFO:No error detected.
+2024-03-29 12:30:25,612:INFO:No error detected.
+2024-03-29 12:30:44,740:INFO:No error detected.
+2024-03-29 12:31:12,909:INFO:No error detected.
+2024-03-29 12:31:30,003:INFO:No error detected.
+2024-03-29 12:31:58,163:INFO:No error detected.
+2024-03-29 12:32:15,293:INFO:No error detected.
+2024-03-29 12:32:39,410:INFO:No error detected.
+2024-03-29 12:32:46,494:INFO:No error detected.
+2024-03-29 12:33:10,647:INFO:No error detected.
+2024-03-29 12:33:17,765:INFO:No error detected.
+2024-03-29 12:33:54,920:INFO:No error detected.
+2024-03-29 12:39:31,367:INFO:====== WebDriver manager ======
+2024-03-29 12:39:31,411:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 12:39:31,944:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 12:39:32,196:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 12:39:32,197:INFO:Available port found: 41493
+2024-03-29 12:39:40,656:INFO:No error detected.
+2024-03-29 12:40:20,931:INFO:No error detected.
+2024-03-29 12:40:33,000:INFO:No error detected.
+2024-03-29 12:41:13,169:INFO:No error detected.
+2024-03-29 12:41:25,338:INFO:No error detected.
+2024-03-29 12:41:59,486:INFO:No error detected.
+2024-03-29 12:42:19,551:INFO:No error detected.
+2024-03-29 12:42:53,707:INFO:No error detected.
+2024-03-29 12:43:13,848:INFO:No error detected.
+2024-03-29 12:43:41,000:INFO:No error detected.
+2024-03-29 12:43:53,080:INFO:No error detected.
+2024-03-29 12:44:20,247:INFO:No error detected.
+2024-03-29 12:44:32,388:INFO:No error detected.
+2024-03-29 12:45:07,545:INFO:No error detected.
+2024-03-29 12:45:24,651:INFO:No error detected.
+2024-03-29 12:45:59,840:INFO:No error detected.
+2024-03-29 12:46:16,969:INFO:No error detected.
+2024-03-29 12:46:55,111:INFO:No error detected.
+2024-03-29 12:47:10,192:INFO:No error detected.
+2024-03-29 12:47:48,326:INFO:No error detected.
+2024-03-29 12:48:03,463:INFO:No error detected.
+2024-03-29 12:48:28,621:INFO:No error detected.
+2024-03-29 12:48:38,708:INFO:No error detected.
+2024-03-29 12:49:03,827:INFO:No error detected.
+2024-03-29 12:49:13,964:INFO:No error detected.
+2024-03-29 12:49:38,112:INFO:No error detected.
+2024-03-29 12:49:52,185:INFO:No error detected.
+2024-03-29 12:50:16,345:INFO:No error detected.
+2024-03-29 12:50:30,502:INFO:No error detected.
+2024-03-29 12:51:03,655:INFO:No error detected.
+2024-03-29 12:55:03,799:INFO:====== WebDriver manager ======
+2024-03-29 12:55:03,843:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 12:55:04,727:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 12:55:05,017:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 12:55:05,017:INFO:Available port found: 33239
+2024-03-29 12:55:16,195:INFO:No error detected.
+2024-03-29 12:55:43,456:INFO:No error detected.
+2024-03-29 12:55:47,511:INFO:No error detected.
+2024-03-29 12:56:14,654:INFO:No error detected.
+2024-03-29 12:56:18,773:INFO:No error detected.
+2024-03-29 12:56:56,956:INFO:No error detected.
+2024-03-29 12:57:17,044:INFO:No error detected.
+2024-03-29 12:57:55,204:INFO:No error detected.
+2024-03-29 12:58:15,342:INFO:No error detected.
+2024-03-29 12:58:54,541:INFO:No error detected.
+2024-03-29 12:58:59,619:INFO:No error detected.
+2024-03-29 12:59:38,780:INFO:No error detected.
+2024-03-29 12:59:43,902:INFO:No error detected.
+2024-03-29 13:00:10,064:INFO:No error detected.
+2024-03-29 13:00:23,125:INFO:No error detected.
+2024-03-29 13:00:49,256:INFO:No error detected.
+2024-03-29 13:01:02,368:INFO:No error detected.
+2024-03-29 13:01:41,519:INFO:No error detected.
+2024-03-29 13:01:56,607:INFO:No error detected.
+2024-03-29 13:02:35,807:INFO:No error detected.
+2024-03-29 13:02:50,959:INFO:No error detected.
+2024-03-29 13:03:22,139:INFO:No error detected.
+2024-03-29 13:03:36,217:INFO:No error detected.
+2024-03-29 13:04:07,373:INFO:No error detected.
+2024-03-29 13:04:21,492:INFO:No error detected.
+2024-03-29 13:04:58,669:INFO:No error detected.
+2024-03-29 13:05:10,748:INFO:No error detected.
+2024-03-29 13:05:47,900:INFO:No error detected.
+2024-03-29 13:06:00,073:INFO:No error detected.
+2024-03-29 13:06:34,258:INFO:No error detected.
+2024-03-29 13:06:46,354:INFO:No error detected.
+2024-03-29 13:07:20,542:INFO:No error detected.
+2024-03-29 13:07:32,673:INFO:No error detected.
+2024-03-29 13:07:59,853:INFO:No error detected.
+2024-03-29 13:22:32,903:INFO:====== WebDriver manager ======
+2024-03-29 13:22:32,967:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 13:22:33,202:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 13:22:33,499:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 13:22:33,500:INFO:Available port found: 54303
+2024-03-29 13:22:46,720:INFO:No error detected.
+2024-03-29 13:23:22,974:INFO:No error detected.
+2024-03-29 13:23:28,055:INFO:No error detected.
+2024-03-29 13:24:04,274:INFO:No error detected.
+2024-03-29 13:24:09,329:INFO:No error detected.
+2024-03-29 13:24:45,499:INFO:No error detected.
+2024-03-29 13:25:18,222:INFO:====== WebDriver manager ======
+2024-03-29 13:25:18,279:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 13:25:18,817:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 13:25:19,061:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 13:25:19,062:INFO:Available port found: 42967
+2024-03-29 13:27:07,181:INFO:No error detected.
+2024-03-29 13:27:33,439:INFO:No error detected.
+2024-03-29 13:27:44,522:INFO:No error detected.
+2024-03-29 13:28:10,674:INFO:No error detected.
+2024-03-29 13:28:21,740:INFO:No error detected.
+2024-03-29 13:28:47,870:INFO:No error detected.
+2024-03-29 13:28:58,987:INFO:No error detected.
+2024-03-29 13:29:30,117:INFO:No error detected.
+2024-03-29 13:29:36,174:INFO:No error detected.
+2024-03-29 13:30:07,332:INFO:No error detected.
+2024-03-29 13:30:13,413:INFO:No error detected.
+2024-03-29 13:30:44,615:INFO:No error detected.
+2024-03-29 13:30:50,727:INFO:No error detected.
+2024-03-29 13:31:25,860:INFO:No error detected.
+2024-03-29 13:31:29,928:INFO:No error detected.
+2024-03-29 13:32:05,089:INFO:No error detected.
+2024-03-29 13:32:09,159:INFO:No error detected.
+2024-03-29 13:32:44,289:INFO:No error detected.
+2024-03-29 13:32:48,429:INFO:No error detected.
+2024-03-29 13:33:21,601:INFO:No error detected.
+2024-03-29 13:33:26,677:INFO:No error detected.
+2024-03-29 13:33:59,858:INFO:No error detected.
+2024-03-29 13:34:04,928:INFO:No error detected.
+2024-03-29 13:34:38,056:INFO:No error detected.
+2024-03-29 13:34:43,176:INFO:No error detected.
+2024-03-29 13:35:14,322:INFO:No error detected.
+2024-03-29 13:35:25,415:INFO:No error detected.
+2024-03-29 13:35:56,639:INFO:No error detected.
+2024-03-29 13:36:10,917:INFO:====== WebDriver manager ======
+2024-03-29 13:36:10,970:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 13:36:11,923:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 13:36:12,192:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 13:36:12,192:INFO:Available port found: 42903
+2024-03-29 13:39:15,543:INFO:No error detected.
+2024-03-29 13:39:47,774:INFO:No error detected.
+2024-03-29 13:39:58,848:INFO:No error detected.
+2024-03-29 13:40:31,016:INFO:No error detected.
+2024-03-29 13:40:42,104:INFO:No error detected.
+2024-03-29 13:41:14,340:INFO:No error detected.
+2024-03-29 13:41:25,459:INFO:No error detected.
+2024-03-29 13:41:54,586:INFO:No error detected.
+2024-03-29 13:42:03,658:INFO:No error detected.
+2024-03-29 13:42:32,810:INFO:No error detected.
+2024-03-29 13:42:41,886:INFO:No error detected.
+2024-03-29 13:43:11,073:INFO:No error detected.
+2024-03-29 13:43:20,221:INFO:No error detected.
+2024-03-29 13:43:55,386:INFO:No error detected.
+2024-03-29 13:43:59,453:INFO:No error detected.
+2024-03-29 13:44:34,603:INFO:No error detected.
+2024-03-29 13:44:38,679:INFO:No error detected.
+2024-03-29 13:45:13,847:INFO:No error detected.
+2024-03-29 13:45:17,974:INFO:No error detected.
+2024-03-29 13:45:54,114:INFO:No error detected.
+2024-03-29 13:46:02,187:INFO:No error detected.
+2024-03-29 13:54:44,904:INFO:====== WebDriver manager ======
+2024-03-29 13:54:44,962:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 13:54:48,508:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 13:54:49,142:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 13:54:49,142:INFO:Available port found: 44077
+2024-03-29 13:54:58,770:INFO:No error detected.
+2024-03-29 13:55:32,014:INFO:No error detected.
+2024-03-29 13:55:37,084:INFO:No error detected.
+2024-03-29 13:56:10,249:INFO:No error detected.
+2024-03-29 13:56:15,313:INFO:No error detected.
+2024-03-29 13:56:48,478:INFO:No error detected.
+2024-03-29 13:56:53,582:INFO:No error detected.
+2024-03-29 13:57:27,699:INFO:No error detected.
+2024-03-29 13:57:36,769:INFO:No error detected.
+2024-03-29 13:58:10,942:INFO:No error detected.
+2024-03-29 13:58:20,026:INFO:No error detected.
+2024-03-29 13:58:54,223:INFO:No error detected.
+2024-03-29 13:59:03,362:INFO:No error detected.
+2024-03-29 13:59:33,491:INFO:No error detected.
+2024-03-29 13:59:41,552:INFO:No error detected.
+2024-03-29 14:00:11,732:INFO:No error detected.
+2024-03-29 14:00:19,814:INFO:No error detected.
+2024-03-29 14:00:49,992:INFO:No error detected.
+2024-03-29 14:00:58,117:INFO:No error detected.
+2024-03-29 14:01:27,247:INFO:No error detected.
+2024-03-29 14:01:36,259:ERROR:Unexpected error in return_last_response: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=123.0.6312.86)
+Stacktrace:
+#0 0x5892609eb8a3 <unknown>
+#1 0x5892606e18c6 <unknown>
+#2 0x5892606b898d <unknown>
+#3 0x589260756a2d <unknown>
+#4 0x58926076c5a6 <unknown>
+#5 0x58926074e343 <unknown>
+#6 0x58926071f593 <unknown>
+#7 0x58926071ff5e <unknown>
+#8 0x5892609af88b <unknown>
+#9 0x5892609b37e5 <unknown>
+#10 0x58926099d5b1 <unknown>
+#11 0x5892609b4372 <unknown>
+#12 0x5892609828bf <unknown>
+#13 0x5892609da768 <unknown>
+#14 0x5892609da93b <unknown>
+#15 0x5892609ea9f4 <unknown>
+#16 0x7a50bfe94ac3 <unknown>
+
+2024-03-29 14:01:36,262:ERROR:An unexpected error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=123.0.6312.86)
+Stacktrace:
+#0 0x5892609eb8a3 <unknown>
+#1 0x5892606e18c6 <unknown>
+#2 0x5892606b898d <unknown>
+#3 0x589260756a2d <unknown>
+#4 0x58926076c5a6 <unknown>
+#5 0x58926074e343 <unknown>
+#6 0x58926071f593 <unknown>
+#7 0x58926071ff5e <unknown>
+#8 0x5892609af88b <unknown>
+#9 0x5892609b37e5 <unknown>
+#10 0x58926099d5b1 <unknown>
+#11 0x5892609b4372 <unknown>
+#12 0x5892609828bf <unknown>
+#13 0x5892609da768 <unknown>
+#14 0x5892609da93b <unknown>
+#15 0x5892609ea9f4 <unknown>
+#16 0x7a50bfe94ac3 <unknown>
+
+2024-03-29 14:02:16,884:INFO:====== WebDriver manager ======
+2024-03-29 14:02:16,932:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:02:17,230:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:02:17,510:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 14:02:17,510:INFO:Available port found: 50005
+2024-03-29 14:07:51,575:INFO:====== WebDriver manager ======
+2024-03-29 14:07:51,626:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:07:52,455:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:07:52,775:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 14:07:52,775:INFO:Available port found: 53011
+2024-03-29 14:08:26,343:INFO:====== WebDriver manager ======
+2024-03-29 14:08:26,396:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:08:26,995:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:08:27,590:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 14:08:27,591:INFO:Available port found: 47255
+2024-03-29 14:08:42,279:INFO:====== WebDriver manager ======
+2024-03-29 14:08:42,327:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:08:42,864:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:08:43,131:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 14:08:43,131:INFO:Available port found: 34163
+2024-03-29 14:09:44,708:INFO:====== WebDriver manager ======
+2024-03-29 14:09:44,755:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:09:45,017:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:09:45,265:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 14:09:45,265:INFO:Available port found: 32825
+2024-03-29 14:10:52,376:INFO:====== WebDriver manager ======
+2024-03-29 14:10:52,427:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:10:52,713:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:10:53,377:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 14:10:53,377:INFO:Available port found: 33731
+2024-03-29 14:11:44,501:INFO:====== WebDriver manager ======
+2024-03-29 14:11:44,556:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:11:44,827:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:11:45,138:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 14:11:45,139:INFO:Available port found: 58729
+2024-03-29 14:12:49,684:INFO:====== WebDriver manager ======
+2024-03-29 14:12:49,733:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:12:50,009:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:12:50,270:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 14:12:50,271:INFO:Available port found: 45585
+2024-03-29 14:12:58,562:INFO:No error detected.
+2024-03-29 14:13:09,046:INFO:====== WebDriver manager ======
+2024-03-29 14:13:09,093:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:13:09,350:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:13:09,986:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 14:13:09,987:INFO:Available port found: 45755
+2024-03-29 14:13:17,869:INFO:No error detected.
+2024-03-29 14:13:47,021:INFO:No error detected.
+2024-03-29 14:14:10,030:INFO:====== WebDriver manager ======
+2024-03-29 14:14:10,083:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:14:10,598:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:14:10,854:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 14:14:10,854:INFO:Available port found: 36691
+2024-03-29 14:14:25,379:INFO:No error detected.
+2024-03-29 14:14:53,689:INFO:No error detected.
+2024-03-29 14:15:03,761:INFO:No error detected.
+2024-03-29 14:15:08,940:INFO:====== WebDriver manager ======
+2024-03-29 14:15:08,995:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:15:09,252:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:15:09,520:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 14:15:09,520:INFO:Available port found: 35375
+2024-03-29 14:17:12,189:INFO:====== WebDriver manager ======
+2024-03-29 14:17:12,251:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:17:12,503:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 14:17:13,119:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 14:17:13,120:INFO:Available port found: 33697
+2024-03-29 14:17:22,304:INFO:No error detected.
+2024-03-29 14:17:53,588:INFO:No error detected.
+2024-03-29 14:17:58,665:INFO:No error detected.
+2024-03-29 14:18:29,863:INFO:No error detected.
+2024-03-29 14:18:34,919:INFO:No error detected.
