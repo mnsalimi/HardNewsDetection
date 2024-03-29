@@ -17596,3 +17596,237 @@ Stacktrace:
 2024-03-29 14:31:31,817:INFO:No error detected.
 2024-03-29 14:32:06,115:INFO:No error detected.
 2024-03-29 14:32:12,178:INFO:No error detected.
+2024-03-29 14:32:46,357:INFO:No error detected.
+2024-03-29 14:32:52,416:INFO:No error detected.
+2024-03-29 14:32:52,500:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.86)
+Stacktrace:
+#0 0x6225e07f18a3 <unknown>
+#1 0x6225e04e7717 <unknown>
+#2 0x6225e052c70f <unknown>
+#3 0x6225e052ab60 <unknown>
+#4 0x6225e05545a2 <unknown>
+#5 0x6225e0526e98 <unknown>
+#6 0x6225e055476e <unknown>
+#7 0x6225e0572c19 <unknown>
+#8 0x6225e0554343 <unknown>
+#9 0x6225e0525593 <unknown>
+#10 0x6225e0525f5e <unknown>
+#11 0x6225e07b588b <unknown>
+#12 0x6225e07b97e5 <unknown>
+#13 0x6225e07a35b1 <unknown>
+#14 0x6225e07ba372 <unknown>
+#15 0x6225e07888bf <unknown>
+#16 0x6225e07e0768 <unknown>
+#17 0x6225e07e093b <unknown>
+#18 0x6225e07f09f4 <unknown>
+#19 0x798e24294ac3 <unknown>
+
+2024-03-29 15:08:40,919:INFO:====== WebDriver manager ======
+2024-03-29 15:08:40,971:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 15:08:41,678:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-29 15:08:43,089:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-29 15:08:43,090:INFO:Available port found: 35853
+2024-03-29 15:08:52,244:INFO:No error detected.
+2024-03-29 15:09:20,562:INFO:No error detected.
+2024-03-29 15:09:24,634:INFO:No error detected.
+2024-03-29 15:09:52,797:INFO:No error detected.
+2024-03-29 15:09:56,870:INFO:No error detected.
+2024-03-29 15:10:25,039:INFO:No error detected.
+2024-03-29 15:10:29,158:INFO:No error detected.
+2024-03-29 15:10:58,285:INFO:No error detected.
+2024-03-29 15:11:06,346:INFO:No error detected.
+2024-03-29 15:11:35,486:INFO:No error detected.
+2024-03-29 15:11:43,555:INFO:No error detected.
+2024-03-29 15:12:12,684:INFO:No error detected.
+2024-03-29 15:12:20,797:INFO:No error detected.
+2024-03-29 15:12:49,949:INFO:No error detected.
+2024-03-29 15:12:56,010:INFO:No error detected.
+2024-03-29 15:13:25,160:INFO:No error detected.
+2024-03-29 15:13:31,251:INFO:No error detected.
+2024-03-29 15:14:00,417:INFO:No error detected.
+2024-03-29 15:14:06,564:INFO:No error detected.
+2024-03-29 15:14:39,745:INFO:No error detected.
+2024-03-29 15:14:49,829:INFO:No error detected.
+2024-03-29 15:15:22,996:INFO:No error detected.
+2024-03-29 15:15:33,082:INFO:No error detected.
+2024-03-29 15:16:06,257:INFO:No error detected.
+2024-03-29 15:16:16,418:INFO:No error detected.
+2024-03-29 15:16:50,573:INFO:No error detected.
+2024-03-29 15:16:57,647:INFO:No error detected.
+2024-03-29 15:17:31,829:INFO:No error detected.
+2024-03-29 15:17:38,915:INFO:No error detected.
+2024-03-29 15:18:13,082:INFO:No error detected.
+2024-03-29 15:18:20,244:INFO:No error detected.
+2024-03-29 15:18:48,415:INFO:No error detected.
+2024-03-29 15:18:56,493:INFO:No error detected.
+2024-03-29 15:19:24,626:INFO:No error detected.
+2024-03-29 15:19:32,703:INFO:No error detected.
+2024-03-29 15:20:00,891:INFO:No error detected.
+2024-03-29 15:20:09,036:INFO:No error detected.
+2024-03-29 15:20:40,184:INFO:No error detected.
+2024-03-29 15:20:48,261:INFO:No error detected.
+2024-03-29 15:21:19,418:INFO:No error detected.
+2024-03-29 15:21:27,488:INFO:No error detected.
+2024-03-29 15:21:58,643:INFO:No error detected.
+2024-03-29 15:22:06,810:INFO:No error detected.
+2024-03-29 15:22:37,979:INFO:No error detected.
+2024-03-29 15:22:45,045:INFO:No error detected.
+2024-03-29 15:23:16,209:INFO:No error detected.
+2024-03-29 15:23:23,278:INFO:No error detected.
+2024-03-29 15:23:54,440:INFO:No error detected.
+2024-03-29 15:24:01,574:INFO:No error detected.
+2024-03-29 15:24:30,709:INFO:No error detected.
+2024-03-29 15:24:38,783:INFO:No error detected.
+2024-03-29 15:25:07,938:INFO:No error detected.
+2024-03-29 15:25:16,020:INFO:No error detected.
+2024-03-29 15:25:45,147:INFO:No error detected.
+2024-03-29 15:25:53,282:INFO:No error detected.
+2024-03-29 15:26:21,419:INFO:No error detected.
+2024-03-29 15:26:30,498:INFO:No error detected.
+2024-03-29 15:26:58,667:INFO:No error detected.
+2024-03-29 15:27:07,733:INFO:No error detected.
+2024-03-29 15:27:35,889:INFO:No error detected.
+2024-03-29 15:27:45,020:INFO:No error detected.
+2024-03-29 15:28:21,180:INFO:No error detected.
+2024-03-29 15:28:25,240:INFO:No error detected.
+2024-03-29 15:29:01,414:INFO:No error detected.
+2024-03-29 15:29:05,481:INFO:No error detected.
+2024-03-29 15:29:41,639:INFO:No error detected.
+2024-03-29 15:29:45,775:INFO:No error detected.
+2024-03-29 15:30:13,965:INFO:No error detected.
+2024-03-29 15:30:23,060:INFO:No error detected.
+2024-03-29 15:30:51,218:INFO:No error detected.
+2024-03-29 15:31:00,298:INFO:No error detected.
+2024-03-29 15:31:28,457:INFO:No error detected.
+2024-03-29 15:31:37,582:INFO:No error detected.
+2024-03-29 15:32:05,761:INFO:No error detected.
+2024-03-29 15:32:14,846:INFO:No error detected.
+2024-03-29 15:32:43,002:INFO:No error detected.
+2024-03-29 15:32:52,100:INFO:No error detected.
+2024-03-29 15:33:20,282:INFO:No error detected.
+2024-03-29 15:33:29,414:INFO:No error detected.
+2024-03-29 15:34:04,584:INFO:No error detected.
+2024-03-29 15:34:14,677:INFO:No error detected.
+2024-03-29 15:34:49,865:INFO:No error detected.
+2024-03-29 15:34:59,956:INFO:No error detected.
+2024-03-29 15:35:35,128:INFO:No error detected.
+2024-03-29 15:35:45,269:INFO:No error detected.
+2024-03-29 15:36:12,470:INFO:No error detected.
+2024-03-29 15:36:18,561:INFO:No error detected.
+2024-03-29 15:36:45,773:INFO:No error detected.
+2024-03-29 15:36:51,855:INFO:No error detected.
+2024-03-29 15:37:19,014:INFO:No error detected.
+2024-03-29 15:37:25,151:INFO:No error detected.
+2024-03-29 15:38:01,349:INFO:No error detected.
+2024-03-29 15:38:08,433:INFO:No error detected.
+2024-03-29 15:38:44,588:INFO:No error detected.
+2024-03-29 15:38:51,679:INFO:No error detected.
+2024-03-29 15:39:27,875:INFO:No error detected.
+2024-03-29 15:39:35,021:INFO:No error detected.
+2024-03-29 15:40:03,226:INFO:No error detected.
+2024-03-29 15:40:11,303:INFO:No error detected.
+2024-03-29 15:40:39,465:INFO:No error detected.
+2024-03-29 15:40:47,557:INFO:No error detected.
+2024-03-29 15:41:15,742:INFO:No error detected.
+2024-03-29 15:41:23,890:INFO:No error detected.
+2024-03-29 15:41:59,064:INFO:No error detected.
+2024-03-29 15:42:08,140:INFO:No error detected.
+2024-03-29 15:42:43,297:INFO:No error detected.
+2024-03-29 15:42:52,384:INFO:No error detected.
+2024-03-29 15:43:27,592:INFO:No error detected.
+2024-03-29 15:43:36,751:INFO:No error detected.
+2024-03-29 15:44:04,920:INFO:No error detected.
+2024-03-29 15:44:08,999:INFO:No error detected.
+2024-03-29 15:44:37,201:INFO:No error detected.
+2024-03-29 15:44:41,288:INFO:No error detected.
+2024-03-29 15:45:09,482:INFO:No error detected.
+2024-03-29 15:45:13,613:INFO:No error detected.
+2024-03-29 15:45:49,811:INFO:No error detected.
+2024-03-29 15:45:54,884:INFO:No error detected.
+2024-03-29 15:46:31,069:INFO:No error detected.
+2024-03-29 15:46:36,147:INFO:No error detected.
+2024-03-29 15:47:12,310:INFO:No error detected.
+2024-03-29 15:47:17,477:INFO:No error detected.
+2024-03-29 15:47:53,661:INFO:No error detected.
+2024-03-29 15:47:58,746:INFO:No error detected.
+2024-03-29 15:48:34,959:INFO:No error detected.
+2024-03-29 15:48:40,032:INFO:No error detected.
+2024-03-29 15:49:16,199:INFO:No error detected.
+2024-03-29 15:49:21,387:INFO:No error detected.
+2024-03-29 15:49:49,546:INFO:No error detected.
+2024-03-29 15:49:55,628:INFO:No error detected.
+2024-03-29 15:50:23,791:INFO:No error detected.
+2024-03-29 15:50:29,873:INFO:No error detected.
+2024-03-29 15:50:58,016:INFO:No error detected.
+2024-03-29 15:51:04,157:INFO:No error detected.
+2024-03-29 15:51:33,313:INFO:No error detected.
+2024-03-29 15:51:48,421:INFO:No error detected.
+2024-03-29 15:52:17,640:INFO:No error detected.
+2024-03-29 15:52:32,752:INFO:No error detected.
+2024-03-29 15:53:01,966:INFO:No error detected.
+2024-03-29 15:53:17,073:INFO:No error detected.
+2024-03-29 15:53:46,268:INFO:No error detected.
+2024-03-29 15:53:56,363:INFO:No error detected.
+2024-03-29 15:54:25,538:INFO:No error detected.
+2024-03-29 15:54:35,634:INFO:No error detected.
+2024-03-29 15:55:04,807:INFO:No error detected.
+2024-03-29 15:55:14,959:INFO:No error detected.
+2024-03-29 15:55:46,125:INFO:No error detected.
+2024-03-29 15:55:55,213:INFO:No error detected.
+2024-03-29 15:56:26,390:INFO:No error detected.
+2024-03-29 15:56:35,486:INFO:No error detected.
+2024-03-29 15:57:06,677:INFO:No error detected.
+2024-03-29 15:57:15,835:INFO:No error detected.
+2024-03-29 15:57:45,010:INFO:No error detected.
+2024-03-29 15:57:55,109:INFO:No error detected.
+2024-03-29 15:58:24,276:INFO:No error detected.
+2024-03-29 15:58:34,357:INFO:No error detected.
+2024-03-29 15:59:03,530:INFO:No error detected.
+2024-03-29 15:59:13,672:INFO:No error detected.
+2024-03-29 15:59:44,864:INFO:No error detected.
+2024-03-29 15:59:48,951:INFO:No error detected.
+2024-03-29 16:00:20,112:INFO:No error detected.
+2024-03-29 16:00:24,182:INFO:No error detected.
+2024-03-29 16:00:55,374:INFO:No error detected.
+2024-03-29 16:00:59,549:INFO:No error detected.
+2024-03-29 16:01:33,745:INFO:No error detected.
+2024-03-29 16:01:37,824:INFO:No error detected.
+2024-03-29 16:02:11,997:INFO:No error detected.
+2024-03-29 16:02:16,083:INFO:No error detected.
+2024-03-29 16:02:50,281:INFO:No error detected.
+2024-03-29 16:02:54,434:INFO:No error detected.
+2024-03-29 16:03:27,650:INFO:No error detected.
+2024-03-29 16:03:31,749:INFO:No error detected.
+2024-03-29 16:04:04,926:INFO:No error detected.
+2024-03-29 16:04:09,033:INFO:No error detected.
+2024-03-29 16:04:42,256:INFO:No error detected.
+2024-03-29 16:04:46,409:INFO:No error detected.
+2024-03-29 16:05:16,583:INFO:No error detected.
+2024-03-29 16:05:20,685:INFO:No error detected.
+2024-03-29 16:05:50,887:INFO:No error detected.
+2024-03-29 16:05:54,971:INFO:No error detected.
+2024-03-29 16:06:25,180:INFO:No error detected.
+2024-03-29 16:06:29,331:INFO:No error detected.
+2024-03-29 16:07:04,544:INFO:No error detected.
+2024-03-29 16:07:11,639:INFO:No error detected.
+2024-03-29 16:07:46,816:INFO:No error detected.
+2024-03-29 16:07:53,899:INFO:No error detected.
+2024-03-29 16:08:29,091:INFO:No error detected.
+2024-03-29 16:08:36,246:INFO:No error detected.
+2024-03-29 16:09:09,391:INFO:No error detected.
+2024-03-29 16:09:14,469:INFO:No error detected.
+2024-03-29 16:09:47,664:INFO:No error detected.
+2024-03-29 16:09:52,773:INFO:No error detected.
+2024-03-29 16:10:25,949:INFO:No error detected.
+2024-03-29 16:10:31,102:INFO:No error detected.
+2024-03-29 16:10:58,285:INFO:No error detected.
+2024-03-29 16:11:03,369:INFO:No error detected.
+2024-03-29 16:11:30,544:INFO:No error detected.
+2024-03-29 16:11:35,608:INFO:No error detected.
+2024-03-29 16:12:02,772:INFO:No error detected.
+2024-03-29 16:12:07,919:INFO:No error detected.
+2024-03-29 16:12:38,092:INFO:No error detected.
+2024-03-29 16:12:46,188:INFO:No error detected.
+2024-03-29 16:13:16,369:INFO:No error detected.
+2024-03-29 16:13:24,441:INFO:No error detected.
