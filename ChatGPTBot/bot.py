@@ -208,20 +208,14 @@ class ChatGPTBot:
     اخبار مربوط به تیم‌های معروف و پرطرفدار ایرانی و همین‌طور اروپایی مهم است
 
     نمونه‌ها: چند نمونه پایین را ببین و باتوجه به آن‌ها به سوال پایین پاسخ بده
-    برچسب: {}
-    متن ۱: {}
-    برچسب: {}
-    متن ۲: {}
-    برچسب: {}
-    متن ۳: {}
-    برچسب: {}
-    متن ۴: {}
+    SAMPLES_HERE
     از روی نمونه‌های بالایی یاد بگیر و متن زیر را برچیب بزن.
     حال  با توجه به «نمونه‌های بالا»، برای متن زیر تنها در یک واژه پاسخ بده که باتوجه به مفاهیمی که در بالا مطرح شد و قدرت استنتاجی که خودت داری، آیا متن 
     مهم (تاثیرگذاری) حساب می‌شود یا خیر. (1 یا 0):
     '''
     ^^body^^
     '''
+    در خروجی تنها محاز هستی ۱ یا ۰ بنویسی.
     """
         
         prompt5 = """
@@ -266,9 +260,21 @@ According to the explanations provided above, is this news important or not? (1 
             # new_prmpt = prompt4.replace("^^body^^",  df["title"][i]  + "\n" + df["text"][i] if lang == 'fa' else df["title_tr"][i]  + "\n" + df["text_tr"][i])
             # texts = get_most_similar_text(df["title"][i])
             print(df["title"][i])
-            texts = get_k_most_similar_texts(k=4, target_text=df["title"][i], texts=None)
+            texts = get_k_most_similar_texts(k=8, target_text=df["title"][i], texts=None)
             print("res", texts)
-            new_prmpt = new_prmpt.format(texts[0][1], texts[0][0], texts[1][1], texts[1][0], texts[2][1], texts[2][0], texts[3][1], texts[3][0])
+            if 'SAMPLES_HERE':
+                sample_str = ''
+                for j in range(8):
+                    sample_str += 'برچسب: {}\nمتن ' + str(i+1) + ': {}\n'
+                new_prmpt = new_prmpt.replace('SAMPLES_HERE', sample_str)
+            # print("new_prmpt", new_prmpt)
+            samples = []
+            for text in texts:
+                samples.append(text[1])
+                samples.append(text[0])
+            # print("samples", samples)
+            new_prmpt = new_prmpt.format(*samples)
+            # print("completed prompt", new_prmpt)
             # print('prompt3', prompt3)
             # print(prmpt)
             sleep1 = random.randint(1, 4)
@@ -298,7 +304,6 @@ According to the explanations provided above, is this news important or not? (1 
                 if count >= 3:
                     count = 0
                     break
-            print(trn_text1)
             df.loc[df.index[i], target_col] = trn_text1
             df.to_csv(file_path, sep='\t', encoding='utf-8', index=False)
             print('saved at ' + str(datetime.datetime.now()))
