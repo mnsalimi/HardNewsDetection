@@ -4,12 +4,12 @@ import pandas as pd
 import random
 import ast
 import re
-from text_similarity import get_most_similar_text
+from text_similarity import get_k_most_similar_texts
 
 class ChatGPTBot:
     def __init__(self):
-        self.sleep_time3 = random.randint(7, 33)
-        self.sleep_time4 = random.randint(9, 23)
+        self.sleep_time3 = random.randint(1, 5)
+        self.sleep_time4 = random.randint(1, 5)
         self.words_limit = 900
         self.page_flag = True
         self.page_c = 1
@@ -119,8 +119,8 @@ class ChatGPTBot:
         print(start_row)
         for i in range(start_row, int(len(df))):
             print(f"----------- starting row {i} -----------")
-            sleep1 = random.randint(8, 22)
-            sleep2 = random.randint(7, 22)
+            sleep1 = random.randint(1, 3)
+            sleep2 = random.randint(1, 5)
             prmpt = prompt1_body.replace("body", df["title"][i]) 
             title = self.start_gpt(sleep1, sleep2, prmpt).\
                 replace('ChatGPT\n', "").replace("1 / 2", "")
@@ -186,7 +186,7 @@ class ChatGPTBot:
     مهم (تاثیرگذاری) حساب می‌شود یا خیر. (مثبت یا منفی):
         """
         
-        prompt3 = """هدف، داشتن یک دسته‌بند دودویی است که با گرفتن هر متن ورودی، کلاس آن را در خروجی مشخص می‌کند. کلاس‌ها شامل دو دسته‌ی 1 یا 0 هستند. 1 یعنی خبر مهم است و 0 یعنی خبر مهم نیست.
+        prompt4 = """هدف، داشتن یک دسته‌بند دودویی است که با گرفتن هر متن ورودی، کلاس آن را در خروجی مشخص می‌کند. کلاس‌ها شامل دو دسته‌ی 1 یا 0 هستند. 1 یعنی خبر مهم است و 0 یعنی خبر مهم نیست.
 
     شرح تسک:
     متن یا خبری را مهم یا تاثیرگذار می‌گوییم اگر که برای بیش‌تر کاربران فارسی‌زبان اهمیت بالایی داشته باشد. یا به عبارت دیگر، جمعیت زیاد و بزرگی از ایرانیان مایل باشند که آن متن یا خبر را بخوانند و یا برای یکدیگر بفرستند. اگر خبری مربوط به یک قشر کوچک یا جامعه‌ی خاصی از کاربران باشد، آن خبر مهم نیست.
@@ -207,22 +207,21 @@ class ChatGPTBot:
     ورزشی:
     اخبار مربوط به تیم‌های معروف و پرطرفدار ایرانی و همین‌طور اروپایی مهم است
 
-    نمونه‌ها:
+    نمونه‌ها: چند نمونه پایین را ببین و باتوجه به آن‌ها به سوال پایین پاسخ بده
+    برچسب: {}
     متن ۱: {}
-    خروجی: {}
+    برچسب: {}
     متن ۲: {}
-    خروجی: {}
+    برچسب: {}
     متن ۳: {}
-    خروجی: {}
+    برچسب: {}
     متن ۴: {}
-    خروجی: {}
-
-    حالا، برای متن زیر به صورت جداگانه و مستقل و تنها در یک واژه پاسخ بده که باتوجه به مفاهیمی که در بالا مطرح شد و قدرت استنتاجی که خودت داری، آیا متن 
+    از روی نمونه‌های بالایی یاد بگیر و متن زیر را برچیب بزن.
+    حال  با توجه به «نمونه‌های بالا»، برای متن زیر تنها در یک واژه پاسخ بده که باتوجه به مفاهیمی که در بالا مطرح شد و قدرت استنتاجی که خودت داری، آیا متن 
     مهم (تاثیرگذاری) حساب می‌شود یا خیر. (1 یا 0):
     '''
     ^^body^^
     '''
-    با توجه به توضیحاتی که در بالا داده شد، این خبر مهم است و یا نه؟ (1 یا 0)؟ تنها در یک کلمه پاسخ بده
     """
         
         prompt5 = """
@@ -255,21 +254,25 @@ According to the explanations provided above, is this news important or not? (1 
         file_path = "test.csv"
         df = pd.read_csv(file_path, on_bad_lines='skip', delimiter="\t")
         print(df)
-        target_col = 'chatgpt_prompt5_tag'
+        target_col = 'chatgpt_prompt4_tag'
         if target_col not in df:
-            df = df.assign(chatgpt_prompt6_tag=None)
+            df = df.assign(chatgpt_prompt4_tag=None)
         start_row = df.index[df[target_col].isnull() | (df[target_col] == '') | (df[target_col] == '--')].tolist()[0]
         for i in range(start_row, int(len(df))):
             print(f"----------- starting row {i} -----------")
             # prmpt = prompt2 + "\n" + df["title"][i]  + "\n" + df["text"][i]
             # print('prompt3', prompt3)
-            new_prmpt = prompt5.replace("^^body^^",  df["title"][i]  + "\n" + df["text"][i] if lang == 'fa' else df["title_tr"][i]  + "\n" + df["text_tr"][i])
+            new_prmpt = prompt4.replace("^^body^^",  df["title"][i]  if lang == 'fa' else df["title_tr"][i] )
+            # new_prmpt = prompt4.replace("^^body^^",  df["title"][i]  + "\n" + df["text"][i] if lang == 'fa' else df["title_tr"][i]  + "\n" + df["text_tr"][i])
             # texts = get_most_similar_text(df["title"][i])
-            # new_prmpt = new_prmpt.format(texts[0][0], texts[0][1], texts[1][0], texts[1][1], texts[2][0], texts[2][1], texts[3][0], texts[3][1])
+            print(df["title"][i])
+            texts = get_k_most_similar_texts(k=4, target_text=df["title"][i], texts=None)
+            print("res", texts)
+            new_prmpt = new_prmpt.format(texts[0][1], texts[0][0], texts[1][1], texts[1][0], texts[2][1], texts[2][0], texts[3][1], texts[3][0])
             # print('prompt3', prompt3)
             # print(prmpt)
-            sleep1 = random.randint(7, 22)
-            sleep2 = random.randint(8, 22)
+            sleep1 = random.randint(1, 4)
+            sleep2 = random.randint(1, 4)
             count = 0
             while True:
                 trn_text1 = self.call_spgt_function(sleep1, sleep2, new_prmpt).\
@@ -305,5 +308,5 @@ According to the explanations provided above, is this news important or not? (1 
 
 if __name__ == "__main__":
     chat_gpt_bot = ChatGPTBot()
-    chat_gpt_bot.translate()
-    # chat_gpt_bot.importance_detection('en')
+    # chat_gpt_bot.translate()
+    chat_gpt_bot.importance_detection('fa')

@@ -3,7 +3,7 @@ warnings.filterwarnings('ignore')
 import pandas as pd
 
 from fuzzywuzzy import fuzz
-from sentence_transformers import SentenceTransformer
+from sentence_transformers import SentenceTransformer, util
 
 def get_most_similar_text(target):
     file_path = "train.csv"
@@ -22,59 +22,71 @@ def get_most_similar_text(target):
 class SBERT:
     def __init__(self):
         pass
-        self.model = SentenceTransformer("all-MiniLM-L6-v2")
+        self.model = SentenceTransformer("paraphrase-multilingual-mpnet-base-v2")
     def encode_docs_to_pickle(self, docs):
         pass
 
-    def get_similarity(self, setences, target):
+    def get_similarity(self, setences=None, target=None):
         pass
         # Our sentences to encode
         sentences = [
-            "This framework generates embeddings for each input sentence",
-            "Sentences are passed as a list of string.",
-            "The quick brown fox jumps over the lazy dog."
+            'مهران مدیری بازیگر ایرانی است که در اخرین فیبلمش نقش معتاد دارد',
+            'مهران مدیری یک گاو است',
+            'سلام',
         ]
+        target_embedding = self.model.encode(target)
 
-        # Sentences are encoded by calling model.encode()
-        embeddings = self.model.encode(sentences)
+        # Encode input sentences
+        sentence_embeddings = self.model.encode(sentences)
 
-        # Print the embeddings
-        for sentence, embedding in zip(sentences, embeddings):
-            print("Sentence:", sentence)
-            print("Embedding:", embedding)
-            print("")
+        # Compute cosine similarity between target and input sentences
+        similarity_scores = util.cos_sim(target_embedding, sentence_embeddings)
 
+        # Find the index of the most similar sentence
+        most_similar_index = similarity_scores.argmax()
+
+        # Print the most similar sentence and its cosine similarity score
+        print("Target text:", target)
+        print("Most similar sentence:", sentences[most_similar_index])
+        print("Cosine similarity:", similarity_scores[most_similar_index])
+
+# sbert = SBERT()
+# sbert.get_similarity()
+        
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-def get_top_k_similar(input_doc, doc_set, k=5):
-    # Create TfidfVectorizer object
-    tfidf_vectorizer = TfidfVectorizer()
+def get_k_most_similar_texts(target_text, texts, k=5):
+    texts = []
+    file_path = "train.csv"
+    df = pd.read_csv(file_path, on_bad_lines='skip', delimiter=",", skiprows=1)
+    for index, row in df.iterrows():
+        texts.append((row[1], row[-1]))
 
-    # Fit and transform the input documents
-    tfidf_matrix_train = tfidf_vectorizer.fit_transform(doc_set)
+    vectorizer = TfidfVectorizer()
+    text_vectors = vectorizer.fit_transform([text[0] for text in texts] + [target_text])
+    
+    # Calculate cosine similarity between target text and all other texts
+    cosine_similarities = cosine_similarity(text_vectors[-1], text_vectors[:-1])
+    cosine_similarities = cosine_similarities[0]  # cosine_similarities is a 2D array, we extract the first row
 
-    # Transform the input document
-    input_doc_tfidf = tfidf_vectorizer.transform([input_doc])
-
-    # Compute cosine similarity between input document and documents in the set
-    similarities = cosine_similarity(input_doc_tfidf, tfidf_matrix_train)
-
-    # Get indices of top k most similar documents
-    top_indices = similarities.argsort()[0][-k:][::-1]
-
-    return top_indices
+    # Get indices of top k similar texts
+    top_indices = cosine_similarities.argsort()[::-1][:k]
+    
+    # Return the top k similar texts and their similarities
+    results = [(texts[i][0], texts[i][1], cosine_similarities[i]) for i in top_indices]
+    return results
 
 # Example usage:
-# input_doc = """
-# واکنش کنسولگری ایران در استانبول به ریجکت شدن تتلو!
+# target_text = "Your target text goes here."
+# texts = [
+#     "First Persian text.",
+#     "Second Persian text.",
+#     "Third Persian text.",
+#     # Add more texts as needed
+# ]
 
-# """
-# file_path = "train.csv"
-# doc_set = df = [row[1] for index, row in pd.read_csv(file_path, on_bad_lines='skip', delimiter=",", skiprows=1).iterrows()]
-# similarities = get_top_k_similar(input_doc, doc_set, 5)
-# print(similarities)
-# for idx, sim in enumerate(similarities):
-#     print(f"Similarity with document {doc_set[idx+1]}: {sim}")
-#     print()
-    # print()
+# k = 5
+# similar_texts = get_k_most_similar_texts(target_text, texts, k)
+# for text, similarity in similar_texts:
+#     print(f"Similarity: {similarity:.2f}\n{text}\n")

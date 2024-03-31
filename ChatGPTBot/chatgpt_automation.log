@@ -26141,3 +26141,457 @@ Stacktrace:
 2024-03-31 11:09:32,101:INFO:Get LATEST chromedriver version for google-chrome
 2024-03-31 11:09:32,716:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
 2024-03-31 11:09:32,716:INFO:Available port found: 35025
+2024-03-31 11:10:41,691:INFO:====== WebDriver manager ======
+2024-03-31 11:10:41,732:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-31 11:10:42,351:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-31 11:10:43,760:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-31 11:10:43,760:INFO:Available port found: 45907
+2024-03-31 11:12:12,948:INFO:====== WebDriver manager ======
+2024-03-31 11:12:12,993:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-31 11:12:13,776:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-31 11:12:14,267:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-31 11:12:14,267:INFO:Available port found: 60715
+2024-03-31 11:12:54,191:INFO:No error detected.
+2024-03-31 11:13:12,098:INFO:====== WebDriver manager ======
+2024-03-31 11:13:12,139:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-31 11:13:12,514:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-31 11:13:12,857:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-31 11:13:12,858:INFO:Available port found: 59651
+2024-03-31 11:13:23,784:INFO:No error detected.
+2024-03-31 11:13:54,011:INFO:No error detected.
+2024-03-31 11:14:07,053:INFO:No error detected.
+2024-03-31 11:14:37,183:INFO:No error detected.
+2024-03-31 11:14:50,220:INFO:No error detected.
+2024-03-31 11:15:20,318:INFO:No error detected.
+2024-03-31 11:15:33,422:INFO:No error detected.
+2024-03-31 11:16:08,531:INFO:No error detected.
+2024-03-31 11:16:20,565:INFO:No error detected.
+2024-03-31 11:16:55,669:INFO:No error detected.
+2024-03-31 11:17:07,711:INFO:No error detected.
+2024-03-31 11:17:42,848:INFO:No error detected.
+2024-03-31 11:17:54,953:INFO:No error detected.
+2024-03-31 11:18:30,060:INFO:No error detected.
+2024-03-31 11:18:41,096:INFO:No error detected.
+2024-03-31 11:19:16,200:INFO:No error detected.
+2024-03-31 11:19:27,239:INFO:No error detected.
+2024-03-31 11:20:02,375:INFO:No error detected.
+2024-03-31 11:20:13,502:INFO:No error detected.
+2024-03-31 11:20:43,597:INFO:No error detected.
+2024-03-31 11:20:56,640:INFO:No error detected.
+2024-03-31 11:21:26,768:INFO:No error detected.
+2024-03-31 11:21:39,812:INFO:No error detected.
+2024-03-31 11:22:09,914:INFO:No error detected.
+2024-03-31 11:22:23,055:INFO:No error detected.
+2024-03-31 11:22:57,158:INFO:No error detected.
+2024-03-31 11:23:11,200:INFO:No error detected.
+2024-03-31 11:23:45,340:INFO:No error detected.
+2024-03-31 11:23:59,393:INFO:No error detected.
+2024-03-31 11:24:33,525:INFO:No error detected.
+2024-03-31 11:24:47,632:INFO:No error detected.
+2024-03-31 11:25:21,748:INFO:No error detected.
+2024-03-31 11:25:39,802:INFO:No error detected.
+2024-03-31 11:26:13,943:INFO:No error detected.
+2024-03-31 11:26:31,999:INFO:No error detected.
+2024-03-31 11:27:06,135:INFO:No error detected.
+2024-03-31 11:27:24,245:INFO:No error detected.
+2024-03-31 11:28:00,384:INFO:No error detected.
+2024-03-31 11:28:19,429:INFO:No error detected.
+2024-03-31 11:28:55,546:INFO:No error detected.
+2024-03-31 11:29:14,594:INFO:No error detected.
+2024-03-31 11:29:50,726:INFO:No error detected.
+2024-03-31 11:30:09,847:INFO:No error detected.
+2024-03-31 11:30:49,963:INFO:No error detected.
+2024-03-31 11:31:00,013:INFO:No error detected.
+2024-03-31 11:31:40,161:INFO:No error detected.
+2024-03-31 11:31:50,212:INFO:No error detected.
+2024-03-31 11:32:30,355:INFO:No error detected.
+2024-03-31 11:32:40,496:INFO:No error detected.
+2024-03-31 11:33:22,648:INFO:No error detected.
+2024-03-31 11:33:39,699:INFO:No error detected.
+2024-03-31 11:34:21,845:INFO:No error detected.
+2024-03-31 11:34:38,897:INFO:No error detected.
+2024-03-31 11:35:21,046:INFO:No error detected.
+2024-03-31 11:35:38,169:INFO:No error detected.
+2024-03-31 11:36:08,300:INFO:No error detected.
+2024-03-31 11:36:28,355:INFO:No error detected.
+2024-03-31 11:36:58,492:INFO:No error detected.
+2024-03-31 11:37:18,555:INFO:No error detected.
+2024-03-31 11:37:48,679:INFO:No error detected.
+2024-03-31 11:38:08,806:INFO:No error detected.
+2024-03-31 11:38:42,944:INFO:No error detected.
+2024-03-31 11:38:49,989:INFO:No error detected.
+2024-03-31 11:39:24,129:INFO:No error detected.
+2024-03-31 11:39:31,171:INFO:No error detected.
+2024-03-31 11:40:05,305:INFO:No error detected.
+2024-03-31 11:40:12,428:INFO:No error detected.
+2024-03-31 11:40:40,574:INFO:No error detected.
+2024-03-31 11:40:59,630:INFO:No error detected.
+2024-03-31 11:41:27,779:INFO:No error detected.
+2024-03-31 11:41:46,834:INFO:No error detected.
+2024-03-31 11:42:14,983:INFO:No error detected.
+2024-03-31 11:42:34,108:INFO:No error detected.
+2024-03-31 11:43:10,246:INFO:No error detected.
+2024-03-31 16:33:54,906:INFO:====== WebDriver manager ======
+2024-03-31 16:33:54,947:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-31 16:33:55,464:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-31 16:33:55,702:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-31 16:33:55,702:INFO:Available port found: 54431
+2024-03-31 16:34:03,721:INFO:No error detected.
+2024-03-31 16:34:19,626:INFO:====== WebDriver manager ======
+2024-03-31 16:34:19,667:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-31 16:34:19,919:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-31 16:34:20,161:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-31 16:34:20,162:INFO:Available port found: 44449
+2024-03-31 16:34:28,110:INFO:No error detected.
+2024-03-31 16:34:31,125:INFO:====== WebDriver manager ======
+2024-03-31 16:34:31,166:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-31 16:34:31,472:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-31 16:34:31,727:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-31 16:34:31,727:INFO:Available port found: 59781
+2024-03-31 16:34:39,375:INFO:No error detected.
+2024-03-31 16:35:15,668:INFO:No error detected.
+2024-03-31 16:40:31,706:INFO:====== WebDriver manager ======
+2024-03-31 16:40:31,747:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-31 16:40:32,371:INFO:Get LATEST chromedriver version for google-chrome
+2024-03-31 16:40:32,641:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-03-31 16:40:32,641:INFO:Available port found: 41833
+2024-03-31 16:40:40,239:INFO:No error detected.
+2024-03-31 16:41:13,507:INFO:No error detected.
+2024-04-01 00:20:12,633:INFO:====== WebDriver manager ======
+2024-04-01 00:20:12,745:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:20:13,298:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:20:13,612:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:20:15,331:INFO:WebDriver version 123.0.6312.86 selected
+2024-04-01 00:20:15,333:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:20:15,333:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:20:16,273:INFO:Driver downloading response is 200
+2024-04-01 00:20:28,213:INFO:====== WebDriver manager ======
+2024-04-01 00:20:28,261:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:20:28,578:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:20:28,886:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:20:29,538:INFO:WebDriver version 123.0.6312.86 selected
+2024-04-01 00:20:29,539:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:20:29,540:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:20:30,513:INFO:Driver downloading response is 200
+2024-04-01 00:20:39,778:INFO:====== WebDriver manager ======
+2024-04-01 00:20:39,845:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:20:40,160:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:20:40,469:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:20:41,131:INFO:WebDriver version 123.0.6312.86 selected
+2024-04-01 00:20:41,132:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:20:41,133:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:20:41,970:INFO:Driver downloading response is 200
+2024-04-01 00:20:59,438:INFO:====== WebDriver manager ======
+2024-04-01 00:20:59,486:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:20:59,876:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:21:00,499:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:21:01,124:INFO:WebDriver version 123.0.6312.86 selected
+2024-04-01 00:21:01,125:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:21:01,125:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:21:05,495:INFO:====== WebDriver manager ======
+2024-04-01 00:21:05,542:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:21:05,804:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:21:06,052:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:21:06,658:INFO:WebDriver version 123.0.6312.86 selected
+2024-04-01 00:21:06,659:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:21:06,660:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:21:23,012:INFO:====== WebDriver manager ======
+2024-04-01 00:21:23,062:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:21:23,317:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:21:23,704:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:21:24,237:INFO:WebDriver version 123.0.6312.86 selected
+2024-04-01 00:21:24,238:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:21:24,239:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:23:43,178:INFO:====== WebDriver manager ======
+2024-04-01 00:23:43,216:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:23:43,458:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:23:43,726:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:23:44,307:INFO:WebDriver version 123.0.6312.86 selected
+2024-04-01 00:23:44,308:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:23:44,308:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:24:00,852:INFO:====== WebDriver manager ======
+2024-04-01 00:24:00,893:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:24:01,533:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:24:01,815:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:24:02,515:INFO:WebDriver version 123.0.6312.86 selected
+2024-04-01 00:24:02,516:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:24:02,516:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:24:21,670:INFO:====== WebDriver manager ======
+2024-04-01 00:24:21,710:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:24:22,062:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:24:22,354:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:24:22,982:INFO:WebDriver version 123.0.6312.86 selected
+2024-04-01 00:24:22,983:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:24:22,984:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.86/linux64/chromedriver-linux64.zip
+2024-04-01 00:24:23,981:INFO:Driver downloading response is 200
+2024-04-01 00:24:35,294:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:24:35,709:INFO:Driver has been saved in cache [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86]
+2024-04-01 00:24:35,711:INFO:Available port found: 58021
+2024-04-01 00:26:50,652:INFO:No error detected.
+2024-04-01 00:27:18,808:INFO:No error detected.
+2024-04-01 00:28:17,642:INFO:====== WebDriver manager ======
+2024-04-01 00:28:17,683:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:28:18,112:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:28:18,618:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-04-01 00:28:18,618:INFO:Available port found: 60033
+2024-04-01 00:29:03,228:INFO:No error detected.
+2024-04-01 00:29:37,481:INFO:No error detected.
+2024-04-01 00:29:47,525:INFO:No error detected.
+2024-04-01 00:30:21,676:INFO:No error detected.
+2024-04-01 00:30:31,723:INFO:No error detected.
+2024-04-01 00:31:05,866:INFO:No error detected.
+2024-04-01 00:31:15,971:INFO:No error detected.
+2024-04-01 00:31:47,083:INFO:No error detected.
+2024-04-01 00:31:57,118:INFO:No error detected.
+2024-04-01 00:32:28,237:INFO:No error detected.
+2024-04-01 00:32:38,283:INFO:No error detected.
+2024-04-01 00:33:09,418:INFO:No error detected.
+2024-04-01 00:33:19,522:INFO:No error detected.
+2024-04-01 00:33:51,619:INFO:No error detected.
+2024-04-01 00:34:02,654:INFO:No error detected.
+2024-04-01 00:34:34,760:INFO:No error detected.
+2024-04-01 00:34:45,807:INFO:No error detected.
+2024-04-01 00:35:17,944:INFO:No error detected.
+2024-04-01 00:35:29,050:INFO:No error detected.
+2024-04-01 00:36:01,153:INFO:No error detected.
+2024-04-01 00:36:08,186:INFO:No error detected.
+2024-04-01 00:36:40,292:INFO:No error detected.
+2024-04-01 00:36:47,337:INFO:No error detected.
+2024-04-01 00:37:19,489:INFO:No error detected.
+2024-04-01 00:37:26,584:INFO:No error detected.
+2024-04-01 00:38:01,694:INFO:No error detected.
+2024-04-01 00:38:12,738:INFO:No error detected.
+2024-04-01 00:38:47,882:INFO:No error detected.
+2024-04-01 00:38:58,923:INFO:No error detected.
+2024-04-01 00:39:34,055:INFO:No error detected.
+2024-04-01 00:39:45,158:INFO:No error detected.
+2024-04-01 00:40:14,253:INFO:No error detected.
+2024-04-01 00:42:17,066:INFO:Load pretrained SentenceTransformer: pall-mpnet-base-v2
+2024-04-01 00:42:18,810:WARNING:No sentence-transformers model found with name sentence-transformers/pall-mpnet-base-v2. Creating a new one with MEAN pooling.
+2024-04-01 00:42:22,689:INFO:Load pretrained SentenceTransformer: pall-mpnet-base-v2
+2024-04-01 00:42:23,652:WARNING:No sentence-transformers model found with name sentence-transformers/pall-mpnet-base-v2. Creating a new one with MEAN pooling.
+2024-04-01 00:42:37,370:INFO:====== WebDriver manager ======
+2024-04-01 00:42:37,411:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:42:38,177:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:42:38,908:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-04-01 00:42:38,908:INFO:Available port found: 55981
+2024-04-01 00:42:47,880:INFO:No error detected.
+2024-04-01 00:43:20,021:INFO:No error detected.
+2024-04-01 00:43:32,060:INFO:No error detected.
+2024-04-01 00:44:04,190:INFO:No error detected.
+2024-04-01 00:44:16,234:INFO:No error detected.
+2024-04-01 00:44:48,368:INFO:No error detected.
+2024-04-01 00:45:00,470:INFO:No error detected.
+2024-04-01 00:45:33,581:INFO:No error detected.
+2024-04-01 00:45:44,615:INFO:No error detected.
+2024-04-01 00:46:17,713:INFO:No error detected.
+2024-04-01 00:46:28,761:INFO:No error detected.
+2024-04-01 00:47:01,895:INFO:No error detected.
+2024-04-01 00:47:13,024:INFO:No error detected.
+2024-04-01 00:47:47,119:INFO:No error detected.
+2024-04-01 00:47:55,160:INFO:No error detected.
+2024-04-01 00:48:29,272:INFO:No error detected.
+2024-04-01 00:49:42,773:INFO:====== WebDriver manager ======
+2024-04-01 00:49:42,815:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:49:43,397:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:49:43,917:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-04-01 00:49:43,917:INFO:Available port found: 43391
+2024-04-01 00:50:40,676:INFO:No error detected.
+2024-04-01 00:52:13,862:INFO:====== WebDriver manager ======
+2024-04-01 00:52:13,901:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:52:14,407:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:52:14,981:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-04-01 00:52:14,981:INFO:Available port found: 58251
+2024-04-01 00:52:23,595:INFO:No error detected.
+2024-04-01 00:52:56,724:ERROR:An unexpected error occurred: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=123.0.6312.86)
+Stacktrace:
+#0 0x5d237e2898a3 <unknown>
+#1 0x5d237df7f8c6 <unknown>
+#2 0x5d237df5698d <unknown>
+#3 0x5d237dff4a2d <unknown>
+#4 0x5d237e00a5a6 <unknown>
+#5 0x5d237dfec343 <unknown>
+#6 0x5d237dfbd593 <unknown>
+#7 0x5d237dfbdf5e <unknown>
+#8 0x5d237e24d88b <unknown>
+#9 0x5d237e2517e5 <unknown>
+#10 0x5d237e23b5b1 <unknown>
+#11 0x5d237e252372 <unknown>
+#12 0x5d237e2208bf <unknown>
+#13 0x5d237e278768 <unknown>
+#14 0x5d237e27893b <unknown>
+#15 0x5d237e2889f4 <unknown>
+#16 0x71159cc94ac3 <unknown>
+
+2024-04-01 00:54:56,787:INFO:====== WebDriver manager ======
+2024-04-01 00:54:56,830:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:54:57,478:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:54:58,141:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-04-01 00:54:58,141:INFO:Available port found: 60511
+2024-04-01 00:55:33,752:INFO:====== WebDriver manager ======
+2024-04-01 00:55:33,793:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:55:34,608:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:55:35,410:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-04-01 00:55:35,410:INFO:Available port found: 42255
+2024-04-01 00:57:15,434:INFO:====== WebDriver manager ======
+2024-04-01 00:57:15,473:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:57:16,225:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:57:16,857:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-04-01 00:57:16,857:INFO:Available port found: 45179
+2024-04-01 00:57:38,178:INFO:====== WebDriver manager ======
+2024-04-01 00:57:38,217:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:57:38,888:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:57:39,733:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-04-01 00:57:39,733:INFO:Available port found: 37285
+2024-04-01 00:57:49,568:INFO:No error detected.
+2024-04-01 00:58:27,748:INFO:No error detected.
+2024-04-01 00:59:18,036:INFO:====== WebDriver manager ======
+2024-04-01 00:59:18,079:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:59:18,379:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 00:59:18,684:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-04-01 00:59:18,684:INFO:Available port found: 56655
+2024-04-01 00:59:27,895:INFO:No error detected.
+2024-04-01 01:00:03,139:INFO:No error detected.
+2024-04-01 01:01:34,594:INFO:====== WebDriver manager ======
+2024-04-01 01:01:34,635:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 01:01:34,937:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 01:01:35,243:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-04-01 01:01:35,243:INFO:Available port found: 44001
+2024-04-01 01:01:43,275:INFO:No error detected.
+2024-04-01 01:02:16,519:INFO:No error detected.
+2024-04-01 01:02:31,122:INFO:No error detected.
+2024-04-01 01:03:01,251:INFO:No error detected.
+2024-04-01 01:03:12,869:INFO:No error detected.
+2024-04-01 01:03:42,000:INFO:No error detected.
+2024-04-01 01:03:54,635:INFO:No error detected.
+2024-04-01 01:04:26,751:INFO:No error detected.
+2024-04-01 01:04:41,356:INFO:No error detected.
+2024-04-01 01:05:19,481:INFO:No error detected.
+2024-04-01 01:05:28,072:INFO:No error detected.
+2024-04-01 01:07:50,372:INFO:====== WebDriver manager ======
+2024-04-01 01:07:50,410:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 01:07:50,724:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 01:07:51,022:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-04-01 01:07:51,023:INFO:Available port found: 57149
+2024-04-01 01:07:59,386:INFO:No error detected.
+2024-04-01 01:08:18,342:INFO:====== WebDriver manager ======
+2024-04-01 01:08:18,381:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 01:08:18,690:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 01:08:18,985:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-04-01 01:08:18,985:INFO:Available port found: 55611
+2024-04-01 01:08:26,111:INFO:No error detected.
+2024-04-01 01:08:53,252:INFO:No error detected.
+2024-04-01 01:09:01,865:INFO:No error detected.
+2024-04-01 01:09:29,991:INFO:No error detected.
+2024-04-01 01:09:39,586:INFO:No error detected.
+2024-04-01 01:10:08,710:INFO:No error detected.
+2024-04-01 01:10:17,311:INFO:No error detected.
+2024-04-01 01:10:46,432:INFO:No error detected.
+2024-04-01 01:10:55,036:INFO:No error detected.
+2024-04-01 01:11:25,162:INFO:No error detected.
+2024-04-01 01:11:36,760:INFO:No error detected.
+2024-04-01 01:12:07,911:INFO:No error detected.
+2024-04-01 01:12:20,509:INFO:No error detected.
+2024-04-01 01:12:50,618:INFO:No error detected.
+2024-04-01 01:13:01,211:INFO:No error detected.
+2024-04-01 01:13:32,326:INFO:No error detected.
+2024-04-01 01:13:41,932:INFO:No error detected.
+2024-04-01 01:14:09,050:INFO:No error detected.
+2024-04-01 01:14:19,648:INFO:No error detected.
+2024-04-01 01:14:49,781:INFO:No error detected.
+2024-04-01 01:15:00,399:INFO:No error detected.
+2024-04-01 01:15:30,530:INFO:No error detected.
+2024-04-01 01:15:39,129:INFO:No error detected.
+2024-04-01 01:16:07,236:INFO:No error detected.
+2024-04-01 01:16:15,831:INFO:No error detected.
+2024-04-01 01:16:46,948:INFO:No error detected.
+2024-04-01 01:16:58,539:INFO:No error detected.
+2024-04-01 01:17:25,650:INFO:No error detected.
+2024-04-01 01:17:36,250:INFO:No error detected.
+2024-04-01 01:18:52,070:INFO:====== WebDriver manager ======
+2024-04-01 01:18:52,115:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 01:18:52,430:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 01:18:52,740:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-04-01 01:18:52,740:INFO:Available port found: 55421
+2024-04-01 01:19:07,994:INFO:No error detected.
+2024-04-01 01:19:39,251:INFO:No error detected.
+2024-04-01 01:19:50,861:INFO:No error detected.
+2024-04-01 01:20:07,504:INFO:====== WebDriver manager ======
+2024-04-01 01:20:07,546:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 01:20:07,845:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 01:20:08,149:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-04-01 01:20:08,149:INFO:Available port found: 59367
+2024-04-01 01:20:16,213:INFO:No error detected.
+2024-04-01 01:20:37,424:INFO:No error detected.
+2024-04-01 01:20:41,029:INFO:No error detected.
+2024-04-01 01:21:17,718:INFO:====== WebDriver manager ======
+2024-04-01 01:21:17,759:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 01:21:18,223:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 01:21:18,529:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-04-01 01:21:18,529:INFO:Available port found: 39143
+2024-04-01 01:22:00,065:INFO:====== WebDriver manager ======
+2024-04-01 01:22:00,106:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 01:22:00,404:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-01 01:22:00,708:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.86/chromedriver-linux64/chromedriver] found in cache
+2024-04-01 01:22:00,708:INFO:Available port found: 60487
+2024-04-01 01:22:09,509:INFO:No error detected.
+2024-04-01 01:22:33,730:INFO:No error detected.
+2024-04-01 01:22:37,325:INFO:No error detected.
+2024-04-01 01:22:59,472:INFO:No error detected.
+2024-04-01 01:23:02,060:INFO:No error detected.
+2024-04-01 01:23:23,160:INFO:No error detected.
+2024-04-01 01:23:24,749:INFO:No error detected.
+2024-04-01 01:23:47,854:INFO:No error detected.
+2024-04-01 01:23:51,443:INFO:No error detected.
+2024-04-01 01:24:12,557:INFO:No error detected.
+2024-04-01 01:24:17,174:INFO:No error detected.
+2024-04-01 01:24:38,270:INFO:No error detected.
+2024-04-01 01:24:41,855:INFO:No error detected.
+2024-04-01 01:25:02,961:INFO:No error detected.
+2024-04-01 01:25:05,544:INFO:No error detected.
+2024-04-01 01:25:28,645:INFO:No error detected.
+2024-04-01 01:25:33,261:INFO:No error detected.
+2024-04-01 01:25:57,368:INFO:No error detected.
+2024-04-01 01:26:02,010:INFO:No error detected.
+2024-04-01 01:26:24,106:INFO:No error detected.
+2024-04-01 01:26:25,698:INFO:No error detected.
+2024-04-01 01:26:49,796:INFO:No error detected.
+2024-04-01 01:26:58,829:INFO:No error detected.
+2024-04-01 01:27:22,957:INFO:No error detected.
+2024-04-01 01:27:27,554:INFO:No error detected.
+2024-04-01 01:27:50,678:INFO:No error detected.
+2024-04-01 01:27:55,291:INFO:No error detected.
+2024-04-01 01:28:17,393:INFO:No error detected.
+2024-04-01 01:28:18,998:INFO:No error detected.
+2024-04-01 01:28:43,105:INFO:No error detected.
+2024-04-01 01:28:47,750:INFO:No error detected.
+2024-04-01 01:29:08,886:INFO:No error detected.
+2024-04-01 01:29:12,502:INFO:No error detected.
+2024-04-01 01:29:33,605:INFO:No error detected.
+2024-04-01 01:29:38,202:INFO:No error detected.
+2024-04-01 01:30:02,318:INFO:No error detected.
+2024-04-01 01:30:04,899:INFO:No error detected.
+2024-04-01 01:30:25,999:INFO:No error detected.
+2024-04-01 01:30:30,607:INFO:No error detected.
+2024-04-01 01:30:51,732:INFO:No error detected.
+2024-04-01 01:30:56,331:INFO:No error detected.
+2024-04-01 01:31:19,430:INFO:No error detected.
+2024-04-01 01:31:23,028:INFO:No error detected.
+2024-04-01 01:31:47,161:INFO:No error detected.
+2024-04-01 01:31:49,783:INFO:No error detected.
+2024-04-01 01:32:11,899:INFO:No error detected.
+2024-04-01 01:32:13,488:INFO:No error detected.
+2024-04-01 01:32:37,602:INFO:No error detected.
+2024-04-01 01:32:41,190:INFO:No error detected.
+2024-04-01 01:33:02,310:INFO:No error detected.
+2024-04-01 01:33:03,931:INFO:No error detected.
+2024-04-01 01:33:25,044:INFO:No error detected.
+2024-04-01 01:33:26,665:INFO:No error detected.
+2024-04-01 01:33:50,805:INFO:No error detected.
+2024-04-01 01:33:52,413:INFO:No error detected.
+2024-04-01 01:34:13,541:INFO:No error detected.
+2024-04-01 01:34:17,163:INFO:No error detected.
+2024-04-01 01:34:38,302:INFO:No error detected.
+2024-04-01 01:34:40,898:INFO:No error detected.
