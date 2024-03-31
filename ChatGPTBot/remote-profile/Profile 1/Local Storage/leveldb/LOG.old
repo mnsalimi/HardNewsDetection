@@ -1,6 +1,0 @@
-2024/03/31-10:50:54.760 4 Reusing MANIFEST /home/ms/Documents/HardNewsDetection/ChatGPTBot/remote-profile/Profile 1/Local Storage/leveldb/MANIFEST-000001
-2024/03/31-10:50:54.761 4 Recovering log #164
-2024/03/31-10:50:54.762 4 Reusing old log /home/ms/Documents/HardNewsDetection/ChatGPTBot/remote-profile/Profile 1/Local Storage/leveldb/000164.log 
-2024/03/31-10:51:16.073 6 Level-0 table #167: started
-2024/03/31-10:51:16.078 6 Level-0 table #167: 15280 bytes OK
-2024/03/31-10:51:16.081 6 Delete type=0 #164
