@@ -16,7 +16,6 @@ def cacl_f1(label, num_of_data, df, num_experiments_for_random_classifier):
         df[label] = df[label].apply(lambda x: 1 if str(x) in ["1.0", '1', '۱', 'مثبت'] else 0)
         df.dropna(subset=['tag'], inplace=True)
         f1_macro = f1_score(df['tag'], df[label], average='macro')
-        # f1_macro = f1_score(df['tag'], df[label], average='binary')
         # f1_micro = f1_score(df['tag'], df[label], average='micro')
         # print("F1 Score:", f1)
         fs.append(f1_macro)
@@ -36,7 +35,7 @@ df = pd.read_csv("test.csv", on_bad_lines='skip', delimiter="\t")
 df = df.drop('text', axis=1)
 df = df.assign(random_tag=None)
 num_experiments_for_random_classifier = 1000
-num_of_data = 30
+num_of_data = 57
 num_of_data = num_of_data if num_of_data < len(df) else len(df) 
 labels = [
     'chatgpt_prompt1_tag',

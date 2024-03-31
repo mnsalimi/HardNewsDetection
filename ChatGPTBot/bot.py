@@ -8,8 +8,8 @@ from text_similarity import get_k_most_similar_texts
 
 class ChatGPTBot:
     def __init__(self):
-        self.sleep_time3 = random.randint(1, 5)
-        self.sleep_time4 = random.randint(1, 5)
+        self.sleep_time1 = random.randint(1, 3)
+        self.sleep_time2 = random.randint(1, 3)
         self.words_limit = 900
         self.page_flag = True
         self.page_c = 1
@@ -25,23 +25,23 @@ class ChatGPTBot:
         )
 
 
-    def send_prompt_get_transaltion(self, sleep_time, sleep_time2, cnt):
+    def send_prompt_get_transaltion(self, cnt):
         remain_flag = False
         if len(cnt.split(" ")) > self.words_limit:
             print('exceed token limit: ', len(cnt.split(" ")))
             split_cnt = cnt.split(" ")
             cnt = ' '.join(split_cnt[:self.words_limit])
             self.chat_bot.check_response_status2(self.chat_bot, cnt)
-            time.sleep(sleep_time)
+            time.sleep(self.sleep_time1)
             self.chat_bot.check_continue_generating()
-            time.sleep(sleep_time2)
+            time.sleep(self.sleep_time2)
             trn_text = self.chat_bot.return_last_response()
             if remain_flag:
                 prompt = prompt + " ".join(split_cnt[pre_id:])
                 self.chat_bot.check_response_status2(self.chat_bot, prompt)
-                time.sleep(self.sleep_time3)
+                time.sleep(self.sleep_time1)
                 self.chat_bot.check_continue_generating()
-                time.sleep(self.sleep_time4)
+                time.sleep(self.sleep_time2)
                 trn_text = trn_text + self.chat_bot.return_last_response()
                 prompt = " "
                 pre_id = 0
@@ -49,16 +49,16 @@ class ChatGPTBot:
 
         else:
             self.chat_bot.check_response_status2(self.chat_bot, cnt)
-            time.sleep(sleep_time)
+            time.sleep(self.sleep_time1)
             self.chat_bot.check_continue_generating()
-            time.sleep(sleep_time2)
+            time.sleep(self.sleep_time2)
             trn_text = self.chat_bot.return_last_response()
         return trn_text
 
-    def call_spgt_function(self, sleep_time, sleep_time2, cnt):
+    def call_spgt_function(self, cnt):
         translation_flag = False
         while not translation_flag:
-            trn_text = self.send_prompt_get_transaltion(sleep_time, sleep_time2, cnt)
+            trn_text = self.send_prompt_get_transaltion(cnt)
             if len(trn_text) <= 1:
                 translation_flag = False
             else:
@@ -119,16 +119,14 @@ class ChatGPTBot:
         print(start_row)
         for i in range(start_row, int(len(df))):
             print(f"----------- starting row {i} -----------")
-            sleep1 = random.randint(1, 3)
-            sleep2 = random.randint(1, 5)
             prmpt = prompt1_body.replace("body", df["title"][i]) 
-            title = self.start_gpt(sleep1, sleep2, prmpt).\
+            title = self.start_gpt(self.sleep1, self.sleep2, prmpt).\
                 replace('ChatGPT\n', "").replace("1 / 2", "")
             prmpt = prompt1_body.replace("body", df["text"][i]) 
-            text = self.start_gpt(sleep1, sleep2, prmpt).\
+            text = self.start_gpt(self.sleep1, self.sleep2, prmpt).\
                 replace('ChatGPT\n', "").replace("1 / 2", "")
             prmpt = prompt1_tag.replace('body', '، '.join(ast.literal_eval(df["tags"][i])))
-            tags = self.start_gpt(sleep1, sleep2, prmpt).\
+            tags = self.start_gpt(self.sleep1, self.sleep2, prmpt).\
                 replace('ChatGPT\n', "").replace("1 / 2", "")
             tags = [tag.strip() for tag in tags.split(",")]
             print()
@@ -265,7 +263,7 @@ According to the explanations provided above, is this news important or not? (1 
             if 'SAMPLES_HERE':
                 sample_str = ''
                 for j in range(8):
-                    sample_str += 'برچسب: {}\nمتن ' + str(i+1) + ': {}\n'
+                    sample_str += 'برچسب: {}\nمتن ' + str(j+1) + ': {}\n'
                 new_prmpt = new_prmpt.replace('SAMPLES_HERE', sample_str)
             # print("new_prmpt", new_prmpt)
             samples = []
@@ -277,11 +275,9 @@ According to the explanations provided above, is this news important or not? (1 
             # print("completed prompt", new_prmpt)
             # print('prompt3', prompt3)
             # print(prmpt)
-            sleep1 = random.randint(1, 4)
-            sleep2 = random.randint(1, 4)
             count = 0
             while True:
-                trn_text1 = self.call_spgt_function(sleep1, sleep2, new_prmpt).\
+                trn_text1 = self.call_spgt_function(new_prmpt).\
                     replace('ChatGPT\n', "").replace("1 / 2", "").lstrip().rstrip().\
                     strip()
                 if len(trn_text1) <= 5:
