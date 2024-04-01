@@ -84,7 +84,7 @@ class ChatGPTBot:
                     response = self.call_spgt_function(prompt).\
                         replace('ChatGPT\n', "").replace("1 / 2", "")
                     if task == 'classification':
-                        response = response.replace('برچسب: ', '').strip().\
+                        response = response.replace('برچسب: ', '').strip()
                     response = response.strip()
                     # if "You've reached our limit of messages per 24 hours. Please try again later" in response:
                     if "limit of messages" in response:
@@ -132,14 +132,11 @@ class ChatGPTBot:
         for i in range(start_row, int(len(df))):
             print(f"----------- starting row {i} -----------")
             prmpt = prompt1_body.replace("body", df["title"][i]) 
-            title = self.start_gpt(prmpt).\
-                replace('ChatGPT\n', "").replace("1 / 2", "")
+            title = self.start_gpt(prmpt)
             prmpt = prompt1_body.replace("body", df["text"][i]) 
-            text = self.start_gpt(prmpt).\
-                replace('ChatGPT\n', "").replace("1 / 2", "")
+            text = self.start_gpt(prmpt)
             prmpt = prompt1_tag.replace('body', '، '.join(ast.literal_eval(df["tags"][i])))
-            tags = self.start_gpt(prmpt).\
-                replace('ChatGPT\n', "").replace("1 / 2", "")
+            tags = self.start_gpt(prmpt)
             tags = [tag.strip() for tag in tags.split(",")]
             print()
             print('title', title)
@@ -193,8 +190,8 @@ class ChatGPTBot:
             # print(prmpt)
             count = 0
             while True:
-                self.start_gpt
-                trn_text1 = self.call_spgt_function(new_prmpt).\
+                
+                trn_text1 = self.start_gpt(new_prmpt).\
                     replace('ChatGPT\n', "").replace("1 / 2", "").lstrip().rstrip().\
                     replace('برچسب: ', '').strip()
                 if len(trn_text1) <= 5:
