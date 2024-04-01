@@ -15,6 +15,8 @@ def cacl_f1(label, num_of_data, df, num_experiments_for_random_classifier):
                 df['random_tag'][i] = '۱' if k == 1 else '۰'
         df[label] = df[label].apply(lambda x: 1 if str(x) in ["1.0", '1', '۱', 'مثبت'] else 0)
         df.dropna(subset=['tag'], inplace=True)
+        # print(df[label])
+        # print(df["tag"])
         f1_macro = f1_score(df['tag'], df[label], average='macro')
         # f1_micro = f1_score(df['tag'], df[label], average='micro')
         # print("F1 Score:", f1)
@@ -30,24 +32,25 @@ def cacl_f1(label, num_of_data, df, num_experiments_for_random_classifier):
     #     )
     print()
 
+if __name__ == "__main__":
 
-df = pd.read_csv("test.csv", on_bad_lines='skip', delimiter="\t")
-df = df.drop('text', axis=1)
-df = df.assign(random_tag=None)
-num_experiments_for_random_classifier = 1000
-num_of_data = 100
-num_of_data = num_of_data if num_of_data < len(df) else len(df) 
-labels = [
-    'chatgpt_prompt1_tag',
-    'chatgpt_prompt2_tag',
-    'chatgpt_prompt3_tag',
-    'chatgpt_prompt4_tag',
-    'chatgpt_prompt5_tag',
-    'chatgpt_prompt6_tag',
-    'random_tag'
-]
-print("num_of_data", num_of_data)
+    df = pd.read_csv("test.csv", on_bad_lines='skip', delimiter="\t")
+    df = df.drop('text', axis=1)
+    df = df.assign(random_tag=None)
+    num_experiments_for_random_classifier = 1000
+    num_of_data = 31
+    num_of_data = num_of_data if num_of_data < len(df) else len(df) 
+    labels = [
+        'chatgpt_prompt1_tag',
+        'chatgpt_prompt2_tag',
+        'chatgpt_prompt3_tag',
+        'chatgpt_prompt4_tag',
+        'chatgpt_prompt5_tag',
+        'chatgpt_prompt6_tag',
+        'random_tag'
+    ]
+    print("num_of_data", num_of_data)
 
-df = df[:num_of_data]
-for label in labels:
-    cacl_f1(label, num_of_data, df, num_experiments_for_random_classifier)
+    df = df[:num_of_data]
+    for label in labels:
+        cacl_f1(label, num_of_data, df, num_experiments_for_random_classifier)  

@@ -5,11 +5,22 @@ import random
 import ast
 import re
 from text_similarity import get_k_most_similar_texts
+from f1 import cacl_f1
+import prompts
 
 class ChatGPTBot:
     def __init__(self):
-        self.sleep_time1 = random.randint(1, 5)
-        self.sleep_time2 = random.randint(1, 5)
+        self.labels = [
+            'chatgpt_prompt1_tag',
+            'chatgpt_prompt2_tag',
+            'chatgpt_prompt3_tag',
+            'chatgpt_prompt4_tag',
+            'chatgpt_prompt5_tag',
+            'chatgpt_prompt6_tag',
+            # 'random_tag'
+        ]
+        self.sleep_time1 = random.randint(1, 2)
+        self.sleep_time2 = random.randint(1, 2)
         self.words_limit = 900
         self.page_flag = True
         self.page_c = 1
@@ -65,14 +76,16 @@ class ChatGPTBot:
                 translation_flag = True
         return trn_text
 
-    def start_gpt(self, prompt):
+    def start_gpt(self, prompt, task='classification'):
         while True:
             try:
 
                 while True:
                     response = self.call_spgt_function(prompt).\
-                        replace('ChatGPT\n', "").replace("1 / 2", "").\
-                        strip()
+                        replace('ChatGPT\n', "").replace("1 / 2", "")
+                    if task == 'classification':
+                        response = response.replace('برچسب: ', '').strip().\
+                    response = response.strip()
                     # if "You've reached our limit of messages per 24 hours. Please try again later" in response:
                     if "limit of messages" in response:
                         print('limitation... Sleeping 100 Seconds')
@@ -80,12 +93,11 @@ class ChatGPTBot:
                         print('res,:', response)
                         time.sleep(100)
                         continue
-                    elif 'Response' in response:
+                    elif 'Response' in response and len(response) <= 20:
                         print('Two Responses from ChatGPT! Sleep 5 Seconds')
                         time.sleep(5)
                         continue
                     else:
-
                         print('response:', response)
                         print()
                         #     print("length response error. Content:", response)
@@ -146,123 +158,27 @@ class ChatGPTBot:
 
 
     def importance_detection(self, lang="fa"):
-        prompt1 = """"
-        هدف، داشتن یک دسته‌بند دودویی است که با گرفتن هر متن ورودی، کلاس آن را در خروجی مشخص می‌کند. کلاس‌ها شامل دو دسته‌ی مثبت یا منفی هستند. 
-
-    شرح تسک:
-    متن یا خبری را مهم یا تاثیرگذار می‌گوییم اگر که برای بیش‌تر کاربران فارسی‌زبان اهمیت بالایی داشته باشد. یا به عبارت دیگر، جمعیت بزرگی از ایرانیان مایل باشند که آن متن یا خبر را بخوانند و یا برای یکدیگر بفرستند.
-    در صورتی که متن ورودی مهم باشد، کلاس مثبت خواهد بود و در صورتی که مهم نباشد، کلاس منفی خواهد بود
-
-    برای متن زیر به صورت جداگانه و مستقل و تنها در یک واژه پاسخ بده که آیا متن 
-    مهم (تاثیرگذاری) حساب می‌شود یا خیر. (مثبت یا منفی):
-        """
-        
-        
-        prompt2 = """
-        هدف، داشتن یک دسته‌بند دودویی است که با گرفتن هر متن ورودی، کلاس آن را در خروجی مشخص می‌کند. کلاس‌ها شامل دو دسته‌ی مثبت یا منفی هستند. 
-
-    شرح تسک:
-    متن یا خبری را مهم یا تاثیرگذار می‌گوییم اگر که برای بیش‌تر کاربران فارسی‌زبان اهمیت بالایی داشته باشد. یا به عبارت دیگر، جمعیت بزرگی از ایرانیان مایل باشند که آن متن یا خبر را بخوانند و یا برای یکدیگر بفرستند.
-    در صورتی که متن ورودی مهم باشد، کلاس مثبت خواهد بود و در صورتی که مهم نباشد، کلاس منفی خواهد بود
-    برخی از مفاهیم مهم عبارت‌اند از:
-    یارانه و سهام و مواردی که قرار است پول به مردم برسد مهم هستند
-    ثبت نام خونه و وام و... 
-    ثبت نام خودرو
-    افزایش و کاهش های شدید قیمت ارز یا تورم 
-
-    فرهنگی:
-    قانون های مهم برای همه مردم، مهم هستند
-
-    سیاسی:
-    اخبار جنگ، برجام، توافق های ایران، 
-    تحریم های ایران، 
-    خبرها جنگ منطقه‌ای مهم. 
-    عزل و نصب مقامات مهم. 
-    این‌ها همگی مهم هستند
-
-    حالا، برای متن زیر به صورت جداگانه و مستقل و تنها در یک واژه پاسخ بده که باتوجه به مفاهیمی که در بالا مطرح شد و قدرت استنتاجی که خودت داری، آیا متن 
-    مهم (تاثیرگذاری) حساب می‌شود یا خیر. (مثبت یا منفی):
-        """
-        
-        prompt4 = """هدف، داشتن یک دسته‌بند دودویی است که با گرفتن هر متن ورودی، کلاس آن را در خروجی مشخص می‌کند. کلاس‌ها شامل دو دسته‌ی 1 یا 0 هستند. 1 یعنی خبر مهم است و 0 یعنی خبر مهم نیست.
-
-    شرح تسک:
-    متن یا خبری را مهم یا تاثیرگذار می‌گوییم اگر که برای بیش‌تر کاربران فارسی‌زبان اهمیت بالایی داشته باشد. یا به عبارت دیگر، جمعیت زیاد و بزرگی از ایرانیان مایل باشند که آن متن یا خبر را بخوانند و یا برای یکدیگر بفرستند. اگر خبری مربوط به یک قشر کوچک یا جامعه‌ی خاصی از کاربران باشد، آن خبر مهم نیست.
-    در صورتی که متن ورودی مهم باشد، کلاس 1 خواهد بود و در صورتی که مهم نباشد، کلاس 0 خواهد بود
-    برخی از مفاهیم مهم عبارت‌اند از:
-    یارانه و سهام و مواردی که قرار است پول به مردم برسد مهم هستند
-    ثبت نام مسکن و خانه و اخبار مربوط به وام‌ها و... 
-    ثبت نام خودرو
-    افزایش و کاهش های شدید و زیاد قیمت ارز یا طلا و سکه و یا تورم 
-
-    سیاسی:
-    اخبار جنگ، برجام، توافق های ایران، 
-    تحریم های ایران، 
-    خبرهای جنگ‌های بزرگ منطقه‌ای،
-    عزل و نصب مقامات بلندپایه ایرانی،
-    این‌ها همگی مهم هستند
-
-    ورزشی:
-    اخبار مربوط به تیم‌های معروف و پرطرفدار ایرانی و همین‌طور اروپایی مهم است
-
-    نمونه‌ها: چند نمونه پایین را ببین و باتوجه به آن‌ها به سوال پایین پاسخ بده
-    SAMPLES_HERE
-    از روی نمونه‌های بالایی یاد بگیر و متن زیر را برچیب بزن.
-    حال  با توجه به «نمونه‌های بالا»، برای متن زیر تنها در یک واژه پاسخ بده که باتوجه به مفاهیمی که در بالا مطرح شد و قدرت استنتاجی که خودت داری، آیا متن 
-    مهم (تاثیرگذاری) حساب می‌شود یا خیر. (1 یا 0):
-    '''
-    ^^body^^
-    '''
-    در خروجی تنها محاز هستی ۱ یا ۰ بنویسی.
-    """
-        
-        prompt5 = """
-The aim is to have a binary classifier that, given each input text, determines its class in the output. Classes include two categories: 1 or 0. 1 means the news is important, and 0 means it is not important.
-
-Task Description:
-We consider a text or news important or influential if it is of high importance to most Persian-speaking users. In other words, if a large and significant population of Iranians is willing to read or share that text or news with each other. If the news is related to a small segment or a specific community of users, it is not important. If the input text is important, the class will be 1, and if it is not important, the class will be 0.
-Some important concepts include:
-
-Subsidies, stocks, and matters concerning money reaching people are important.
-Registration for housing and home, news related to loans, etc.
-Car registration
-Sharp increases and decreases in the price of currency, gold, coins, or inflation
-Political:
-
-News of wars, agreements such as the Iran Nuclear Deal, Iran sanctions,
-News of major regional wars,
-Impeachment and appointment of high-ranking Iranian officials,
-All of these are important
-Sports:
-
-News related to famous and popular Iranian as well as European teams is important.
-
-Now, separately and independently, answer in a single word whether the text is important (influential) or not (1 or 0):
-'''
-^^body^^
-'''
-According to the explanations provided above, is this news important or not? (1 or 0)? You "must" Respond in "only just one word" (1 or 0) without any extra words.
-"""
+       
         file_path = "test.csv"
         df = pd.read_csv(file_path, on_bad_lines='skip', delimiter="\t")
         print(df)
-        target_col = 'chatgpt_prompt4_tag'
+        target_col = 'chatgpt_prompt6_tag'
         if target_col not in df:
-            df = df.assign(chatgpt_prompt4_tag=None)
+            df = df.assign(chatgpt_prompt6_tag=None)
         start_row = df.index[df[target_col].isnull() | (df[target_col] == '') | (df[target_col] == '--')].tolist()[0]
         for i in range(start_row, int(len(df))):
             print(f"----------- starting row {i} -----------")
             # prmpt = prompt2 + "\n" + df["title"][i]  + "\n" + df["text"][i]
             # print('prompt3', prompt3)
-            new_prmpt = prompt4.replace("^^body^^",  df["title"][i]  if lang == 'fa' else df["title_tr"][i] )
+            new_prmpt = prompts.prompt4.replace("^^body^^",  df["title"][i]  if lang == 'fa' else df["title_tr"][i] )
             # new_prmpt = prompt4.replace("^^body^^",  df["title"][i]  + "\n" + df["text"][i] if lang == 'fa' else df["title_tr"][i]  + "\n" + df["text_tr"][i])
             # texts = get_most_similar_text(df["title"][i])
             print(df["title"][i])
-            texts = get_k_most_similar_texts(k=8, target_text=df["title"][i], texts=None)
+            texts = get_k_most_similar_texts(k=16, target_text=df["title"][i], texts=None)
             print("res", texts)
             if 'SAMPLES_HERE':
                 sample_str = ''
-                for j in range(8):
+                for j in range(16):
                     sample_str += 'برچسب: {}\nمتن ' + str(j+1) + ': {}\n'
                 new_prmpt = new_prmpt.replace('SAMPLES_HERE', sample_str)
             # print("new_prmpt", new_prmpt)
@@ -277,9 +193,10 @@ According to the explanations provided above, is this news important or not? (1 
             # print(prmpt)
             count = 0
             while True:
+                self.start_gpt
                 trn_text1 = self.call_spgt_function(new_prmpt).\
                     replace('ChatGPT\n', "").replace("1 / 2", "").lstrip().rstrip().\
-                    strip()
+                    replace('برچسب: ', '').strip()
                 if len(trn_text1) <= 5:
                     break
                 elif "You've reached our limit of messages per 24 hours. Please try again later." == trn_text1:
@@ -302,6 +219,11 @@ According to the explanations provided above, is this news important or not? (1 
                     break
             df.loc[df.index[i], target_col] = trn_text1
             df.to_csv(file_path, sep='\t', encoding='utf-8', index=False)
+            [
+                cacl_f1(label, i, df.copy()[:i], 1000)
+                for label in self.labels
+            ]
+            # print('f1-macro:', f1)
             print('saved at ' + str(datetime.datetime.now()))
             print("   * ----------------- row: ", i , " is translated -----------------\n")
         df.to_csv(file_path, sep='\t', encoding='utf-8', index=False)
