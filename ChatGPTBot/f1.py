@@ -23,11 +23,11 @@ def cacl_f1(label, num_of_data, df, num_experiments_for_random_classifier):
     if label == 'random_tag':
         print("best f1:", round(max(fs), 4))
         print("min f1:", round(min(fs), 4))
-    print(
-        '1 to all ratio:',
-            round(df[label].value_counts()[1] /
-            (df[label].value_counts()[0] + df[label].value_counts()[1]), 4)
-        )
+    # print(
+    #     '1 to all ratio:',
+    #         round(df[label].value_counts()[1] /
+    #         (df[label].value_counts()[0] + df[label].value_counts()[1]), 4)
+    #     )
     print()
 
 
@@ -35,15 +35,15 @@ df = pd.read_csv("test.csv", on_bad_lines='skip', delimiter="\t")
 df = df.drop('text', axis=1)
 df = df.assign(random_tag=None)
 num_experiments_for_random_classifier = 1000
-num_of_data = 57
+num_of_data = 100
 num_of_data = num_of_data if num_of_data < len(df) else len(df) 
 labels = [
     'chatgpt_prompt1_tag',
     'chatgpt_prompt2_tag',
     'chatgpt_prompt3_tag',
     'chatgpt_prompt4_tag',
-    # 'chatgpt_prompt5_tag',
-    # 'chatgpt_prompt6_tag',
+    'chatgpt_prompt5_tag',
+    'chatgpt_prompt6_tag',
     'random_tag'
 ]
 print("num_of_data", num_of_data)

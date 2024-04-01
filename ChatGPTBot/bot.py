@@ -8,8 +8,8 @@ from text_similarity import get_k_most_similar_texts
 
 class ChatGPTBot:
     def __init__(self):
-        self.sleep_time1 = random.randint(1, 3)
-        self.sleep_time2 = random.randint(1, 3)
+        self.sleep_time1 = random.randint(1, 5)
+        self.sleep_time2 = random.randint(1, 5)
         self.words_limit = 900
         self.page_flag = True
         self.page_c = 1
@@ -65,12 +65,12 @@ class ChatGPTBot:
                 translation_flag = True
         return trn_text
 
-    def start_gpt(self, sleep1, sleep2, prompt):
+    def start_gpt(self, prompt):
         while True:
             try:
 
                 while True:
-                    response = self.call_spgt_function(sleep1, sleep2, prompt).\
+                    response = self.call_spgt_function(prompt).\
                         replace('ChatGPT\n', "").replace("1 / 2", "").\
                         strip()
                     # if "You've reached our limit of messages per 24 hours. Please try again later" in response:
@@ -120,13 +120,13 @@ class ChatGPTBot:
         for i in range(start_row, int(len(df))):
             print(f"----------- starting row {i} -----------")
             prmpt = prompt1_body.replace("body", df["title"][i]) 
-            title = self.start_gpt(self.sleep1, self.sleep2, prmpt).\
+            title = self.start_gpt(prmpt).\
                 replace('ChatGPT\n', "").replace("1 / 2", "")
             prmpt = prompt1_body.replace("body", df["text"][i]) 
-            text = self.start_gpt(self.sleep1, self.sleep2, prmpt).\
+            text = self.start_gpt(prmpt).\
                 replace('ChatGPT\n', "").replace("1 / 2", "")
             prmpt = prompt1_tag.replace('body', '، '.join(ast.literal_eval(df["tags"][i])))
-            tags = self.start_gpt(self.sleep1, self.sleep2, prmpt).\
+            tags = self.start_gpt(prmpt).\
                 replace('ChatGPT\n', "").replace("1 / 2", "")
             tags = [tag.strip() for tag in tags.split(",")]
             print()
@@ -309,5 +309,5 @@ According to the explanations provided above, is this news important or not? (1 
 
 if __name__ == "__main__":
     chat_gpt_bot = ChatGPTBot()
-    # chat_gpt_bot.translate()
-    chat_gpt_bot.importance_detection('fa')
+    chat_gpt_bot.translate()
+    # chat_gpt_bot.importance_detection('fa')
