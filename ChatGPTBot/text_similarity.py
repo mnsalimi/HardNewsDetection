@@ -23,12 +23,12 @@ def get_most_similar_text(target):
 
 class SBERT:
     def __init__(self):
-        self.model = SentenceTransformer("paraphrase-multilingual-mpnet-base-v2")
-        with open('data/test_fa_embeddings.pickle', 'rb') as f:
+        self.model_name = 'all-mpnet-base-v2'
+        self.model = SentenceTransformer(self.model_name)
+        with open('data/sbert/{}_test_fa_embeddings.pickle'.format(self.model_name), 'rb') as f:
             self.test_fa_embeddings = pickle.load(f)
-        with open('data/train_fa_embeddings.pickle', 'rb') as f:
+        with open('data/sbert/{}_train_fa_embeddings.pickle'.format(self.model_name), 'rb') as f:
             self.train_fa_embeddings = pickle.load(f)
-        print(len(self.test_fa_embeddings))
 
     def encode_docs_to_pickle(self, datas, path):
         new_sentnece_embeddings = {}
@@ -51,7 +51,11 @@ class SBERT:
             print('target not in self.test_fa_embeddings')
             target_embedding = self.model.encode(target)
         else:
-            target_embedding = self.test_fa_embeddings[target],
+            target_embedding = self.test_fa_embeddings[target][0],
+        # print(target)
+        # print(type(target_embedding))
+        # print(len([item[0] for item in list(self.train_fa_embeddings.values())]))
+        # print(type([item[0] for item in list(self.train_fa_embeddings.values())]))
         similarity_scores = util.cos_sim(
             target_embedding,
             [item[0] for item in list(self.train_fa_embeddings.values())]
@@ -69,7 +73,7 @@ class SBERT:
 
 def get_k_most_similar_texts(target_text, texts, k=5):
     texts = []
-    file_path = "train.csv"
+    file_path = "data/train.csv"
     df = pd.read_csv(file_path, on_bad_lines='skip', delimiter=",", skiprows=1)
     for index, row in df.iterrows():
         texts.append((row[1], row[-1]))
@@ -104,9 +108,9 @@ def get_k_most_similar_texts(target_text, texts, k=5):
 
 if __name__ == '__main__':
     sbert = SBERT()
-    file_path = "data/train.csv"
+    file_path = "data/test.csv"
     df = pd.read_csv(file_path, on_bad_lines='skip', delimiter="\t")
-    path = 'data/train_fa_embeddings.pcikle'
-    # sbert.encode_docs_to_pickle(list(zip(df['title'], df['last_sentiment'])), path)
+    path = 'data/sbert/{}_test_fa_embeddings.pickle'.format(sbert.model_name)
+    # sbert.encode_docs_to_pickle(list(zip(df['title'], df['tag'])), path)
     res = sbert.get_similarity('مهران مدیری', k=5)
     print(res)

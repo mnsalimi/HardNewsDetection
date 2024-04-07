@@ -36,7 +36,7 @@ prompt2 = """
     مهم (تاثیرگذاری) حساب می‌شود یا خیر. (مثبت یا منفی):
         """
         
-prompt4 = """هدف، داشتن یک دسته‌بند دودویی است که با گرفتن هر متن ورودی، کلاس آن را در خروجی مشخص می‌کند. کلاس‌ها شامل دو دسته‌ی 1 یا 0 هستند. 1 یعنی خبر مهم است و 0 یعنی خبر مهم نیست.
+prompt_fa_kshot = """هدف، داشتن یک دسته‌بند دودویی است که با گرفتن هر متن ورودی، کلاس آن را در خروجی مشخص می‌کند. کلاس‌ها شامل دو دسته‌ی 1 یا 0 هستند. 1 یعنی خبر مهم است و 0 یعنی خبر مهم نیست.
 
     شرح تسک:
     متن یا خبری را مهم یا تاثیرگذار می‌گوییم اگر که برای بیش‌تر کاربران فارسی‌زبان اهمیت بالایی داشته باشد. یا به عبارت دیگر، جمعیت زیاد و بزرگی از ایرانیان مایل باشند که آن متن یا خبر را بخوانند و یا برای یکدیگر بفرستند. اگر خبری مربوط به یک قشر کوچک یا جامعه‌ی خاصی از کاربران باشد، آن خبر مهم نیست.
@@ -68,7 +68,7 @@ prompt4 = """هدف، داشتن یک دسته‌بند دودویی است که
     در خروجی تنها و تنها مجاز هستی عدد ۱ یا عدد ۰ بنویسی.
     """
         
-prompt5 = """
+prompt_eng_zero_shot = """
 The aim is to have a binary classifier that, given each input text, determines its class in the output. Classes include two categories: 1 or 0. 1 means the news is important, and 0 means it is not important.
 
 Task Description:
@@ -88,6 +88,38 @@ All of these are important
 Sports:
 
 News related to famous and popular Iranian as well as European teams is important.
+
+Now, separately and independently, answer in a single word whether the text is important (influential) or not (1 or 0):
+'''
+^^body^^
+'''
+According to the explanations provided above, is this news important or not? (1 or 0)? You "must" Respond in "only just one word" (1 or 0) without any extra words.
+"""
+
+
+prompt_eng_kshot = """
+The aim is to have a binary classifier that, given each input text, determines its class in the output. Classes include two categories: 1 or 0. 1 means the news is important, and 0 means it is not important.
+
+Task Description:
+We consider a text or news important or influential if it is of high importance to most Persian-speaking users. In other words, if a large and significant population of Iranians is willing to read or share that text or news with each other. If the news is related to a small segment or a specific community of users, it is not important. If the input text is important, the class will be 1, and if it is not important, the class will be 0.
+Some important concepts include:
+
+Subsidies, stocks, and matters concerning money reaching people are important.
+Registration for housing and home, news related to loans, etc.
+Car registration
+Sharp increases and decreases in the price of currency, gold, coins, or inflation
+Political:
+
+News of wars, agreements such as the Iran Nuclear Deal, Iran sanctions,
+News of major regional wars,
+Impeachment and appointment of high-ranking Iranian officials,
+All of these are important
+Sports:
+
+News related to famous and popular Iranian as well as European teams is important.
+
+Some Samples:
+SAMPLES_HERE
 
 Now, separately and independently, answer in a single word whether the text is important (influential) or not (1 or 0):
 '''
