@@ -34,7 +34,7 @@ def cacl_f1(label, num_of_data, df, num_experiments_for_random_classifier):
 
 if __name__ == "__main__":
 
-    df = pd.read_csv("test.csv", on_bad_lines='skip', delimiter="\t")
+    df = pd.read_csv("data/test.csv", on_bad_lines='skip', delimiter="\t")
     df = df.drop('text', axis=1)
     df = df.assign(random_tag=None)
     num_experiments_for_random_classifier = 1000
@@ -46,9 +46,10 @@ if __name__ == "__main__":
         'chatgpt_prompt3_tag',
         'chatgpt_prompt4_tag',
         'chatgpt_prompt7_tag',
+        'chatgpt_prompt7_tag',
         # 'chatgpt_prompt5_tag',
         # 'chatgpt_prompt6_tag',
-        'random_tag'
+        'prompt_fa_kshot_all_mpnet_base_v2',
     ]
     print("num_of_data", num_of_data)
 
