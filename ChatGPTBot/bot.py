@@ -16,11 +16,12 @@ class ChatGPTBot:
             'chatgpt_prompt3_tag',
             'chatgpt_prompt4_tag',
             'chatgpt_prompt5_tag',
-            'chatgpt_prompt6_tag',
+            # 'chatgpt_prompt6_tag',
+            'chatgpt_prompt7_tag',
             # 'random_tag'
         ]
-        self.sleep_time1 = random.randint(1, 2)
-        self.sleep_time2 = random.randint(1, 2)
+        self.sleep_time1 = random.randint(2, 4)
+        self.sleep_time2 = random.randint(2, 4)
         self.words_limit = 900
         self.page_flag = True
         self.page_c = 1
@@ -125,7 +126,7 @@ class ChatGPTBot:
     body
     '''
     """
-        file_path = "test.csv"
+        file_path = "train.csv"
         df = pd.read_csv(file_path, on_bad_lines='skip', delimiter="\t")
         start_row = df.index[df['title_tr'].isnull() | (df['title_tr'] == '')].tolist()[0]
         print(start_row)
@@ -159,9 +160,9 @@ class ChatGPTBot:
         file_path = "test.csv"
         df = pd.read_csv(file_path, on_bad_lines='skip', delimiter="\t")
         print(df)
-        target_col = 'chatgpt_prompt6_tag'
+        target_col = 'chatgpt_prompt7_tag'
         if target_col not in df:
-            df = df.assign(chatgpt_prompt6_tag=None)
+            df = df.assign(chatgpt_prompt7_tag=None)
         start_row = df.index[df[target_col].isnull() | (df[target_col] == '') | (df[target_col] == '--')].tolist()[0]
         for i in range(start_row, int(len(df))):
             print(f"----------- starting row {i} -----------")
@@ -171,11 +172,11 @@ class ChatGPTBot:
             # new_prmpt = prompt4.replace("^^body^^",  df["title"][i]  + "\n" + df["text"][i] if lang == 'fa' else df["title_tr"][i]  + "\n" + df["text_tr"][i])
             # texts = get_most_similar_text(df["title"][i])
             print(df["title"][i])
-            texts = get_k_most_similar_texts(k=16, target_text=df["title"][i], texts=None)
+            texts = get_k_most_similar_texts(k=10, target_text=df["title"][i], texts=None)
             print("res", texts)
             if 'SAMPLES_HERE':
                 sample_str = ''
-                for j in range(16):
+                for j in range(10):
                     sample_str += 'برچسب: {}\nمتن ' + str(j+1) + ': {}\n'
                 new_prmpt = new_prmpt.replace('SAMPLES_HERE', sample_str)
             # print("new_prmpt", new_prmpt)
@@ -228,5 +229,5 @@ class ChatGPTBot:
 
 if __name__ == "__main__":
     chat_gpt_bot = ChatGPTBot()
-    chat_gpt_bot.translate()
-    # chat_gpt_bot.importance_detection('fa')
+    # chat_gpt_bot.translate()
+    chat_gpt_bot.importance_detection('fa')

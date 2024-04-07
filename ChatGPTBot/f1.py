@@ -38,15 +38,16 @@ if __name__ == "__main__":
     df = df.drop('text', axis=1)
     df = df.assign(random_tag=None)
     num_experiments_for_random_classifier = 1000
-    num_of_data = 31
+    num_of_data = 265
     num_of_data = num_of_data if num_of_data < len(df) else len(df) 
     labels = [
         'chatgpt_prompt1_tag',
         'chatgpt_prompt2_tag',
         'chatgpt_prompt3_tag',
         'chatgpt_prompt4_tag',
-        'chatgpt_prompt5_tag',
-        'chatgpt_prompt6_tag',
+        'chatgpt_prompt7_tag',
+        # 'chatgpt_prompt5_tag',
+        # 'chatgpt_prompt6_tag',
         'random_tag'
     ]
     print("num_of_data", num_of_data)
