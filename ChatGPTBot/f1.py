@@ -30,7 +30,6 @@ def cacl_f1(label, num_of_data, df, num_experiments_for_random_classifier):
     #         round(df[label].value_counts()[1] /
     #         (df[label].value_counts()[0] + df[label].value_counts()[1]), 4)
     #     )
-    print()
 
 if __name__ == "__main__":
 
@@ -41,13 +40,8 @@ if __name__ == "__main__":
     num_of_data = 265
     num_of_data = num_of_data if num_of_data < len(df) else len(df) 
     labels = [
-        'chatgpt_prompt1_tag',
-        'chatgpt_prompt2_tag',
-        'chatgpt_prompt3_tag',
         'chatgpt_prompt4_tag',
         'chatgpt_prompt7_tag',
-        'chatgpt_prompt7_tag',
-        # 'chatgpt_prompt5_tag',
         # 'chatgpt_prompt6_tag',
         'prompt_fa_kshot_all_mpnet_base_v2',
     ]

@@ -15,13 +15,12 @@ class ChatGPTBot:
         self.labels = [
             # 'chatgpt_prompt1_tag',
             # 'chatgpt_prompt2_tag',
-            'chatgpt_prompt3_tag',
             'chatgpt_prompt4_tag',
-            'chatgpt_prompt5_tag',
             # 'chatgpt_prompt6_tag',
             'chatgpt_prompt7_tag',
-            'prompt_fa_kshot',
+            'prompt_fa_kshot_tfidf',
             'prompt_fa_kshot_all_mpnet_base_v2',
+            'prompt_fa_8shot_invserse_sample_with_tag_All_mpnet_base_v2',
             # 'random_tag'
         ]
         self.sleep_time1 = random.randint(1, 2)
@@ -160,40 +159,34 @@ class ChatGPTBot:
 
 
     def importance_detection(self, lang="en"):
-       
+        kshot = 8
         file_path = "data/test.csv"
         df = pd.read_csv(file_path, on_bad_lines='skip', delimiter="\t")
         print(df)
-        target_col = 'prompt_fa_kshot_all_mpnet_base_v2'
+        target_col = 'prompt_fa_{}shot_invserse_sample_with_tag_All_mpnet_base_v2'.format(kshot)
         if target_col not in df:
-            df = df.assign(prompt_fa_kshot_all_mpnet_base_v2=None)
+            df = df.assign(label=lambda x: target_col)
         start_row = df.index[df[target_col].isnull() | (df[target_col] == '') | (df[target_col] == '--')].tolist()[0]
         for i in range(start_row, int(len(df))):
             print(f"----------- starting row {i} -----------")
-            # prmpt = prompt2 + "\n" + df["title"][i]  + "\n" + df["text"][i]
-            # print('prompt3', prompt3)
-            new_prmpt = prompts.prompt_fa_kshot.replace("^^body^^",  df["title"][i]  if lang == 'fa' else df["title_tr"][i] )
-            # new_prmpt = prompt4.replace("^^body^^",  df["title"][i]  + "\n" + df["text"][i] if lang == 'fa' else df["title_tr"][i]  + "\n" + df["text_tr"][i])
-            # texts = get_most_similar_text(df["title"][i])
+            new_prmpt = prompts.prompt_fa_kshot.replace(
+                "^^body^^",  df["title"][i]  if lang == 'fa' else df["title_tr"][i]
+            )
             print(df["title"][i])
             texts = self.sbert.get_similarity(df["title"][i], 10)
             # texts = get_k_most_similar_texts(k=10, target_text=df["title"][i], texts=None)
             print("res", texts)
             if 'SAMPLES_HERE':
                 sample_str = ''
-                for j in range(8):
-                    sample_str += 'برچسب: {}\nمتن ' + str(j+1) + ': {}\n'
+                for _ in range(8):
+                    sample_str += 'متن: {}\n' +\
+                    'خروجی : {}\n'
                 new_prmpt = new_prmpt.replace('SAMPLES_HERE', sample_str)
-            # print("new_prmpt", new_prmpt)
             samples = []
             for text in texts:
-                samples.append(text[1])
                 samples.append(text[0])
-            # print("samples", samples)
+                samples.append(text[1])
             new_prmpt = new_prmpt.format(*samples)
-            # print("completed prompt", new_prmpt)
-            # print('prompt3', prompt3)
-            # print(prmpt)
             count = 0
             while True:
                 
@@ -227,8 +220,8 @@ class ChatGPTBot:
                 for label in self.labels
             ]
             # print('f1-macro:', f1)
-            print('saved at ' + str(datetime.datetime.now()))
-            print("   * ----------------- row: ", i , " is translated -----------------\n")
+            print("   * ----------------- row: ", i , 'saved at ' + str(datetime.datetime.now()) +"\n")
+            print()
         df.to_csv(file_path, sep='\t', encoding='utf-8', index=False)
 
 

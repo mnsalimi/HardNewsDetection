@@ -56078,3 +56078,2385 @@ Stacktrace:
 2024-04-07 22:27:28,538:INFO:No error detected.
 2024-04-07 22:27:50,698:INFO:No error detected.
 2024-04-07 22:27:53,195:INFO:No error detected.
+2024-04-08 13:08:52,156:INFO:Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-04-08 13:08:56,458:INFO:Use pytorch device_name: cpu
+2024-04-08 13:08:56,489:INFO:====== WebDriver manager ======
+2024-04-08 13:08:56,528:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:09:33,363:INFO:Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-04-08 13:09:37,415:INFO:Use pytorch device_name: cpu
+2024-04-08 13:09:37,435:INFO:====== WebDriver manager ======
+2024-04-08 13:09:37,483:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:09:38,205:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:09:38,787:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:09:39,982:INFO:WebDriver version 123.0.6312.105 selected
+2024-04-08 13:09:39,983:INFO:Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.105/linux64/chromedriver-linux64.zip
+2024-04-08 13:09:39,984:INFO:About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/123.0.6312.105/linux64/chromedriver-linux64.zip
+2024-04-08 13:09:40,694:INFO:Driver downloading response is 200
+2024-04-08 13:09:46,732:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:09:47,424:INFO:Driver has been saved in cache [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.105]
+2024-04-08 13:09:47,425:INFO:Available port found: 33431
+2024-04-08 13:10:15,050:INFO:No error detected.
+2024-04-08 13:10:37,350:INFO:No error detected.
+2024-04-08 13:10:44,389:INFO:No error detected.
+2024-04-08 13:11:06,493:INFO:No error detected.
+2024-04-08 13:12:00,090:INFO:Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-04-08 13:12:03,772:INFO:Use pytorch device_name: cpu
+2024-04-08 13:12:03,798:INFO:====== WebDriver manager ======
+2024-04-08 13:12:03,857:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:12:04,443:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:12:04,935:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.105/chromedriver-linux64/chromedriver] found in cache
+2024-04-08 13:12:04,936:INFO:Available port found: 45265
+2024-04-08 13:12:15,792:INFO:No error detected.
+2024-04-08 13:12:38,083:INFO:No error detected.
+2024-04-08 13:12:39,529:INFO:No error detected.
+2024-04-08 13:13:01,679:INFO:No error detected.
+2024-04-08 13:13:03,098:INFO:No error detected.
+2024-04-08 13:13:56,202:INFO:Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-04-08 13:13:59,568:INFO:Use pytorch device_name: cpu
+2024-04-08 13:13:59,586:INFO:====== WebDriver manager ======
+2024-04-08 13:13:59,628:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:14:00,233:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:14:00,792:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.105/chromedriver-linux64/chromedriver] found in cache
+2024-04-08 13:14:00,792:INFO:Available port found: 34557
+2024-04-08 13:14:08,690:INFO:No error detected.
+2024-04-08 13:14:29,909:INFO:No error detected.
+2024-04-08 13:14:32,333:INFO:No error detected.
+2024-04-08 13:14:53,443:INFO:No error detected.
+2024-04-08 13:14:55,855:INFO:No error detected.
+2024-04-08 13:15:16,968:INFO:No error detected.
+2024-04-08 13:15:19,499:INFO:No error detected.
+2024-04-08 13:15:40,673:INFO:No error detected.
+2024-04-08 13:15:43,208:INFO:No error detected.
+2024-04-08 13:16:04,400:INFO:No error detected.
+2024-04-08 13:16:07,000:INFO:No error detected.
+2024-04-08 13:16:28,150:INFO:No error detected.
+2024-04-08 13:16:30,659:INFO:No error detected.
+2024-04-08 13:16:51,813:INFO:No error detected.
+2024-04-08 13:16:54,220:INFO:No error detected.
+2024-04-08 13:17:15,340:INFO:No error detected.
+2024-04-08 13:17:17,753:INFO:No error detected.
+2024-04-08 13:17:38,895:INFO:No error detected.
+2024-04-08 13:17:41,307:INFO:No error detected.
+2024-04-08 13:18:02,412:INFO:No error detected.
+2024-04-08 13:18:04,847:INFO:No error detected.
+2024-04-08 13:18:25,953:INFO:No error detected.
+2024-04-08 13:18:28,418:INFO:No error detected.
+2024-04-08 13:18:49,567:INFO:No error detected.
+2024-04-08 13:18:51,993:INFO:No error detected.
+2024-04-08 13:19:13,104:INFO:No error detected.
+2024-04-08 13:19:15,543:INFO:No error detected.
+2024-04-08 13:19:36,667:INFO:No error detected.
+2024-04-08 13:19:39,110:INFO:No error detected.
+2024-04-08 13:20:00,247:INFO:No error detected.
+2024-04-08 13:20:02,682:INFO:No error detected.
+2024-04-08 13:20:23,796:INFO:No error detected.
+2024-04-08 13:20:26,227:INFO:No error detected.
+2024-04-08 13:20:47,370:INFO:No error detected.
+2024-04-08 13:20:49,791:INFO:No error detected.
+2024-04-08 13:21:10,902:INFO:No error detected.
+2024-04-08 13:21:13,323:INFO:No error detected.
+2024-04-08 13:21:34,467:INFO:No error detected.
+2024-04-08 13:21:36,921:INFO:No error detected.
+2024-04-08 13:21:58,051:INFO:No error detected.
+2024-04-08 13:22:00,506:INFO:No error detected.
+2024-04-08 13:22:21,662:INFO:No error detected.
+2024-04-08 13:22:24,086:INFO:No error detected.
+2024-04-08 13:22:45,236:INFO:No error detected.
+2024-04-08 13:22:47,816:INFO:No error detected.
+2024-04-08 13:23:09,012:INFO:No error detected.
+2024-04-08 13:23:11,589:INFO:No error detected.
+2024-04-08 13:23:32,803:INFO:No error detected.
+2024-04-08 13:23:35,386:INFO:No error detected.
+2024-04-08 13:23:56,564:INFO:No error detected.
+2024-04-08 13:23:59,009:INFO:No error detected.
+2024-04-08 13:24:20,162:INFO:No error detected.
+2024-04-08 13:24:22,622:INFO:No error detected.
+2024-04-08 13:24:43,768:INFO:No error detected.
+2024-04-08 13:24:46,192:INFO:No error detected.
+2024-04-08 13:25:07,334:INFO:No error detected.
+2024-04-08 13:25:09,896:INFO:No error detected.
+2024-04-08 13:25:31,110:INFO:No error detected.
+2024-04-08 13:25:33,694:INFO:No error detected.
+2024-04-08 13:25:54,901:INFO:No error detected.
+2024-04-08 13:25:57,340:INFO:No error detected.
+2024-04-08 13:26:18,491:INFO:No error detected.
+2024-04-08 13:26:20,922:INFO:No error detected.
+2024-04-08 13:26:42,066:INFO:No error detected.
+2024-04-08 13:26:44,501:INFO:No error detected.
+2024-04-08 13:27:05,658:INFO:No error detected.
+2024-04-08 13:27:08,095:INFO:No error detected.
+2024-04-08 13:27:29,251:INFO:No error detected.
+2024-04-08 13:27:31,669:INFO:No error detected.
+2024-04-08 13:27:52,812:INFO:No error detected.
+2024-04-08 13:27:55,251:INFO:No error detected.
+2024-04-08 13:28:16,396:INFO:No error detected.
+2024-04-08 13:28:18,827:INFO:No error detected.
+2024-04-08 13:28:39,967:INFO:No error detected.
+2024-04-08 13:28:42,461:INFO:No error detected.
+2024-04-08 13:28:42,516:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:28:47,530:INFO:No error detected.
+2024-04-08 13:28:47,569:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:28:52,583:INFO:No error detected.
+2024-04-08 13:28:52,627:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:28:57,645:INFO:No error detected.
+2024-04-08 13:28:57,686:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:29:02,704:INFO:No error detected.
+2024-04-08 13:29:02,754:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:29:07,766:INFO:No error detected.
+2024-04-08 13:29:07,796:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:29:12,807:INFO:No error detected.
+2024-04-08 13:29:12,845:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:29:17,860:INFO:No error detected.
+2024-04-08 13:29:17,910:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:29:22,925:INFO:No error detected.
+2024-04-08 13:29:22,962:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:29:27,977:INFO:No error detected.
+2024-04-08 13:29:28,015:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:29:33,030:INFO:No error detected.
+2024-04-08 13:29:33,068:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:29:38,081:INFO:No error detected.
+2024-04-08 13:29:38,121:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:29:43,137:INFO:No error detected.
+2024-04-08 13:29:43,175:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:29:48,188:INFO:No error detected.
+2024-04-08 13:29:48,228:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:29:53,240:INFO:No error detected.
+2024-04-08 13:29:53,283:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:29:58,300:INFO:No error detected.
+2024-04-08 13:29:58,336:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:30:03,347:INFO:No error detected.
+2024-04-08 13:30:03,383:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:30:08,397:INFO:No error detected.
+2024-04-08 13:30:08,434:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:30:13,449:INFO:No error detected.
+2024-04-08 13:30:13,485:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:30:18,501:INFO:No error detected.
+2024-04-08 13:30:18,538:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:30:23,554:INFO:No error detected.
+2024-04-08 13:30:23,592:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:30:28,603:INFO:No error detected.
+2024-04-08 13:30:28,644:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:30:33,658:INFO:No error detected.
+2024-04-08 13:30:33,697:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:30:38,714:INFO:No error detected.
+2024-04-08 13:30:38,770:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:30:43,784:INFO:No error detected.
+2024-04-08 13:30:43,820:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:30:48,834:INFO:No error detected.
+2024-04-08 13:30:48,869:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:30:53,885:INFO:No error detected.
+2024-04-08 13:30:53,923:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:30:58,936:INFO:No error detected.
+2024-04-08 13:30:58,978:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:31:03,994:INFO:No error detected.
+2024-04-08 13:31:04,034:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:31:09,049:INFO:No error detected.
+2024-04-08 13:31:09,090:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:31:14,103:INFO:No error detected.
+2024-04-08 13:31:14,142:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:31:19,158:INFO:No error detected.
+2024-04-08 13:31:19,195:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:31:24,209:INFO:No error detected.
+2024-04-08 13:31:24,246:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:31:29,274:INFO:No error detected.
+2024-04-08 13:31:29,399:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:31:34,424:INFO:No error detected.
+2024-04-08 13:31:34,534:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:31:39,561:INFO:No error detected.
+2024-04-08 13:31:39,686:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:31:44,711:INFO:No error detected.
+2024-04-08 13:31:44,810:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:31:49,836:INFO:No error detected.
+2024-04-08 13:31:49,938:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:31:54,960:INFO:No error detected.
+2024-04-08 13:31:55,064:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:32:00,085:INFO:No error detected.
+2024-04-08 13:32:00,213:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:32:05,243:INFO:No error detected.
+2024-04-08 13:32:05,365:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:32:10,401:INFO:No error detected.
+2024-04-08 13:32:10,506:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:32:15,538:INFO:No error detected.
+2024-04-08 13:32:15,694:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:32:20,718:INFO:No error detected.
+2024-04-08 13:32:20,833:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:32:25,862:INFO:No error detected.
+2024-04-08 13:32:25,988:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:32:31,018:INFO:No error detected.
+2024-04-08 13:32:31,142:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:32:36,168:INFO:No error detected.
+2024-04-08 13:32:36,276:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:32:41,302:INFO:No error detected.
+2024-04-08 13:32:41,410:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:32:46,440:INFO:No error detected.
+2024-04-08 13:32:46,585:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:32:51,611:INFO:No error detected.
+2024-04-08 13:32:51,723:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:32:56,757:INFO:No error detected.
+2024-04-08 13:32:56,888:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:33:01,910:INFO:No error detected.
+2024-04-08 13:33:02,031:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:33:07,060:INFO:No error detected.
+2024-04-08 13:33:07,184:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:33:12,206:INFO:No error detected.
+2024-04-08 13:33:12,325:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:33:17,357:INFO:No error detected.
+2024-04-08 13:33:17,486:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:33:22,510:INFO:No error detected.
+2024-04-08 13:33:22,625:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:33:27,654:INFO:No error detected.
+2024-04-08 13:33:27,753:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:33:32,782:INFO:No error detected.
+2024-04-08 13:33:32,889:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:33:37,918:INFO:No error detected.
+2024-04-08 13:33:38,026:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:33:43,048:INFO:No error detected.
+2024-04-08 13:33:43,156:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:33:48,180:INFO:No error detected.
+2024-04-08 13:33:48,281:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:33:53,314:INFO:No error detected.
+2024-04-08 13:33:53,439:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:33:58,464:INFO:No error detected.
+2024-04-08 13:33:58,573:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:34:03,597:INFO:No error detected.
+2024-04-08 13:34:03,708:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:34:08,746:INFO:No error detected.
+2024-04-08 13:34:08,898:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:34:13,925:INFO:No error detected.
+2024-04-08 13:34:14,030:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:34:19,051:INFO:No error detected.
+2024-04-08 13:34:19,150:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:34:24,175:INFO:No error detected.
+2024-04-08 13:34:24,311:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:34:29,341:INFO:No error detected.
+2024-04-08 13:34:29,455:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:34:34,481:INFO:No error detected.
+2024-04-08 13:34:34,594:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:34:39,622:INFO:No error detected.
+2024-04-08 13:34:39,746:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:34:44,774:INFO:No error detected.
+2024-04-08 13:34:44,907:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:34:49,938:INFO:No error detected.
+2024-04-08 13:34:50,044:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:34:55,071:INFO:No error detected.
+2024-04-08 13:34:55,203:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:35:00,240:INFO:No error detected.
+2024-04-08 13:35:00,371:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:35:05,400:INFO:No error detected.
+2024-04-08 13:35:05,532:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:35:10,562:INFO:No error detected.
+2024-04-08 13:35:10,673:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:35:15,707:INFO:No error detected.
+2024-04-08 13:35:15,829:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:35:20,861:INFO:No error detected.
+2024-04-08 13:35:20,991:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:35:26,012:INFO:No error detected.
+2024-04-08 13:35:26,121:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:35:31,147:INFO:No error detected.
+2024-04-08 13:35:31,248:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:35:36,279:INFO:No error detected.
+2024-04-08 13:35:36,388:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:35:41,414:INFO:No error detected.
+2024-04-08 13:35:41,525:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:35:46,556:INFO:No error detected.
+2024-04-08 13:35:46,676:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:35:51,696:INFO:No error detected.
+2024-04-08 13:35:51,809:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:35:56,836:INFO:No error detected.
+2024-04-08 13:35:56,937:ERROR:Failed to send prompt to ChatGPT: Message: element not interactable
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+#0 0x56790551b873 <unknown>
+#1 0x567905211717 <unknown>
+#2 0x56790525670f <unknown>
+#3 0x567905254b60 <unknown>
+#4 0x56790527e5a2 <unknown>
+#5 0x567905250e98 <unknown>
+#6 0x56790527e76e <unknown>
+#7 0x56790529cc19 <unknown>
+#8 0x56790527e343 <unknown>
+#9 0x56790524f593 <unknown>
+#10 0x56790524ff5e <unknown>
+#11 0x5679054df85b <unknown>
+#12 0x5679054e37b5 <unknown>
+#13 0x5679054cd581 <unknown>
+#14 0x5679054e4342 <unknown>
+#15 0x5679054b288f <unknown>
+#16 0x56790550a738 <unknown>
+#17 0x56790550a90b <unknown>
+#18 0x56790551a9c4 <unknown>
+#19 0x77c549294ac3 <unknown>
+
+2024-04-08 13:37:24,139:INFO:Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-04-08 13:37:28,517:INFO:Use pytorch device_name: cpu
+2024-04-08 13:37:28,585:INFO:====== WebDriver manager ======
+2024-04-08 13:37:28,756:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:37:29,505:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:37:30,147:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.105/chromedriver-linux64/chromedriver] found in cache
+2024-04-08 13:37:30,148:INFO:Available port found: 42465
+2024-04-08 13:37:59,296:INFO:Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-04-08 13:38:06,234:INFO:Use pytorch device_name: cpu
+2024-04-08 13:38:06,293:INFO:====== WebDriver manager ======
+2024-04-08 13:38:06,434:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:38:07,083:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:38:07,717:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.105/chromedriver-linux64/chromedriver] found in cache
+2024-04-08 13:38:07,717:INFO:Available port found: 54921
+2024-04-08 13:38:21,041:INFO:No error detected.
+2024-04-08 13:39:14,102:INFO:Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-04-08 13:39:17,523:INFO:Use pytorch device_name: cpu
+2024-04-08 13:39:17,578:INFO:====== WebDriver manager ======
+2024-04-08 13:39:17,678:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:39:18,239:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:39:18,826:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.105/chromedriver-linux64/chromedriver] found in cache
+2024-04-08 13:39:18,827:INFO:Available port found: 58941
+2024-04-08 13:39:29,046:INFO:No error detected.
+2024-04-08 13:39:50,584:INFO:No error detected.
+2024-04-08 13:44:18,724:INFO:Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-04-08 13:44:22,006:INFO:Use pytorch device_name: cpu
+2024-04-08 13:44:22,044:INFO:====== WebDriver manager ======
+2024-04-08 13:44:22,137:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:44:22,658:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:44:23,230:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.105/chromedriver-linux64/chromedriver] found in cache
+2024-04-08 13:44:23,230:INFO:Available port found: 46891
+2024-04-08 13:44:35,225:INFO:No error detected.
+2024-04-08 13:44:56,776:INFO:No error detected.
+2024-04-08 13:46:00,861:INFO:Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-04-08 13:46:05,263:INFO:Use pytorch device_name: cpu
+2024-04-08 13:46:05,303:INFO:====== WebDriver manager ======
+2024-04-08 13:46:05,394:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:46:05,971:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:46:06,515:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.105/chromedriver-linux64/chromedriver] found in cache
+2024-04-08 13:46:06,515:INFO:Available port found: 45873
+2024-04-08 13:46:15,706:INFO:No error detected.
+2024-04-08 13:46:38,229:INFO:No error detected.
+2024-04-08 13:47:37,990:INFO:Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-04-08 13:47:41,677:INFO:Use pytorch device_name: cpu
+2024-04-08 13:47:41,716:INFO:====== WebDriver manager ======
+2024-04-08 13:47:41,810:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:47:42,334:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:47:42,913:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.105/chromedriver-linux64/chromedriver] found in cache
+2024-04-08 13:47:42,913:INFO:Available port found: 43207
+2024-04-08 13:47:52,063:INFO:No error detected.
+2024-04-08 13:48:13,535:INFO:No error detected.
+2024-04-08 13:48:15,491:INFO:No error detected.
+2024-04-08 13:49:35,256:INFO:Load pretrained SentenceTransformer: all-mpnet-base-v2
+2024-04-08 13:49:39,654:INFO:Use pytorch device_name: cpu
+2024-04-08 13:49:39,672:INFO:====== WebDriver manager ======
+2024-04-08 13:49:39,713:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:49:40,257:INFO:Get LATEST chromedriver version for google-chrome
+2024-04-08 13:49:40,745:INFO:Driver [/home/ms/.wdm/drivers/chromedriver/linux64/123.0.6312.105/chromedriver-linux64/chromedriver] found in cache
+2024-04-08 13:49:40,745:INFO:Available port found: 34223
+2024-04-08 13:49:48,862:INFO:No error detected.
+2024-04-08 13:50:11,165:INFO:No error detected.
+2024-04-08 13:50:12,573:INFO:No error detected.
+2024-04-08 13:50:34,692:INFO:No error detected.
+2024-04-08 13:50:36,120:INFO:No error detected.
+2024-04-08 13:50:58,231:INFO:No error detected.
+2024-04-08 13:50:59,657:INFO:No error detected.
+2024-04-08 13:51:21,763:INFO:No error detected.
+2024-04-08 13:51:23,194:INFO:No error detected.
+2024-04-08 13:51:45,320:INFO:No error detected.
+2024-04-08 13:51:46,758:INFO:No error detected.
+2024-04-08 13:52:08,869:INFO:No error detected.
+2024-04-08 13:52:10,284:INFO:No error detected.
+2024-04-08 13:52:32,390:INFO:No error detected.
+2024-04-08 13:52:33,860:INFO:No error detected.
+2024-04-08 13:52:55,980:INFO:No error detected.
+2024-04-08 13:52:57,398:INFO:No error detected.
+2024-04-08 13:53:19,515:INFO:No error detected.
+2024-04-08 13:53:20,981:INFO:No error detected.
+2024-04-08 13:53:43,095:INFO:No error detected.
+2024-04-08 13:53:44,529:INFO:No error detected.
+2024-04-08 13:54:06,646:INFO:No error detected.
+2024-04-08 13:54:08,115:INFO:No error detected.
+2024-04-08 13:54:30,240:INFO:No error detected.
+2024-04-08 13:54:31,697:INFO:No error detected.
+2024-04-08 13:54:53,831:INFO:No error detected.
+2024-04-08 13:54:55,270:INFO:No error detected.
+2024-04-08 13:55:17,394:INFO:No error detected.
+2024-04-08 13:55:18,830:INFO:No error detected.
+2024-04-08 13:55:41,013:INFO:No error detected.
+2024-04-08 13:55:42,467:INFO:No error detected.
+2024-04-08 13:56:04,582:INFO:No error detected.
+2024-04-08 13:56:06,052:INFO:No error detected.
+2024-04-08 13:56:28,193:INFO:No error detected.
+2024-04-08 13:56:29,629:INFO:No error detected.
+2024-04-08 13:56:51,752:INFO:No error detected.
+2024-04-08 13:56:53,168:INFO:No error detected.
+2024-04-08 13:57:15,313:INFO:No error detected.
+2024-04-08 13:57:16,749:INFO:No error detected.
+2024-04-08 13:57:38,885:INFO:No error detected.
+2024-04-08 13:57:40,377:INFO:No error detected.
+2024-04-08 13:58:02,526:INFO:No error detected.
+2024-04-08 13:58:04,024:INFO:No error detected.
+2024-04-08 13:58:26,185:INFO:No error detected.
+2024-04-08 13:58:27,660:INFO:No error detected.
+2024-04-08 13:58:49,812:INFO:No error detected.
+2024-04-08 13:58:51,276:INFO:No error detected.
+2024-04-08 13:59:13,428:INFO:No error detected.
+2024-04-08 13:59:14,906:INFO:No error detected.
+2024-04-08 13:59:37,053:INFO:No error detected.
+2024-04-08 13:59:38,464:INFO:No error detected.
+2024-04-08 14:00:00,592:INFO:No error detected.
+2024-04-08 14:00:02,013:INFO:No error detected.
+2024-04-08 14:00:24,143:INFO:No error detected.
+2024-04-08 14:00:25,586:INFO:No error detected.
+2024-04-08 14:00:47,728:INFO:No error detected.
+2024-04-08 14:00:49,146:INFO:No error detected.
+2024-04-08 14:01:11,282:INFO:No error detected.
+2024-04-08 14:01:12,687:INFO:No error detected.
