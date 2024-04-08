@@ -4,7 +4,8 @@ import pandas as pd
 import random
 import ast
 import re
-from text_similarity import get_k_most_similar_texts
+from text_similarity import get_k_most_similar_texts_by_tfidf
+from text_similarity import get_k_most_similar_texts_randomly
 from text_similarity import SBERT
 from f1 import cacl_f1
 import prompts
@@ -12,17 +13,7 @@ import prompts
 class ChatGPTBot:
     def __init__(self):
         self.sbert = SBERT()
-        self.labels = [
-            # 'chatgpt_prompt1_tag',
-            # 'chatgpt_prompt2_tag',
-            'chatgpt_prompt4_tag',
-            # 'chatgpt_prompt6_tag',
-            'chatgpt_prompt7_tag',
-            'prompt_fa_kshot_tfidf',
-            'prompt_fa_kshot_all_mpnet_base_v2',
-            'prompt_fa_8shot_invserse_sample_with_tag_All_mpnet_base_v2',
-            # 'random_tag'
-        ]
+        
         self.sleep_time1 = random.randint(1, 2)
         self.sleep_time2 = random.randint(1, 2)
         self.words_limit = 900
@@ -157,15 +148,29 @@ class ChatGPTBot:
             print("   * ----------------- row: ", i , " is translated -----------------\n")
         df.to_csv(file_path, sep='\t', encoding='utf-8', index=False)
 
-
+    labels = [
+            'chatgpt_prompt4_tag',
+            'chatgpt_prompt7_tag',
+            'prompt_fa_kshot_tfidf',
+            'prompt_fa_kshot_all_mpnet_base_v2',
+            'prompt_fa_10shot_invserse_sample_with_tag_All_mpnet_base_v2',
+            'prompt_fa_10shcot_invserse_sample_with_tag_multi-qa-mpnet-base-dot-v1',
+            'prompt_fa_10shcot_invserse_sample_with_tag_embaas-entence-transformers-e5-large-v2',
+            
+            # 'prompt_fa_10shot_invserse_samples_balance_with_tag_All_mpnet_base_v2',
+            # 'fa_imbalance_imbalance_10shot_invserse_samples',
+            # 'random_tag'
+        ]
     def importance_detection(self, lang="en"):
-        kshot = 8
+        kshot = 10
         file_path = "data/test.csv"
         df = pd.read_csv(file_path, on_bad_lines='skip', delimiter="\t")
         print(df)
-        target_col = 'prompt_fa_{}shot_invserse_sample_with_tag_All_mpnet_base_v2'.format(kshot)
+        target_col = self.labels[-1]
         if target_col not in df:
-            df = df.assign(label=lambda x: target_col)
+            df = df.assign(**{target_col: None})
+            df.to_csv(file_path, sep='\t', encoding='utf-8', index=False)
+
         start_row = df.index[df[target_col].isnull() | (df[target_col] == '') | (df[target_col] == '--')].tolist()[0]
         for i in range(start_row, int(len(df))):
             print(f"----------- starting row {i} -----------")
@@ -173,12 +178,14 @@ class ChatGPTBot:
                 "^^body^^",  df["title"][i]  if lang == 'fa' else df["title_tr"][i]
             )
             print(df["title"][i])
-            texts = self.sbert.get_similarity(df["title"][i], 10)
-            # texts = get_k_most_similar_texts(k=10, target_text=df["title"][i], texts=None)
+            texts = self.sbert.get_similarity(df["title"][i], kshot, balance=False)
+            # texts = get_k_most_similar_texts(k=kshot, target_text=df["title"][i], texts=None)
+            # texts = get_k_most_similar_texts_randomly(k=kshot, target_text=df["title"][i], texts=None)
+            
             print("res", texts)
             if 'SAMPLES_HERE':
                 sample_str = ''
-                for _ in range(8):
+                for _ in range(kshot):
                     sample_str += 'متن: {}\n' +\
                     'خروجی : {}\n'
                 new_prmpt = new_prmpt.replace('SAMPLES_HERE', sample_str)
@@ -213,6 +220,8 @@ class ChatGPTBot:
                 if count >= 3:
                     count = 0
                     break
+            # with open('log.txt', 'a', encoding='utf-8') as f:
+            #     f.write(str(i)+": " + str(sum([t[1] for t in texts])) + "\n{}\n\n".format(trn_text1))
             df.loc[df.index[i], target_col] = trn_text1
             df.to_csv(file_path, sep='\t', encoding='utf-8', index=False)
             [
