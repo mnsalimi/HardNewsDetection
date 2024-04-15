@@ -37,13 +37,19 @@ if __name__ == "__main__":
     df = df.drop('text', axis=1)
     df = df.assign(random_tag=None)
     num_experiments_for_random_classifier = 1000
-    num_of_data = 265
+    num_of_data = 257
     num_of_data = num_of_data if num_of_data < len(df) else len(df) 
     labels = [
         'chatgpt_prompt4_tag',
         'chatgpt_prompt7_tag',
-        # 'chatgpt_prompt6_tag',
+        'prompt_fa_kshot_tfidf',
         'prompt_fa_kshot_all_mpnet_base_v2',
+        'prompt_fa_10shot_invserse_sample_with_tag_All_mpnet_base_v2',
+        'prompt_fa_10shot_invserse_sample_with_tag_multi-qa-mpnet-base-dot-v1',
+        'prompt_fa_10shot_invserse_sample_with_tag_embaas-entence-transformers-e5-large-v2',
+        # 'prompt_fa_10shcot_invserse_sample_with_tag_all-distilroberta-v1',
+        # 'prompt_fa_10shot_invserse_sample_with_tag_All_mpnet_base_v2_titletext_similarity',
+        'prompt_fa_10shot_invserse_sample_with_tfidf_123gram_titletext_similarity',
     ]
     print("num_of_data", num_of_data)
 

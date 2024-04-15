@@ -17,13 +17,8 @@ class ChatGPTBot:
         self.sleep_time1 = random.randint(1, 2)
         self.sleep_time2 = random.randint(1, 2)
         self.words_limit = 900
-        self.page_flag = True
-        self.page_c = 1
-        self.total_pages = 39830
         self.start_row = 640
-        ################# log in to ChatGPT #################
         self.chat_bot = ChatGPTAutomation(
-            
             # chrome_path="/opt/google/chrome/chrome",
             # chrome_driver_path="/opt/chromedriver_linux64/chromedriver",
             # username="sartakhti.salimi@gmail.com", # Optional
@@ -31,8 +26,7 @@ class ChatGPTBot:
         )
 
 
-    def send_prompt_get_transaltion(self, cnt):
-        remain_flag = False
+    def call_prompt(self, cnt):
         if len(cnt.split(" ")) > self.words_limit:
             print('exceed token limit: ', len(cnt.split(" ")))
             split_cnt = cnt.split(" ")
@@ -42,17 +36,6 @@ class ChatGPTBot:
             self.chat_bot.check_continue_generating()
             time.sleep(self.sleep_time2)
             trn_text = self.chat_bot.return_last_response()
-            if remain_flag:
-                prompt = prompt + " ".join(split_cnt[pre_id:])
-                self.chat_bot.check_response_status2(self.chat_bot, prompt)
-                time.sleep(self.sleep_time1)
-                self.chat_bot.check_continue_generating()
-                time.sleep(self.sleep_time2)
-                trn_text = trn_text + self.chat_bot.return_last_response()
-                prompt = " "
-                pre_id = 0
-                remain_flag = False
-
         else:
             self.chat_bot.check_response_status2(self.chat_bot, cnt)
             time.sleep(self.sleep_time1)
@@ -61,10 +44,10 @@ class ChatGPTBot:
             trn_text = self.chat_bot.return_last_response()
         return trn_text
 
-    def call_spgt_function(self, cnt):
+    def run_gpt(self, cnt):
         translation_flag = False
         while not translation_flag:
-            trn_text = self.send_prompt_get_transaltion(cnt)
+            trn_text = self.call_prompt(cnt)
             if len(trn_text) <= 1:
                 translation_flag = False
             else:
@@ -76,15 +59,13 @@ class ChatGPTBot:
             try:
 
                 while True:
-                    response = self.call_spgt_function(prompt).\
+                    response = self.run_gpt(prompt).\
                         replace('ChatGPT\n', "").replace("1 / 2", "")
                     if task == 'classification':
                         response = response.replace('برچسب: ', '').strip()
                     response = response.strip()
-                    # if "You've reached our limit of messages per 24 hours. Please try again later" in response:
                     if "limit of messages" in response:
                         print('limitation... Sleeping 100 Seconds')
-                        # print('24 H limitation... Sleeping 100 Seconds')
                         print('res,:', response)
                         time.sleep(100)
                         continue
@@ -95,10 +76,6 @@ class ChatGPTBot:
                     else:
                         print('response:', response)
                         print()
-                        #     print("length response error. Content:", response)
-                        #     print("end of message and exiting")
-                        #     exit()
-                        #     else:
                         break
                 break
             except:
@@ -154,19 +131,24 @@ class ChatGPTBot:
             'prompt_fa_kshot_tfidf',
             'prompt_fa_kshot_all_mpnet_base_v2',
             'prompt_fa_10shot_invserse_sample_with_tag_All_mpnet_base_v2',
-            'prompt_fa_10shcot_invserse_sample_with_tag_multi-qa-mpnet-base-dot-v1',
-            'prompt_fa_10shcot_invserse_sample_with_tag_embaas-entence-transformers-e5-large-v2',
+            'prompt_fa_10shot_invserse_sample_with_tag_multi-qa-mpnet-base-dot-v1',
+            'prompt_fa_10shot_invserse_sample_with_tag_embaas-entence-transformers-e5-large-v2',
+            # 'prompt_fa_10shcot_invserse_sample_with_tag_all-distilroberta-v1',
+            # 'prompt_fa_10shot_invserse_sample_with_tag_All_mpnet_base_v2_titletext_similarity',
+            'prompt_fa_10shot_invserse_sample_with_tfidf_123gram_titletext_similarity',
+            'prompt_texttags_fa_10shot_invserse_sample_with_tag_All_mpnet_base_v2',
+            'prompt_fa_20shot_invserse_sample_with_tag_All_mpnet_base_v2',
             
             # 'prompt_fa_10shot_invserse_samples_balance_with_tag_All_mpnet_base_v2',
             # 'fa_imbalance_imbalance_10shot_invserse_samples',
             # 'random_tag'
         ]
     def importance_detection(self, lang="en"):
-        kshot = 10
+        kshot = 20
         file_path = "data/test.csv"
         df = pd.read_csv(file_path, on_bad_lines='skip', delimiter="\t")
-        print(df)
         target_col = self.labels[-1]
+        print('target label:', target_col)
         if target_col not in df:
             df = df.assign(**{target_col: None})
             df.to_csv(file_path, sep='\t', encoding='utf-8', index=False)
@@ -175,11 +157,12 @@ class ChatGPTBot:
         for i in range(start_row, int(len(df))):
             print(f"----------- starting row {i} -----------")
             new_prmpt = prompts.prompt_fa_kshot.replace(
-                "^^body^^",  df["title"][i]  if lang == 'fa' else df["title_tr"][i]
+                # "^^body^^",  df["title"][i] + '\n' + 'کلمات کلیدی خبر: ' + df["tags"][i] if lang == 'fa' else df["title_tr"][i]
+                "^^body^^",  df["title"][i] if lang == 'fa' else df["title_tr"][i]
             )
             print(df["title"][i])
             texts = self.sbert.get_similarity(df["title"][i], kshot, balance=False)
-            # texts = get_k_most_similar_texts(k=kshot, target_text=df["title"][i], texts=None)
+            # texts = get_k_most_similar_texts_by_tfidf(k=kshot, target_text=df["title"][i]+'\n'+df["text"][i], texts=None)
             # texts = get_k_most_similar_texts_randomly(k=kshot, target_text=df["title"][i], texts=None)
             
             print("res", texts)
@@ -191,6 +174,7 @@ class ChatGPTBot:
                 new_prmpt = new_prmpt.replace('SAMPLES_HERE', sample_str)
             samples = []
             for text in texts:
+                samples.append(text[0])
                 samples.append(text[0])
                 samples.append(text[1])
             new_prmpt = new_prmpt.format(*samples)
@@ -225,7 +209,7 @@ class ChatGPTBot:
             df.loc[df.index[i], target_col] = trn_text1
             df.to_csv(file_path, sep='\t', encoding='utf-8', index=False)
             [
-                cacl_f1(label, i, df.copy()[:i], 1000)
+                cacl_f1(label, i, df.copy()[:i+1], 1000)
                 for label in self.labels
             ]
             # print('f1-macro:', f1)
