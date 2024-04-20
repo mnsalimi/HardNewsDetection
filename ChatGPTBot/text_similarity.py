@@ -25,9 +25,11 @@ def get_most_similar_text(target):
 class SBERT:
     def __init__(self):
         # should be tested: all-distilroberta-v1
-        self.model_name = 'all-distilroberta-v1'
-        self.model_name = 'multi-qa-mpnet-base-dot-v1'
+        # self.model_name = 'all-distilroberta-v1'
+        # self.model_name = 'multi-qa-mpnet-base-dot-v1'
         self.model_name = 'all-mpnet-base-v2'
+        # self.model_name = 'Dintfloat/multilingual-e5-large'
+        # self.model_name = 'all-MiniLM-L6-v2'
         self.model = SentenceTransformer(self.model_name)
         try:
             with open('data/sbert/{}_test_fa_embeddings.pickle'.format(self.model_name.replace('/', '-')), 'rb') as f:
@@ -107,7 +109,7 @@ class SBERT:
 
 
 
-def get_k_most_similar_texts_by_tfidf(target_text, texts, k=5):
+def get_k_most_similar_texts_by_tfidf(target_text, texts=None, k=5):
     texts = []
     file_path = "data/train.csv"
     df = pd.read_csv(file_path, on_bad_lines='skip', delimiter="\t", skiprows=1)
@@ -116,7 +118,7 @@ def get_k_most_similar_texts_by_tfidf(target_text, texts, k=5):
 
     # Initialize the vectorizer to include unigrams, bigrams, and trigrams
     vectorizer = TfidfVectorizer(ngram_range=(1, 3))
-    text_vectors = vectorizer.fit_transform([text[0]+text[1] for text in texts] + [target_text])
+    text_vectors = vectorizer.fit_transform([text[0] for text in texts] + [target_text])
 
     # Calculate cosine similarity
     cosine_similarities = cosine_similarity(text_vectors[-1], text_vectors[:-1])
@@ -156,23 +158,20 @@ def get_k_most_similar_texts_randomly(target_text, texts, k=5):
 
 if __name__ == '__main__':
     sbert = SBERT()
-    file_paths = {
-        "data/test.csv":
-            'data/sbert/{}_test_fa_embeddings.pickle'.format(sbert.model_name.replace('/', '-')),
-        "data/train.csv":
-            'data/sbert/{}_train_fa_embeddings.pickle'.format(sbert.model_name.replace('/', '-')),
-    }
-    for x, y in file_paths.items():
-        df = pd.read_csv(x, on_bad_lines='skip', delimiter="\t")
-        sbert.encode_docs_to_pickle(list(zip(df['title'], df['text'], df['tags'], df['tag'])), y)
-    # res = sbert.get_similarity('مهران مدیری', k=5)
-    # print(res)
-    # from sentence_transformers import SentenceTransformer
+    # file_paths = {
+    #     "data/test.csv":
+    #         'data/sbert/{}_test_fa_embeddings.pickle'.format(sbert.model_name.replace('/', '-')),
+    #     "data/train.csv":
+    #         'data/sbert/{}_train_fa_embeddings.pickle'.format(sbert.model_name.replace('/', '-')),
+    # }
+    # for x, y in file_paths.items():
+    #     df = pd.read_csv(x, on_bad_lines='skip', delimiter="\t")
+    #     sbert.encode_docs_to_pickle(list(zip(df['title'], df['text'], df['tags'], df['tag'])), y)
+    target = """
 
-    # Load the model (replace 'E5' with the actual model name if it's different)
-    # from sentence_transformers import SentenceTransformer
-    # sentences = ["This is an example sentence", "Each sentence is converted"]
+    واکنش کنسولگری ایران در استانبول به ریجکت شدن تتلو!
 
-    # model = SentenceTransformer('')
-    # embeddings = model.encode(sentences)
-    # print(embeddings)
+"""
+    # res = sbert.get_similarity(target, k=5)
+    res = get_k_most_similar_texts_by_tfidf(target, k=5)
+    [print(r[0]) for r in res]

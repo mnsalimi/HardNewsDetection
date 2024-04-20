@@ -13,11 +13,9 @@ import prompts
 class ChatGPTBot:
     def __init__(self):
         self.sbert = SBERT()
-        
-        self.sleep_time1 = random.randint(1, 2)
-        self.sleep_time2 = random.randint(1, 2)
+        self.sleep_time1 = random.randint(2, 3)
+        self.sleep_time2 = random.randint(2, 3)
         self.words_limit = 900
-        self.start_row = 640
         self.chat_bot = ChatGPTAutomation(
             # chrome_path="/opt/google/chrome/chrome",
             # chrome_driver_path="/opt/chromedriver_linux64/chromedriver",
@@ -97,7 +95,7 @@ class ChatGPTBot:
     body
     '''
     """
-        file_path = "train.csv"
+        file_path = "data/train_3K_5K.csv"
         df = pd.read_csv(file_path, on_bad_lines='skip', delimiter="\t")
         start_row = df.index[df['title_tr'].isnull() | (df['title_tr'] == '')].tolist()[0]
         print(start_row)
@@ -220,5 +218,5 @@ class ChatGPTBot:
 
 if __name__ == "__main__":
     chat_gpt_bot = ChatGPTBot()
-    # chat_gpt_bot.translate()
-    chat_gpt_bot.importance_detection('fa')
+    chat_gpt_bot.translate()
+    # chat_gpt_bot.importance_detection('fa')
