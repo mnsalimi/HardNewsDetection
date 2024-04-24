@@ -1,9 +1,9 @@
-from chatgpt_automation.chatgpt_automation import ChatGPTAutomation
-import time, datetime
-import pandas as pd
-import random
-import ast
 import re
+import ast
+import random
+import pandas as pd
+import time, datetime
+from chatgpt_automation.chatgpt_automation import ChatGPTAutomation
 from text_similarity import get_k_most_similar_texts_by_tfidf
 from text_similarity import get_k_most_similar_texts_randomly
 from text_similarity import SBERT
