@@ -697,8 +697,9 @@ class ChatGPTAutomation:
                 try:
                     regenerate_res = self.driver.find_element(By.XPATH, "//*[@id='__next']/div[1]/div[2]/main/div[2]/div[2]/div[1]/div[2]/button/div")
                     regenerate_res.click()
-                    print("hi, I am here...")
+                    print("error in retrieve message from chatgpt website...")
                 except NoSuchElementException:
+                    pass
                     print(" ")
             try:
                 # Check if the 'send' button is available, indicating the response is ready

@@ -13,8 +13,8 @@ import prompts
 class ChatGPTBot:
     def __init__(self):
         self.sbert = SBERT()
-        self.sleep_time1 = random.randint(1, 2)
-        self.sleep_time2 = random.randint(1, 2)
+        self.sleep_time1 = random.randint(2, 4)
+        self.sleep_time2 = random.randint(3, 3)
         self.words_limit = 900
         self.chat_bot = ChatGPTAutomation(
             # chrome_path="/opt/google/chrome/chrome",
