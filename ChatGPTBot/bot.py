@@ -3,7 +3,7 @@ import ast
 import random
 import pandas as pd
 import time, datetime
-from chatgpt_automation11.chatgpt_automation import ChatGPTAutomation
+from chatgpt_automation.chatgpt_automation import ChatGPTAutomation
 from text_similarity import get_k_most_similar_texts_by_tfidf
 from text_similarity import get_k_most_similar_texts_randomly
 from text_similarity import SBERT
@@ -54,7 +54,7 @@ class ChatGPTBot:
 
     def start_gpt(self, prompt, task='classification'):
         while True:
-            try:
+            # try:
 
                 while True:
                     response = self.run_gpt(prompt).\
@@ -76,9 +76,9 @@ class ChatGPTBot:
                         print()
                         break
                 break
-            except:
-                print('Error in try except...')
-                time.sleep(5)
+            # except:
+            #     print('Error in try except...')
+            #     time.sleep(5)
 
         return response
         
@@ -95,7 +95,7 @@ class ChatGPTBot:
     body
     '''
     """
-        file_path = "data/train_3K_5K.csv"
+        file_path = "data/train.csv"
         df = pd.read_csv(file_path, on_bad_lines='skip', delimiter="\t")
         start_row = df.index[df['title_tr'].isnull() | (df['title_tr'] == '')].tolist()[0]
         print(start_row)
