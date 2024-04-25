@@ -3,7 +3,7 @@ import ast
 import random
 import pandas as pd
 import time, datetime
-from chatgpt_automation.chatgpt_automation import ChatGPTAutomation
+from chatgpt_automation11.chatgpt_automation import ChatGPTAutomation
 from text_similarity import get_k_most_similar_texts_by_tfidf
 from text_similarity import get_k_most_similar_texts_randomly
 from text_similarity import SBERT
@@ -13,8 +13,8 @@ import prompts
 class ChatGPTBot:
     def __init__(self):
         self.sbert = SBERT()
-        self.sleep_time1 = random.randint(2, 4)
-        self.sleep_time2 = random.randint(3, 3)
+        self.sleep_time1 = random.randint(1, 2)
+        self.sleep_time2 = random.randint(1, 2)
         self.words_limit = 900
         self.chat_bot = ChatGPTAutomation(
             # chrome_path="/opt/google/chrome/chrome",

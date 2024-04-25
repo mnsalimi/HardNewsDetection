@@ -1,5 +1,5 @@
 import unittest
-from chatgpt_automation.chatgpt_automation import ChatGPTAutomation
+from chatgpt_automation11.chatgpt_automation import ChatGPTAutomation
 
 class TestChatGPTAutomation(unittest.TestCase):
 
