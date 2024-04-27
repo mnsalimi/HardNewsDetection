@@ -13,7 +13,7 @@ import prompts
 class ChatGPTBot:
     def __init__(self):
         self.sbert = SBERT()
-        self.sleep_time1 = random.randint(2, 2)
+        self.sleep_time1 = random.randint(1, 1)
         self.sleep_time2 = random.randint(2, 2)
         self.words_limit = 900
         self.chat_bot = ChatGPTAutomation(
